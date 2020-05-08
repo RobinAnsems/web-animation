@@ -1,2 +1,46 @@
-# web-animation
- 
+# Web Animation Robin Ansems VID2 
+
+inleiding
+
+## Inhoudsopgave
+
+*   [Opdracht](#opdracht)
+*   [Gekozen kunstwerk](#gekozen kunstwerk)
+*   [Interactie](#interactie)
+*   [Code](#code)
+*   [Bronnen](#bronnen)
+*   [Social Media](#social media)
+*   [iets](https://robinansems.github.io/index.html)
+*   [iets](#iets)
+*   [iets](#iets)
+*   [iets](#iets)
+
+## Opdracht
+De opdracht is...
+_schuingedrukt_
+**dikgedrukt**
+
+## Gekozen kunstwerk
+Het kunstwerk dat ik heb gekozen is...
+![gekozenkunstwerk](https://github.com/RobinAnsems/web-animation/blob/master/images/1.jpg)
+
+## Interactie
+De interactie die ik heb toegepast is...
+
+## Code
+De code die ik heb geschreven is...
+
+## Bronnen
+De bronnen die ik heb gebruikt zijn...
+
+#### Social Media
+dit is waar je mij kan vinden:
+*   🌐[Portfolio website](https://robinansems.github.io/index.html)
+*   📷[Instagram](https://www.instagram.com/robinansems/)
+*   🐦[Twitter](https://twitter.com/robinansems)
+*   📹[Youtube](https://www.youtube.com/user/robinansems00)
+*   📚[Facebook](https://www.facebook.com/profile.php?id=100005222555664)
+
+
+
+
