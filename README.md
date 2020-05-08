@@ -5,11 +5,11 @@ inleiding
 ## Inhoudsopgave
 
 *   [Opdracht](#opdracht)
-*   [Gekozen kunstwerk](#gekozen kunstwerk)
+*   [Kunstwerk](#kunstwerk)
 *   [Interactie](#interactie)
 *   [Code](#code)
 *   [Bronnen](#bronnen)
-*   [Social Media](#social media)
+*   [Socials](#socials)
 *   [iets](https://robinansems.github.io/index.html)
 *   [iets](#iets)
 *   [iets](#iets)
@@ -20,7 +20,7 @@ De opdracht is...
 _schuingedrukt_
 **dikgedrukt**
 
-## Gekozen kunstwerk
+## Kunstwerk
 Het kunstwerk dat ik heb gekozen is...
 ![gekozenkunstwerk](https://github.com/RobinAnsems/web-animation/blob/master/images/1.jpg)
 
@@ -33,7 +33,7 @@ De code die ik heb geschreven is...
 ## Bronnen
 De bronnen die ik heb gebruikt zijn...
 
-#### Social Media
+#### Socials
 dit is waar je mij kan vinden:
 *   🌐[Portfolio website](https://robinansems.github.io/index.html)
 *   📷[Instagram](https://www.instagram.com/robinansems/)
