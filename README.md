@@ -22,7 +22,7 @@ _schuingedrukt_
 
 ## Kunstwerk
 Het kunstwerk dat ik heb gekozen is...
-![gekozenkunstwerk](https://github.com/RobinAnsems/web-animation/blob/master/images/1.jpg)
+![gekozenkunstwerk](https://github.com/RobinAnsems/web-animation/images/1.jpg)
 
 ## Interactie
 De interactie die ik heb toegepast is...
