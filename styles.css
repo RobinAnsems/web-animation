@@ -4,14 +4,13 @@
 
 html {
     height: 100%;
-    margin: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: red;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
 }
 
 /*-----------------*/
@@ -20,6 +19,7 @@ body {
 
 img {
     width: 100%;
+    z-index: 100;
 }
 
 /*-------------------------------*/
@@ -27,16 +27,16 @@ img {
 /*-------------------------------*/
 
 .divparent {
-    position: absolute;
     background-color: transparent;
-    width: 115em;
-    height: 100%;
-    position: absolute;
-    top: 0;
     bottom: 0;
+    /*    bottom: 215em;*/
+    height: 100%;
     left: 0;
-    right: 0;
     margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 115em;
 }
 
 /*-------------------------------------------------*/
@@ -44,23 +44,23 @@ img {
 /*-------------------------------------------------*/
 
 #style1 {
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
-    position: absolute;
-    opacity: 100%;
     background-color: red;
     border: 0.5em solid black;
+    border-radius: 50%;
+    height: 1.5em;
+    opacity: 100%;
+    position: absolute;
+    width: 1.5em;
 }
 
 #style2 {
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
-    position: absolute;
-    opacity: 100%;
     background-color: blue;
     border: 0.5em solid #000;
+    border-radius: 50%;
+    height: 1.5em;
+    opacity: 100%;
+    position: absolute;
+    width: 1.5em;
 }
 
 /*------------------------------------*/
@@ -68,133 +68,133 @@ img {
 /*------------------------------------*/
 
 .how {
-    width: 32em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 13.5em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 13.5em;
+    width: 32em;
 }
 
 .to {
-    width: 19em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 13.5em;
+    height: 11.5em;
     left: 51.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 13.5em;
+    width: 19em;
 }
 
 .fix {
-    width: 29em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 31.25em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 31.25em;
+    width: 29em;
 }
 
 .a {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 31.25em;
+    height: 11.5em;
     left: 48.25em;
+    opacity: 100%;
+    position: absolute;
+    top: 31.25em;
+    width: 9em;
 }
 
 .broken {
-    width: 64.75em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 49em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 49em;
+    width: 64.75em;
 }
 
 .heart {
-    width: 54em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 66.5em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 66.5em;
+    width: 54em;
 }
 
 .and {
-    width: 32em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 84.5em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 84.5em;
+    width: 32em;
 }
 
 .make {
-    width: 43em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 84.5em;
+    height: 11.5em;
     left: 51em;
+    opacity: 100%;
+    position: absolute;
+    top: 84.5em;
+    width: 43em;
 }
 
 .atwee {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 102em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 102em;
+    width: 9em;
 }
 
 .spare {
-    width: 54em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 102em;
+    height: 11.5em;
     left: 28.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 102em;
+    width: 54em;
 }
 
 .by {
-    width: 20em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 120em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 120em;
+    width: 20em;
 }
 
 .tre {
-    width: 32em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 137.5em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 137.5em;
+    width: 32em;
 }
 
 .seals {
-    width: 53.25em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 155.25em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 155.25em;
+    width: 53.25em;
 }
 
 /*------------------------------------*/
@@ -204,436 +204,435 @@ img {
 /*------het woord how------*/
 
 .how-h {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .how-o {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 11.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .how-w {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 23em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 /*------het woord to------*/
 
 .to-t {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .to-o {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 /*------het woord fix------*/
 
 .fix-f {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .fix-i {
-    width: 7em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 10.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 7em;
 }
 
 .fix-x {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 20em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 /*------het woord broken------*/
 
 .broken-b {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .broken-r {
-    width: 9.75em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 11em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9.75em;
 }
 
 .broken-o {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 22em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .broken-k {
-    width: 8em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 33.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 8em;
 }
 
 .broken-e {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 44.25em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .broken-n {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 55.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 /*------het woord heart------*/
 
 .heart-h {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .heart-e {
-    width: 9.75em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 11em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9.75em;
 }
 
 .heart-a {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 22.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .heart-r {
-    width: 8em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 34.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 8em;
 }
 
 .heart-t {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 45em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 /*------het woord and------*/
 
 .and-a {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .and-n {
-    width: 9.75em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 11.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9.75em;
 }
 
 .and-d {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 23em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 
 /*------het woord make------*/
 
 .make-m {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .make-a {
-    width: 9.75em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 11.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9.75em;
 }
 
 .make-k {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 23em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .make-e {
-    width: 8em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 33.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 8em;
 }
 
 /*------het woord spare------*/
 
 .spare-s {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .spare-p {
-    width: 9.75em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 11.25em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9.75em;
 }
 
 .spare-a {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 22.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .spare-r {
-    width: 8em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 34.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 8em;
 }
 
 .spare-e {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 45.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 /*------het woord by------*/
 
 .by-b {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .by-y {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 10.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 /*------het woord tré------*/
 
 .tre-t {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .tre-r {
-    width: 9.75em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 11em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9.75em;
 }
 
 .tre-z {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 22.25em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 /*------het woord seals------*/
 
 .seals-s1 {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .seals-e {
-    width: 9.75em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 11em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9.75em;
 }
 
 .seals-a {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 22.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
 
 .seals-l {
-    width: 8em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 34.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 8em;
 }
 
 .seals-s2 {
-    width: 9em;
-    height: 11.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 0em;
+    height: 11.5em;
     left: 44em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 9em;
 }
-
 
 /*--------------------------------------*/
 /*------plaatsing van de bolletjes------*/
@@ -642,1154 +641,1151 @@ img {
 /*------de letter h------*/
 
 .h1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .h2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .h3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .h4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .h5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .h6 {
-    top: 4.5em;
     left: 2em;
+    top: 4.5em;
 }
 
 .h7 {
-    top: 4.5em;
     left: 4.5em;
+    top: 4.5em;
 }
 
 .h8 {
-    top: 0em;
     left: 6.75em;
+    top: 0em;
 }
 
 .h9 {
-    top: 2em;
     left: 6.75em;
+    top: 2em;
 }
 
 .h10 {
-    top: 4.5em;
     left: 6.75em;
+    top: 4.5em;
 }
 
 .h11 {
-    top: 6.75em;
     left: 6.75em;
+    top: 6.75em;
 }
 
 .h12 {
-    top: 9em;
     left: 6.75em;
+    top: 9em;
 }
 
 /*------de letter o------*/
 
 .o1 {
-    top: 0em;
     left: 1em;
+    top: 0em;
 }
 
 .o2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .o3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .o4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .o5 {
-    top: 0em;
     left: 3.25em;
+    top: 0em;
 }
 
 .o6 {
-    top: 0em;
     left: 5.5em;
+    top: 0em;
 }
 
 .o7 {
-    top: 9em;
     left: 1em;
+    top: 9em;
 }
 
 .o8 {
-    top: 9em;
     left: 3.25em;
+    top: 9em;
 }
 
 .o9 {
-    top: 2em;
     left: 6.75em;
+    top: 2em;
 }
 
 .o10 {
-    top: 4.5em;
     left: 6.75em;
+    top: 4.5em;
 }
 
 .o11 {
-    top: 6.75em;
     left: 6.75em;
+    top: 6.75em;
 }
 
 .o12 {
-    top: 9em;
     left: 5.5em;
+    top: 9em;
 }
 
 /*------de letter w------*/
 
 .w1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .w2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .w3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .w4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .w5 {
-    top: 6.75em;
     left: 4.5em;
+    top: 6.75em;
 }
 
 .w6 {
-    top: 0em;
     left: 6.75em;
+    top: 0em;
 }
 
 .w7 {
-    top: 9em;
     left: 1em;
+    top: 9em;
 }
 
 .w8 {
-    top: 6.75em;
     left: 2.25em;
+    top: 6.75em;
 }
 
 .w9 {
-    top: 2em;
     left: 6.75em;
+    top: 2em;
 }
 
 .w10 {
-    top: 4.5em;
     left: 6.75em;
+    top: 4.5em;
 }
 
 .w11 {
-    top: 6.75em;
     left: 6.75em;
+    top: 6.75em;
 }
 
 .w12 {
-    top: 9em;
     left: 5.5em;
+    top: 9em;
 }
 
 .w13 {
-    top: 4.5em;
     left: 3.5em;
+    top: 4.5em;
 }
 
 /*------de letter t------*/
 
 .t1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .t2 {
-    top: 0em;
     left: 2em;
+    top: 0em;
 }
 
 .t3 {
-    top: 0em;
     left: 4em;
+    top: 0em;
 }
 
 .t4 {
-    top: 0em;
     left: 6.25em;
+    top: 0em;
 }
 
 .t5 {
-    top: 2em;
     left: 3em;
+    top: 2em;
 }
 
 .t6 {
-    top: 4.5em;
     left: 3em;
+    top: 4.5em;
 }
 
 .t7 {
-    top: 6.75em;
     left: 3em;
+    top: 6.75em;
 }
 
 .t8 {
-    top: 9em;
     left: 3em;
+    top: 9em;
 }
 
 /*------de letter f------*/
 
 .f1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .f2 {
-    top: 2.25em;
     left: 0em;
+    top: 2.25em;
 }
 
 .f3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .f4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .f5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .f6 {
-    top: 0em;
     left: 2.25em;
+    top: 0em;
 }
 
 .f7 {
-    top: 0em;
     left: 4.5em;
+    top: 0em;
 }
 
 .f8 {
-    top: 0em;
     left: 6.75em;
+    top: 0em;
 }
 
 .f9 {
-    top: 4.5em;
     left: 2.25em;
+    top: 4.5em;
 }
 
 .f10 {
-    top: 4.5em;
     left: 4.5em;
+    top: 4.5em;
 }
 
 /*------de letter i------*/
 
 .i1 {
-    top: 0em;
     left: 2.25em;
+    top: 0em;
 }
 
 .i2 {
-    top: 2.25em;
     left: 2.25em;
+    top: 2.25em;
 }
 
 .i3 {
-    top: 4.5em;
     left: 2.25em;
+    top: 4.5em;
 }
 
 .i4 {
-    top: 6.75em;
     left: 2.25em;
+    top: 6.75em;
 }
 
 .i5 {
-    top: 9em;
     left: 2.25em;
+    top: 9em;
 }
 
 .i6 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .i7 {
-    top: 0em;
     left: 04.5em;
+    top: 0em;
 }
 
 .i8 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .i9 {
-    top: 9em;
     left: 04.5em;
+    top: 9em;
 }
 
 /*------de letter x------*/
 
 .x1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .x2 {
-    top: 2.25em;
     left: 2em;
+    top: 2.25em;
 }
 
 .x3 {
-    top: 4.5em;
     left: 3.5em;
+    top: 4.5em;
 }
 
 .x4 {
-    top: 6.75em;
     left: 5em;
+    top: 6.75em;
 }
 
 .x5 {
-    top: 9em;
     left: 6.5em;
+    top: 9em;
 }
 
 .x6 {
-    top: 0em;
     left: 6.5em;
+    top: 0em;
 }
 
 .x7 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .x8 {
-    top: 6.75em;
     left: 2em;
+    top: 6.75em;
 }
 
 .x9 {
-    top: 2.25em;
     left: 5em;
+    top: 2.25em;
 }
 
 /*------de letter a------*/
 
 .a1 {
-    top: 0em;
     left: 2.25em;
+    top: 0em;
 }
 
 .a2 {
-    top: 0em;
     left: 4.5em;
+    top: 0em;
 }
 
 .a3 {
-    top: 2em;
     left: 1em;
+    top: 2em;
 }
 
 .a4 {
-    top: 2em;
     left: 6em;
+    top: 2em;
 }
 
 .a5 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .a6 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .a7 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .a8 {
-    top: 4.5em;
     left: 6.75em;
+    top: 4.5em;
 }
 
 .a9 {
-    top: 6.75em;
     left: 6.75em;
+    top: 6.75em;
 }
 
 .a10 {
-    top: 9em;
     left: 6.75em;
+    top: 9em;
 }
 
 .a11 {
-    top: 5.25em;
     left: 2.25em;
+    top: 5.25em;
 }
 
 .a12 {
-    top: 5.25em;
     left: 4.5em;
+    top: 5.25em;
 }
 
 /*------de letter b------*/
 
 .b1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .b2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .b3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .b4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .b5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .b6 {
-    top: 0em;
     left: 2.25em;
+    top: 0em;
 }
 
 .b7 {
-    top: 0em;
     left: 4.5em;
+    top: 0em;
 }
 
 .b8 {
-    top: 9em;
     left: 2.25em;
+    top: 9em;
 }
 
 .b9 {
-    top: 9em;
     left: 4.5em;
+    top: 9em;
 }
 
 .b10 {
-    top: 4.5em;
     left: 2em;
+    top: 4.5em;
 }
 
 .b11 {
-    top: 4.5em;
     left: 4.5em;
+    top: 4.5em;
 }
 
 .b12 {
-    top: 2em;
     left: 6.25em;
+    top: 2em;
 }
 
 .b13 {
-    top: 6.75em;
     left: 6.25em;
+    top: 6.75em;
 }
 
 /*------de letter r------*/
 
 .r1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .r2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .r3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .r4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .r5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .r6 {
-    top: 0em;
     left: 2.25em;
+    top: 0em;
 }
 
 .r7 {
-    top: 0em;
     left: 4.5em;
+    top: 0em;
 }
 
 .r8 {
-    top: 4.5em;
     left: 2em;
+    top: 4.5em;
 }
 
 .r9 {
-    top: 4.5em;
     left: 4.5em;
+    top: 4.5em;
 }
 
 .r10 {
-    top: 2.25em;
     left: 6.25em;
+    top: 2.25em;
 }
 
 .r11 {
-    top: 6.75em;
     left: 5.25em;
+    top: 6.75em;
 }
 
 .r12 {
-    top: 9em;
     left: 6.25em;
+    top: 9em;
 }
-
 
 /*------de letter k------*/
 
 .k1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .k2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .k3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .k4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .k5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .k6 {
-    top: 4.5em;
     left: 2.25em;
+    top: 4.5em;
 }
 
 .k7 {
-    top: 2.25em;
     left: 4em;
+    top: 2.25em;
 }
 
 .k8 {
-    top: 0em;
     left: 6em;
+    top: 0em;
 }
 
 .k9 {
-    top: 6.75em;
     left: 4em;
+    top: 6.75em;
 }
 
 .k10 {
-    top: 9em;
     left: 6em;
+    top: 9em;
 }
-
 
 /*------de letter e------*/
 
 .e1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .e2 {
-    top: 2.25em;
     left: 0em;
+    top: 2.25em;
 }
 
 .e3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .e4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .e5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .e6 {
-    top: 0em;
     left: 2.25em;
+    top: 0em;
 }
 
 .e7 {
-    top: 0em;
     left: 4.5em;
+    top: 0em;
 }
 
 .e8 {
-    top: 0em;
     left: 6.75em;
+    top: 0em;
 }
 
 .e9 {
-    top: 4.5em;
     left: 2.25em;
+    top: 4.5em;
 }
 
 .e10 {
-    top: 4.5em;
     left: 4.5em;
+    top: 4.5em;
 }
 
 .e11 {
-    top: 9em;
     left: 2.25em;
+    top: 9em;
 }
 
 .e12 {
-    top: 9em;
     left: 4.5em;
+    top: 9em;
 }
 
 .e13 {
-    top: 9em;
     left: 6.75em;
+    top: 9em;
 }
-
 
 /*------de letter n------*/
 
 .n1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .n2 {
-    top: 2.25em;
     left: 0em;
+    top: 2.25em;
 }
 
 .n3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .n4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .n5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .n6 {
-    top: 0em;
     left: 6.5em;
+    top: 0em;
 }
 
 .n7 {
-    top: 2em;
     left: 6.5em;
+    top: 2em;
 }
 
 .n8 {
-    top: 4.5em;
     left: 6.5em;
+    top: 4.5em;
 }
 
 .n9 {
-    top: 6.75em;
     left: 6.5em;
+    top: 6.75em;
 }
 
 .n10 {
-    top: 9em;
     left: 6.5em;
+    top: 9em;
 }
 
 .n11 {
-    top: 2.25em;
     left: 2em;
+    top: 2.25em;
 }
 
 .n12 {
-    top: 4.50em;
     left: 3em;
+    top: 4.50em;
 }
 
 .n13 {
-    top: 6.75em;
     left: 4em;
+    top: 6.75em;
 }
 
 /*------de letter d------*/
 
 .d1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .d2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .d3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .d4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .d5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .d6 {
-    top: 0em;
     left: 2.25em;
+    top: 0em;
 }
 
 .d7 {
-    top: 0em;
     left: 4.5em;
+    top: 0em;
 }
 
 .d8 {
-    top: 9em;
     left: 2.25em;
+    top: 9em;
 }
 
 .d9 {
-    top: 9em;
     left: 4.5em;
+    top: 9em;
 }
 
 .d10 {
-    top: 7.25em;
     left: 6.25em;
+    top: 7.25em;
 }
 
 .d11 {
-    top: 4.5em;
     left: 6.25em;
+    top: 4.5em;
 }
 
 .d12 {
-    top: 2em;
     left: 6.25em;
+    top: 2em;
 }
 
 /*------de letter m------*/
 
 .m1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .m2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .m3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .m4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .m5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .m6 {
-    top: 2.5em;
     left: 2em;
+    top: 2.5em;
 }
 
 .m7 {
-    top: 2.5em;
     left: 4.5em;
+    top: 2.5em;
 }
 
 .m8 {
-    top: 0em;
     left: 6.75em;
+    top: 0em;
 }
 
 .m9 {
-    top: 2em;
     left: 6.75em;
+    top: 2em;
 }
 
 .m10 {
-    top: 4.5em;
     left: 6.75em;
+    top: 4.5em;
 }
 
 .m11 {
-    top: 6.75em;
     left: 6.75em;
+    top: 6.75em;
 }
 
 .m12 {
-    top: 9em;
     left: 6.75em;
+    top: 9em;
 }
 
 .m13 {
-    top: 4.5em;
     left: 3.5em;
+    top: 4.5em;
 }
 
 /*------de letter s------*/
 
 .s1 {
-    top: 0em;
     left: 5.75em;
+    top: 0em;
 }
 
 .s2 {
-    top: 0em;
     left: 3.75em;
+    top: 0em;
 }
 
 .s3 {
-    top: 0em;
     left: 1.5em;
+    top: 0em;
 }
 
 .s4 {
-    top: 2.25em;
     left: 0em;
+    top: 2.25em;
 }
 
 .s5 {
-    top: 4.5em;
     left: 1.5em;
+    top: 4.5em;
 }
 
 .s6 {
-    top: 4.5em;
     left: 3.75em;
+    top: 4.5em;
 }
 
 .s7 {
-    top: 4.5em;
     left: 5.75em;
+    top: 4.5em;
 }
 
 .s8 {
-    top: 6.75em;
     left: 7em;
+    top: 6.75em;
 }
 
 .s9 {
-    top: 9em;
     left: 5.75em;
+    top: 9em;
 }
 
 .s10 {
-    top: 9em;
     left: 3.75em;
+    top: 9em;
 }
 
 .s11 {
-    top: 9em;
     left: 1.5em;
+    top: 9em;
 }
 
 /*------de letter p------*/
 
 .p1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .p2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .p3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .p4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .p5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .p6 {
-    top: 0em;
     left: 2.25em;
+    top: 0em;
 }
 
 .p7 {
-    top: 0em;
     left: 4.5em;
+    top: 0em;
 }
 
 .p8 {
-    top: 5.5em;
     left: 2em;
+    top: 5.5em;
 }
 
 .p9 {
-    top: 5.5em;
     left: 4.5em;
+    top: 5.5em;
 }
 
 .p10 {
-    top: 1.5em;
     left: 6.75em;
+    top: 1.5em;
 }
 
 .p11 {
-    top: 4em;
     left: 6.75em;
+    top: 4em;
 }
 
 /*------de letter y------*/
 
 .y1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .y2 {
-    top: 2.25em;
     left: 0em;
+    top: 2.25em;
 }
 
 .y3 {
-    top: 4.5em;
     left: 1.75em;
+    top: 4.5em;
 }
 
 .y4 {
-    top: 6.75em;
     left: 3.75em;
+    top: 6.75em;
 }
 
 .y5 {
-    top: 9em;
     left: 3.75em;
+    top: 9em;
 }
 
 .y6 {
-    top: 4.5em;
     left: 5.5em;
+    top: 4.5em;
 }
 
 .y7 {
-    top: 2.25em;
     left: 7em;
+    top: 2.25em;
 }
 
 .y8 {
-    top: 0em;
     left: 7em;
+    top: 0em;
 }
 
 /*------de letter é------*/
 
 .z1 {
-    top: 9em;
     left: 6.75em;
+    top: 9em;
 }
 
 .z2 {
-    top: 2.25em;
     left: 0em;
+    top: 2.25em;
 }
 
 .z3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .z4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .z5 {
-    top: 9em;
     left: 0em;
+    top: 9em;
 }
 
 .z6 {
-    top: 2.25em;
     left: 2.25em;
+    top: 2.25em;
 }
 
 .z7 {
-    top: 2.25em;
     left: 4.5em;
+    top: 2.25em;
 }
 
 .z8 {
-    top: 2.25em;
     left: 6.75em;
+    top: 2.25em;
 }
 
 .z9 {
-    top: 5.5em;
     left: 2.25em;
+    top: 5.5em;
 }
 
 .z10 {
-    top: 5.5em;
     left: 4.5em;
+    top: 5.5em;
 }
 
 .z11 {
-    top: 9em;
     left: 2.25em;
+    top: 9em;
 }
 
 .z12 {
-    top: 9em;
     left: 4.5em;
+    top: 9em;
 }
 
 .z13 {
-    top: -1em;
     left: 2.25em;
+    top: -1em;
 }
 
 .z14 {
-    top: -2.25em;
     left: 4.5em;
+    top: -2.25em;
 }
 
 /*------de letter l------*/
 
 .l1 {
-    top: 0em;
     left: 0em;
+    top: 0em;
 }
 
 .l2 {
-    top: 2em;
     left: 0em;
+    top: 2em;
 }
 
 .l3 {
-    top: 4.5em;
     left: 0em;
+    top: 4.5em;
 }
 
 .l4 {
-    top: 6.75em;
     left: 0em;
+    top: 6.75em;
 }
 
 .l5 {
-    top: 9em;
     left: 1em;
+    top: 9em;
 }
 
 .l6 {
-    top: 9em;
     left: 3.25em;
+    top: 9em;
 }
 
 .l7 {
-    top: 9em;
     left: 5.5em;
+    top: 9em;
 }
 
 /*------------------*/
@@ -1797,244 +1793,814 @@ img {
 /*------------------*/
 
 .hartje {
-    width: 59.5em;
-    height: 58.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 107.5em;
+    height: 58.5em;
     left: 45.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 107.5em;
+    width: 59.5em;
 }
 
+/*----------------------*/
+/*------steentje 1------*/
+/*----------------------*/
+
 .steentje-een {
-    width: 24.5em;
-    height: 23.5em;
-    position: absolute;
     background-color: transparent;
-    opacity: 100%;
-    top: 16.5em;
+    height: 23.5em;
     left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 16.5em;
+    width: 24.5em;
+    z-index: 17;
 }
 
 .een-onderdeel1 {
-    top: 12em;
-    left: 0;
     background-color: black;
-    width: 12em;
+    clip-path: polygon(0 35%, 0 20%, 100% 78%, 100% 93%);
     height: 12em;
-    position: absolute;
+    left: 0;
     opacity: 100%;
-    clip-path: polygon(0 35%, 0 20%, 100% 78%, 100% 95%);
+    position: absolute;
+    top: 12em;
+    width: 12em;
 }
 
 .een-onderdeel2 {
-    top: 12.1em;
-    left: 0.5em;
     background-color: white;
-    width: 11em;
-    height: 12em;
-    position: absolute;
-    opacity: 100%;
     clip-path: polygon(0 31%, 0 26%, 100% 80%, 100% 85%);
+    height: 12em;
+    left: 0.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 12.1em;
+    width: 11em;
 }
 
 .een-onderdeel3 {
-    top: 7em;
-    left: 11.75em;
     background-color: black;
-    width: 12em;
+    clip-path: polygon(45% 21%, 98% 4%, 100% 58%, 0 98%, 0 87%);
     height: 16.5em;
-    position: absolute;
+    left: 11.75em;
     opacity: 100%;
-    clip-path: polygon(55% 21%, 100% 0, 100% 58%, 0 98%, 0 87%);
+    position: absolute;
+    top: 7em;
+    width: 12em;
 }
 
 .een-onderdeel4 {
-    top: 7em;
-    left: 11.75em;
     background-color: white;
-    width: 12em;
+    clip-path: polygon(57% 24%, 94% 7%, 95% 57%, 5% 94%, 5% 89%);
     height: 16.5em;
-    position: absolute;
+    left: 11.75em;
     opacity: 100%;
-    clip-path: polygon(57% 24%, 97% 5%, 97% 55%, 5% 92%, 5% 90%);
+    position: absolute;
+    top: 7em;
+    width: 12em;
 }
 
 .een-onderdeel5 {
-    top: 3.5em;
-    left: 0em;
     background-color: black;
-    width: 18em;
+    clip-path: polygon(36% 0, 100% 40%, 67% 100%, 0 61%);
     height: 18em;
-    position: absolute;
+    left: 0em;
     opacity: 100%;
-    clip-path: polygon(36% 0, 100% 40%, 69% 100%, 0 61%);
+    position: absolute;
+    top: 3.5em;
+    width: 18.25em;
 }
 
 .een-onderdeel6 {
-    top: 3.5em;
-    left: 0em;
     background-color: white;
-    width: 18em;
-    height: 18em;
-    position: absolute;
-    opacity: 100%;
     clip-path: polygon(37% 5%, 98% 42%, 66% 98%, 4% 62%);
+    height: 18em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 3.5em;
+    width: 18em;
 }
 
 .een-onderdeel7 {
-    top: 1em;
-    left: 6.5em;
     background-color: black;
-    width: 17.5em;
+    clip-path: polygon(30% 0, 97% 40%, 67% 57%, 0% 16%);
     height: 17.5em;
-    position: absolute;
+    left: 6.5em;
     opacity: 100%;
-    clip-path: polygon(33% 0, 100% 36%, 65% 55%, 0 15%);
+    position: absolute;
+    top: 0.75em;
+    width: 17.5em;
 }
 
 .een-onderdeel8 {
-    top: 1em;
-    left: 6.5em;
     background-color: white;
-    width: 17.5em;
+    clip-path: polygon(32% 1%, 91% 38%, 66% 54%, 4% 16%);
     height: 17.5em;
-    position: absolute;
+    left: 6.5em;
     opacity: 100%;
-    clip-path: polygon(34% 3%, 94% 36%, 66% 54%, 4% 16%);
+    position: absolute;
+    top: 1em;
+    width: 17.5em;
 }
 
 .een-onderdeel9 {
-    top: 0.5em;
-    left: 10em;
     background-color: black;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: ellipse(40% 24% at 41% 75%);
+    height: 5.75em;
+    left: 10.20em;
+    opacity: 100%;
+    position: absolute;
+    top: 0.5em;
+    width: 5.75em;
 }
 
 .een-onderdeel10 {
-    top: 0.5em;
-    left: 10em;
     background-color: black;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: polygon(0 25%, 80% 25%, 80% 85%, 0 85%);
+    height: 5.75em;
+    left: 10.25em;
+    opacity: 100%;
+    position: absolute;
+    top: 0.25em;
+    width: 5.75em;
 }
 
 .een-onderdeel11 {
-    top: 0.5em;
-    left: 10em;
     background-color: black;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: ellipse(40% 24% at 41% 25%);
+    height: 5.75em;
+    left: 10.25em;
+    opacity: 100%;
+    position: absolute;
+    top: 0.25em;
+    width: 5.75em;
 }
 
 .een-onderdeel12 {
-    top: 0.5em;
-    left: 10em;
     background-color: white;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: ellipse(30% 15% at 40% 75%);
+    height: 5.75em;
+    left: 10.15em;
+    opacity: 100%;
+    position: absolute;
+    top: 0.5em;
+    width: 5.9em;
 }
 
 .een-onderdeel13 {
-    top: 0.5em;
-    left: 10em;
     background-color: white;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: polygon(8% 25%, 72% 25%, 70% 80%, 8% 80%);
+    height: 5.75em;
+    left: 10.25em;
+    opacity: 100%;
+    position: absolute;
+    top: 0.25em;
+    width: 5.75em;
 }
 
 .een-onderdeel14 {
-    top: 0.5em;
-    left: 10em;
     background-color: white;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: ellipse(30% 15% at 40% 25%);
+    height: 5.75em;
+    left: 10.25em;
+    opacity: 100%;
+    position: absolute;
+    top: 0.25em;
+    width: 5.75em;
 }
 
 .een-onderdeel15 {
-    top: 3.5em;
-    left: 15.75em;
     background-color: black;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: ellipse(40% 24% at 41% 75%);
+    height: 5.75em;
+    left: 15.7em;
+    opacity: 100%;
+    position: absolute;
+    top: 3.75em;
+    width: 5.75em;
 }
 
 .een-onderdeel16 {
-    top: 3.5em;
-    left: 15.75em;
     background-color: black;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: polygon(0 25%, 80% 25%, 80% 85%, 0 85%);
+    height: 5.75em;
+    left: 15.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 3.5em;
+    width: 5.75em;
 }
 
 .een-onderdeel17 {
-    top: 3.5em;
-    left: 15.75em;
     background-color: black;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: ellipse(40% 24% at 41% 25%);
+    height: 5.75em;
+    left: 15.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 3.5em;
+    width: 5.75em;
 }
 
 .een-onderdeel18 {
-    top: 3.5em;
-    left: 15.75em;
     background-color: white;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: ellipse(30% 15% at 40% 75%);
+    height: 5.75em;
+    left: 15.65em;
+    opacity: 100%;
+    position: absolute;
+    top: 3.75em;
+    width: 5.9em;
 }
 
 .een-onderdeel19 {
-    top: 3.5em;
-    left: 15.75em;
     background-color: white;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: polygon(8% 25%, 72% 25%, 70% 80%, 8% 80%);
+    height: 5.75em;
+    left: 15.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 3.5em;
+    width: 5.75em;
 }
 
 .een-onderdeel20 {
-    top: 3.5em;
-    left: 15.75em;
     background-color: white;
-    width: 5.75em;
-    height: 5.75em;
-    position: absolute;
-    opacity: 100%;
     clip-path: ellipse(30% 15% at 40% 25%);
+    height: 5.75em;
+    left: 15.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 3.5em;
+    width: 5.75em;
 }
+
+/*----------------------*/
+/*------steentje 2------*/
+/*----------------------*/
+
+.steentje-twee {
+    background-color: transparent;
+    height: 18.75em;
+    left: 11.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 14.25em;
+    width: 24em;
+    z-index: 16;
+}
+
+.twee-onderdeel1 {
+    background-color: black;
+    clip-path: polygon(0 15%, 73% 52%, 63% 98%, 0 61%);
+    height: 19em;
+    left: 0;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 19em;
+}
+
+.twee-onderdeel2 {
+    background-color: white;
+    clip-path: polygon(2% 18%, 60% 53%, 61% 95%, 2% 60%);
+    height: 19em;
+    left: 0;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 19em;
+}
+
+.twee-onderdeel3 {
+    background-color: black;
+    clip-path: polygon(33% 0, 100% 37%, 68% 56%, 0 16.5%);
+    height: 17.5em;
+    left: 0;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 17.5em;
+}
+
+.twee-onderdeel4 {
+    background-color: white;
+    clip-path: polygon(33% 2%, 97% 37%, 66% 55%, 3% 17%);
+    height: 17.5em;
+    left: 0;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 17.5em;
+}
+
+.twee-onderdeel5 {
+    background-color: black;
+    clip-path: polygon(47% 0, 100% 33%, 100% 43%, 0 98%, 0 27%);
+    height: 12.25em;
+    left: 11.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 6.5em;
+    width: 12.25em;
+}
+
+.twee-onderdeel6 {
+    background-color: white;
+    clip-path: polygon(44% 3%, 96% 35%, 96% 42%, 2% 95%, 2% 28%);
+    height: 12.25em;
+    left: 11.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 6.5em;
+    width: 12.25em;
+}
+
+.twee-onderdeel7 {
+    background-color: transparent;
+    height: 18.75em;
+    left: -6.6em;
+    opacity: 100%;
+    position: absolute;
+    top: -1em;
+    width: 10em;
+}
+
+/*----------------------*/
+/*------steentje 3------*/
+/*----------------------*/
+
+.steentje-drie {
+    background-color: transparent;
+    height: 18.75em;
+    left: 23.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 3em;
+    width: 24em;
+    z-index: 15;
+}
+
+/*----------------------*/
+/*------steentje 4------*/
+/*----------------------*/
+
+.steentje-vier {
+    background-color: transparent;
+    height: 18.75em;
+    left: 35.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 0.75em;
+    width: 24em;
+    z-index: 14;
+}
+
+/*----------------------*/
+/*------steentje 5------*/
+/*----------------------*/
+
+.steentje-vijf {
+    background-color: transparent;
+    height: 18em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 30em;
+    width: 18em;
+    z-index: 13;
+}
+
+.vijf-onderdeel1 {
+    background-color: black;
+    clip-path: polygon(0 0, 87% 53%, 87% 99%, 0 49%);
+    height: 14em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 2.25em;
+    width: 14em;
+}
+
+.vijf-onderdeel2 {
+    background-color: white;
+    clip-path: polygon(3% 6%, 85% 56%, 85% 95%, 3% 48%);
+    height: 14em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 2.25em;
+    width: 14em;
+}
+
+.vijf-onderdeel3 {
+    background-color: black;
+    clip-path: polygon(0 36%, 59% 0%, 60% 68%, 0 100%);
+    height: 10em;
+    left: 12em;
+    opacity: 100%;
+    position: absolute;
+    top: 6em;
+    width: 10em;
+}
+
+.vijf-onderdeel4 {
+    background-color: white;
+    clip-path: polygon(3% 40%, 56% 9%, 57% 64%, 3% 95%);
+    height: 10em;
+    left: 12em;
+    opacity: 100%;
+    position: absolute;
+    top: 6em;
+    width: 10em;
+}
+
+.vijf-onderdeel5 {
+    background-color: black;
+    clip-path: polygon(0 13%, 35% 0, 100% 33%, 66% 54%);
+    height: 18em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 18em;
+}
+
+.vijf-onderdeel6 {
+    background-color: white;
+    clip-path: polygon(4% 14.5%, 35% 2%, 97% 34%, 66% 53%);
+    height: 18em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 18em;
+}
+
+.vijf-onderdeel7 {
+    background-color: transparent;
+    height: 18.75em;
+    left: -6em;
+    opacity: 100%;
+    position: absolute;
+    top: -1.5em;
+    width: 10em;
+}
+
+/*----------------------*/
+/*------steentje 6------*/
+/*----------------------*/
+
+.steentje-zes {
+    background-color: transparent;
+    height: 14em;
+    left: 10em;
+    opacity: 100%;
+    position: absolute;
+    top: 29em;
+    width: 14em;
+    z-index: 12;
+}
+
+.zes-onderdeel1 {
+    background-color: black;
+    clip-path: polygon(0 0, 87% 53%, 87% 99%, 0 49%);
+    height: 14em;
+    left: -4em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 14em;
+}
+
+.zes-onderdeel2 {
+    background-color: white;
+    clip-path: polygon(3% 6%, 85% 56%, 85% 95%, 3% 48%);
+    height: 14em;
+    left: -4em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 14em;
+}
+
+.zes-onderdeel3 {
+    background-color: black;
+    clip-path: polygon(1% 99%, 1% 50%, 84% 3%, 84% 51%);
+    height: 14em;
+    left: 8em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 14em;
+}
+
+.zes-onderdeel4 {
+    background-color: white;
+    clip-path: polygon(3% 93%, 3% 54%, 81% 8%, 81% 48%);
+    height: 14em;
+    left: 8em;
+    opacity: 100%;
+    position: absolute;
+    top: 0em;
+    width: 14em;
+}
+
+.zes-onderdeel5 {
+    background-color: black;
+    clip-path: polygon(50.1% 61.1%, 0 30%, 52% 0, 100% 31.5%);
+    height: 23.75em;
+    left: -4em;
+    opacity: 100%;
+    position: absolute;
+    top: -7em;
+    width: 23.75em;
+}
+
+.zes-onderdeel6 {
+    background-color: white;
+    clip-path: polygon(50% 59%, 4% 30.5%, 52% 2%, 96% 31%);
+    height: 23.75em;
+    left: -4em;
+    opacity: 100%;
+    position: absolute;
+    top: -7em;
+    width: 23.75em;
+}
+
+.zes-onderdeel7 {
+    background-color: transparent;
+    height: 18.75em;
+    left: -10em;
+    opacity: 100%;
+    position: absolute;
+    top: -4.5em;
+    width: 10em;
+}
+
+.zes-onderdeel8 {
+    background-color: transparent;
+    height: 18.75em;
+    left: -4em;
+    opacity: 100%;
+    position: absolute;
+    top: -7.5em;
+    width: 10em;
+}
+
+/*----------------------*/
+/*------steentje 7------*/
+/*----------------------*/
+
+.steentje-zeven {
+    background-color: transparent;
+    height: 14em;
+    left: 21.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 22.25em;
+    width: 14em;
+    z-index: 11;
+}
+
+/*----------------------*/
+/*------steentje 8------*/
+/*----------------------*/
+
+.steentje-acht {
+    background-color: transparent;
+    height: 14em;
+    left: 33.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 15.5em;
+    width: 14em;
+    z-index: 10;
+}
+
+/*----------------------*/
+/*------steentje 9------*/
+/*----------------------*/
+
+.steentje-negen {
+    background-color: transparent;
+    height: 14em;
+    left: 41.3em;
+    opacity: 100%;
+    position: absolute;
+    top: 6.4em;
+    width: 14em;
+    z-index: 9;
+}
+
+/*----------------------*/
+/*------steentje 10------*/
+/*----------------------*/
+
+.steentje-tien {
+    background-color: transparent;
+    height: 24em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 30em;
+    width: 24em;
+    z-index: 8;
+}
+
+.tien-onderdeel1 {
+    background-color: transparent;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: -5.5em;
+}
+
+.tien-onderdeel2 {
+    background-color: black;
+    clip-path: polygon(50.1% 61.1%, 0 30%, 52% 0, 100% 31.5%);
+    height: 23.75em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 1.8em;
+    width: 23.75em;
+}
+
+.tien-onderdeel3 {
+    background-color: white;
+    clip-path: polygon(49.5% 58.5%, 3% 31%, 52% 2%, 96% 31%);
+    height: 23.75em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 1.8em;
+    width: 23.75em;
+}
+
+.tien-onderdeel4 {
+    background-color: black;
+    clip-path: polygon(100% 0, 100% 60%, 39% 94%, 0 72%, 0 56%);
+    height: 11.75em;
+    left: 12em;
+    opacity: 100%;
+    position: absolute;
+    top: 9.25em;
+    width: 11.75em;
+}
+
+.tien-onderdeel5 {
+    background-color: white;
+    clip-path: polygon(96% 7%, 96% 58%, 39% 89%, 2% 67%, 2% 59%);
+    height: 11.75em;
+    left: 12em;
+    opacity: 100%;
+    position: absolute;
+    top: 9.25em;
+    width: 11.75em;
+}
+
+.tien-onderdeel6 {
+    background-color: transparent;
+    height: 18.75em;
+    left: -7em;
+    opacity: 100%;
+    position: absolute;
+    top: 4.5em;
+    width: 10em;
+}
+
+.tien-onderdeel7 {
+    background-color: transparent;
+    height: 18.75em;
+    left: -1em;
+    opacity: 100%;
+    position: absolute;
+    top: 1em;
+    width: 10em;
+}
+
+/*----------------------*/
+/*------steentje 11------*/
+/*----------------------*/
+
+.steentje-elf {
+    background-color: transparent;
+    height: 30em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 30em;
+    width: 30em;
+    z-index: 7;
+}
+
+/*----------------------*/
+/*------steentje 12------*/
+/*----------------------*/
+
+.steentje-twaalf {
+    background-color: transparent;
+    height: 30em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 30em;
+    width: 30em;
+    z-index: 6;
+}
+
+/*----------------------*/
+/*------steentje 13------*/
+/*----------------------*/
+
+.steentje-dertien {
+    background-color: transparent;
+    height: 24em;
+    left: 5.6em;
+    opacity: 100%;
+    position: absolute;
+    top: 34.1em;
+    width: 24em;
+    z-index: 5;
+}
+
+/*----------------------*/
+/*------steentje 14------*/
+/*----------------------*/
+
+.steentje-veertien {
+    background-color: transparent;
+    height: 30em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 30em;
+    width: 30em;
+    z-index: 4;
+}
+
+/*----------------------*/
+/*------steentje 15------*/
+/*----------------------*/
+
+.steentje-vijftien {
+    background-color: transparent;
+    height: 30em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 30em;
+    width: 30em;
+    z-index: 3;
+}
+
+/*----------------------*/
+/*------steentje 16------*/
+/*----------------------*/
+
+.steentje-zestien {
+    background-color: transparent;
+    height: 30em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 30em;
+    width: 30em;
+    z-index: 2;
+}
+
+/*----------------------*/
+/*------steentje 17------*/
+/*----------------------*/
+
+.steentje-zeventien {
+    background-color: transparent;
+    height: 30em;
+    left: 0em;
+    opacity: 100%;
+    position: absolute;
+    top: 30em;
+    width: 30em;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
