@@ -29,7 +29,7 @@ img {
 .divparent {
     background-color: transparent;
     bottom: 0;
-    /*    bottom: 215em;*/
+/*    bottom: 235em;*/
     height: 100%;
     left: 0;
     margin: auto;
@@ -1802,12 +1802,153 @@ img {
     width: 59.5em;
 }
 
+/*------------------------------------*/
+/*------verplaatsen van steentje------*/
+/*------------------------------------*/
+
+#steentje1verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje1verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje2verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje2verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje3verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje3verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje4verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje4verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje5verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje5verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje6verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje6verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje7verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje7verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje8verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje8verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje9verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje9verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje10verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje10verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje11verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje11verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje12verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje12verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje13verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje13verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje14verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje14verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje15verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje15verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje16verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje16verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
+#steentje17verplaatsen-drag {
+    cursor: grab;
+}
+
+#steentje17verplaatsen-drag:active {
+    cursor: grabbing;
+}
+
 /*----------------------*/
 /*------steentje 1------*/
 /*----------------------*/
 
 .steentje-een {
     background-color: transparent;
+    clip-path: polygon(49% 99%, 0 71%, 0 58%, 25% 15%, 37% 8%, 41% 5%, 47% 1%, 55% 1%, 61% 4%, 63% 11%, 69% 15%, 76% 14%, 84% 18%, 85% 25%, 98% 33%, 99% 71%);
     height: 23.5em;
     left: 0em;
     opacity: 100%;
@@ -1815,6 +1956,7 @@ img {
     top: 16.5em;
     width: 24.5em;
     z-index: 17;
+
 }
 
 .een-onderdeel1 {
@@ -2043,11 +2185,12 @@ img {
 
 .steentje-twee {
     background-color: transparent;
-    height: 18.75em;
+    clip-path: polygon(13% 8%, 18% 2%, 27% 0, 33% 3%, 37% 7%, 37% 11%, 44% 14%, 50% 14%, 56% 15%, 58% 20%, 58% 23%, 73% 31%, 100% 47%, 100% 53%, 49% 82%, 0 53%, 0 16%);
+    height: 24em;
     left: 11.75em;
     opacity: 100%;
     position: absolute;
-    top: 14.25em;
+    top: 13.25em;
     width: 24em;
     z-index: 16;
 }
@@ -2059,7 +2202,7 @@ img {
     left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 1em;
     width: 19em;
 }
 
@@ -2070,7 +2213,7 @@ img {
     left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 1em;
     width: 19em;
 }
 
@@ -2081,40 +2224,40 @@ img {
     left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 1em;
     width: 17.5em;
 }
 
 .twee-onderdeel4 {
     background-color: white;
-    clip-path: polygon(33% 2%, 97% 37%, 66% 55%, 3% 17%);
+    clip-path: polygon(33% 4%, 95% 38%, 66% 55%, 5% 18%);
     height: 17.5em;
     left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 1em;
     width: 17.5em;
 }
 
 .twee-onderdeel5 {
     background-color: black;
-    clip-path: polygon(47% 0, 100% 33%, 100% 43%, 0 98%, 0 27%);
+    clip-path: polygon(46.4% 0%, 100% 33%, 100% 43%, 2% 98.5%, 0 27%);
     height: 12.25em;
     left: 11.75em;
     opacity: 100%;
     position: absolute;
-    top: 6.5em;
+    top: 7.5em;
     width: 12.25em;
 }
 
 .twee-onderdeel6 {
     background-color: white;
-    clip-path: polygon(44% 3%, 96% 35%, 96% 42%, 2% 95%, 2% 28%);
+    clip-path: polygon(44% 5%, 96% 35%, 96% 42%, 3% 94%, 2% 30%);
     height: 12.25em;
     left: 11.75em;
     opacity: 100%;
     position: absolute;
-    top: 6.5em;
+    top: 7.5em;
     width: 12.25em;
 }
 
@@ -2124,7 +2267,7 @@ img {
     left: -6.6em;
     opacity: 100%;
     position: absolute;
-    top: -1em;
+    top: 0em;
     width: 10em;
 }
 
@@ -2134,7 +2277,8 @@ img {
 
 .steentje-drie {
     background-color: transparent;
-    height: 18.75em;
+    clip-path: polygon(0 68%, 0 60%, 27% 14%, 41% 7%, 47% 1%, 56% 1%, 62% 5%, 63% 11%, 71% 14%, 84% 16%, 87% 25%, 98% 32%, 99% 69%, 50% 97%);
+    height: 24em;
     left: 23.5em;
     opacity: 100%;
     position: absolute;
@@ -2149,11 +2293,12 @@ img {
 
 .steentje-vier {
     background-color: transparent;
-    height: 18.75em;
+    clip-path: polygon(0 53%, 0 16%, 14% 9%, 15% 2%, 21% 1%, 28% 1%, 31% 1%, 36% 5%, 37% 9%, 40% 12%, 47% 13%, 54% 15%, 59% 18%, 60% 23%, 67% 26%, 74% 30%, 89% 39%, 100% 47%, 100% 54%, 50% 82%, 21% 66%);
+    height: 24em;
     left: 35.5em;
     opacity: 100%;
     position: absolute;
-    top: 0.75em;
+    top: -0.25em;
     width: 24em;
     z-index: 14;
 }
@@ -2164,12 +2309,13 @@ img {
 
 .steentje-vijf {
     background-color: transparent;
-    height: 18em;
+    clip-path: polygon(28% 1%, 43% 4%, 47% 12%, 54% 18%, 63% 18%, 73% 25%, 79% 31%, 91% 38%, 91% 73%, 60% 90%, 0 56%, 0 20%, 19% 9%);
+    height: 20em;
     left: 0em;
     opacity: 100%;
     position: absolute;
-    top: 30em;
-    width: 18em;
+    top: 28em;
+    width: 20em;
     z-index: 13;
 }
 
@@ -2180,7 +2326,7 @@ img {
     left: 0em;
     opacity: 100%;
     position: absolute;
-    top: 2.25em;
+    top: 4.25em;
     width: 14em;
 }
 
@@ -2191,7 +2337,7 @@ img {
     left: 0em;
     opacity: 100%;
     position: absolute;
-    top: 2.25em;
+    top: 4.25em;
     width: 14em;
 }
 
@@ -2202,7 +2348,7 @@ img {
     left: 12em;
     opacity: 100%;
     position: absolute;
-    top: 6em;
+    top: 8em;
     width: 10em;
 }
 
@@ -2213,29 +2359,29 @@ img {
     left: 12em;
     opacity: 100%;
     position: absolute;
-    top: 6em;
+    top: 8em;
     width: 10em;
 }
 
 .vijf-onderdeel5 {
     background-color: black;
-    clip-path: polygon(0 13%, 35% 0, 100% 33%, 66% 54%);
+    clip-path: polygon(0% 18.2%, 34% 1%, 99% 39.5%, 67% 59%);
     height: 18em;
     left: 0em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 1em;
     width: 18em;
 }
 
 .vijf-onderdeel6 {
     background-color: white;
-    clip-path: polygon(4% 14.5%, 35% 2%, 97% 34%, 66% 53%);
+    clip-path: polygon(4% 19.5%, 35% 4%, 96% 41%, 67% 58%);
     height: 18em;
     left: 0em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 1em;
     width: 18em;
 }
 
@@ -2245,7 +2391,7 @@ img {
     left: -6em;
     opacity: 100%;
     position: absolute;
-    top: -1.5em;
+    top: 0.5em;
     width: 10em;
 }
 
@@ -2255,12 +2401,13 @@ img {
 
 .steentje-zes {
     background-color: transparent;
-    height: 14em;
-    left: 10em;
+    clip-path: polygon(32% 25%, 36% 19%, 44% 18%, 52% 13%, 60% 7%, 69% 10%, 74% 16%, 83% 19%, 90% 25%, 100% 35%, 100% 57%, 61% 81%, 19% 57%, 19% 33%);
+    height: 30em;
+    left: 0em;
     opacity: 100%;
     position: absolute;
-    top: 29em;
-    width: 14em;
+    top: 19em;
+    width: 30em;
     z-index: 12;
 }
 
@@ -2268,21 +2415,21 @@ img {
     background-color: black;
     clip-path: polygon(0 0, 87% 53%, 87% 99%, 0 49%);
     height: 14em;
-    left: -4em;
+    left: 6em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 10em;
     width: 14em;
 }
 
 .zes-onderdeel2 {
     background-color: white;
-    clip-path: polygon(3% 6%, 85% 56%, 85% 95%, 3% 48%);
+    clip-path: polygon(3% 6%, 85% 55%, 85% 95%, 3% 48%);
     height: 14em;
-    left: -4em;
+    left: 6em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 10em;
     width: 14em;
 }
 
@@ -2290,10 +2437,10 @@ img {
     background-color: black;
     clip-path: polygon(1% 99%, 1% 50%, 84% 3%, 84% 51%);
     height: 14em;
-    left: 8em;
+    left: 18em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 10em;
     width: 14em;
 }
 
@@ -2301,10 +2448,10 @@ img {
     background-color: white;
     clip-path: polygon(3% 93%, 3% 54%, 81% 8%, 81% 48%);
     height: 14em;
-    left: 8em;
+    left: 18em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 10em;
     width: 14em;
 }
 
@@ -2312,41 +2459,41 @@ img {
     background-color: black;
     clip-path: polygon(50.1% 61.1%, 0 30%, 52% 0, 100% 31.5%);
     height: 23.75em;
-    left: -4em;
+    left: 6em;
     opacity: 100%;
     position: absolute;
-    top: -7em;
+    top: 3em;
     width: 23.75em;
 }
 
 .zes-onderdeel6 {
     background-color: white;
-    clip-path: polygon(50% 59%, 4% 30.5%, 52% 2%, 96% 31%);
+    clip-path: polygon(50.5% 58.3%, 4% 30.5%, 52% 3%, 96.5% 32%);
     height: 23.75em;
-    left: -4em;
+    left: 6em;
     opacity: 100%;
     position: absolute;
-    top: -7em;
+    top: 3em;
     width: 23.75em;
 }
 
 .zes-onderdeel7 {
     background-color: transparent;
     height: 18.75em;
-    left: -10em;
+    left: 0em;
     opacity: 100%;
     position: absolute;
-    top: -4.5em;
+    top: 5.5em;
     width: 10em;
 }
 
 .zes-onderdeel8 {
     background-color: transparent;
     height: 18.75em;
-    left: -4em;
+    left: 6em;
     opacity: 100%;
     position: absolute;
-    top: -7.5em;
+    top: 2.5em;
     width: 10em;
 }
 
@@ -2356,12 +2503,13 @@ img {
 
 .steentje-zeven {
     background-color: transparent;
-    height: 14em;
-    left: 21.75em;
+    clip-path: polygon(32% 25%, 36% 19%, 44% 18%, 52% 13%, 60% 7%, 69% 10%, 74% 16%, 83% 19%, 90% 25%, 100% 35%, 100% 57%, 61% 81%, 19% 57%, 19% 33%);
+    height: 30em;
+    left: 11.75em;
     opacity: 100%;
     position: absolute;
-    top: 22.25em;
-    width: 14em;
+    top: 12.25em;
+    width: 30em;
     z-index: 11;
 }
 
@@ -2371,12 +2519,13 @@ img {
 
 .steentje-acht {
     background-color: transparent;
-    height: 14em;
-    left: 33.5em;
+    clip-path: polygon(32% 25%, 36% 19%, 44% 18%, 52% 13%, 60% 7%, 69% 10%, 74% 16%, 83% 19%, 90% 25%, 100% 35%, 100% 57%, 61% 81%, 19% 57%, 19% 33%);
+    height: 30em;
+    left: 23.5em;
     opacity: 100%;
     position: absolute;
-    top: 15.5em;
-    width: 14em;
+    top: 5.5em;
+    width: 30em;
     z-index: 10;
 }
 
@@ -2386,12 +2535,13 @@ img {
 
 .steentje-negen {
     background-color: transparent;
-    height: 14em;
+    clip-path: polygon(28% 1%, 43% 4%, 47% 12%, 54% 18%, 63% 18%, 73% 25%, 79% 31%, 91% 38%, 91% 73%, 60% 90%, 0 56%, 0 20%, 19% 9%);
+    height: 20em;
     left: 41.3em;
     opacity: 100%;
     position: absolute;
-    top: 6.4em;
-    width: 14em;
+    top: 4.4em;
+    width: 20em;
     z-index: 9;
 }
 
@@ -2401,6 +2551,7 @@ img {
 
 .steentje-tien {
     background-color: transparent;
+    clip-path: polygon(13% 28%, 14% 21%, 21% 17%, 28% 18%, 32% 16%, 37% 12%, 38% 7%, 43% 4%, 51% 4%, 57% 6%, 63% 11%, 71% 16%, 80% 20%, 83% 27%, 100% 37%, 100% 46%, 100% 51%, 100% 68%, 69% 86%, 0 46%, 0 36%);
     height: 24em;
     left: 0em;
     opacity: 100%;
@@ -2431,7 +2582,7 @@ img {
 
 .tien-onderdeel3 {
     background-color: white;
-    clip-path: polygon(49.5% 58.5%, 3% 31%, 52% 2%, 96% 31%);
+    clip-path: polygon(49.5% 58.5%, 3% 31%, 52% 2%, 96.5% 32.5%);
     height: 23.75em;
     left: 0em;
     opacity: 100%;
@@ -2444,10 +2595,10 @@ img {
     background-color: black;
     clip-path: polygon(100% 0, 100% 60%, 39% 94%, 0 72%, 0 56%);
     height: 11.75em;
-    left: 12em;
+    left: 11.95em;
     opacity: 100%;
     position: absolute;
-    top: 9.25em;
+    top: 9.20em;
     width: 11.75em;
 }
 
@@ -2488,13 +2639,116 @@ img {
 
 .steentje-elf {
     background-color: transparent;
-    height: 30em;
-    left: 0em;
+    clip-path: polygon(15% 33%, 20% 27%, 26% 27%, 30% 23%, 34% 19%, 39% 20%, 44% 16%, 48% 11%, 54% 11%, 58% 9%, 61% 5%, 67% 2%, 73% 5%, 80% 10%, 87% 13%, 99% 23%, 99% 43%, 37% 78%, 6% 59%, 5% 39%);
+    height: 38em;
+    left: 9.75em;
     opacity: 100%;
     position: absolute;
-    top: 30em;
-    width: 30em;
+    top: 17.2em;
+    width: 38em;
     z-index: 7;
+}
+
+.elf-onderdeel1 {
+    background-color: black;
+    clip-path: polygon(0% 0%, 87.5% 52%, 88% 100%, 0 49%);
+    height: 14.6em;
+    left: 2.4em;
+    opacity: 100%;
+    position: absolute;
+    top: 14.8em;
+    width: 13em;
+}
+
+.elf-onderdeel2 {
+    background-color: white;
+    clip-path: polygon(2% 4%, 85% 54%, 85% 95%, 2% 48%);
+    height: 14.6em;
+    left: 2.4em;
+    opacity: 100%;
+    position: absolute;
+    top: 14.8em;
+    width: 13em;
+}
+
+.elf-onderdeel3 {
+    background-color: black;
+    clip-path: polygon(3% 58%, 98% 4%, 97% 32%, 3% 85.5%);
+    height: 25em;
+    left: 13em;
+    opacity: 100%;
+    position: absolute;
+    top: 8em;
+    width: 25em;
+}
+
+.elf-onderdeel4 {
+    background-color: white;
+    clip-path: polygon(5% 59%, 96% 7%, 95.5% 31%, 5% 82%);
+    height: 25em;
+    left: 13em;
+    opacity: 100%;
+    position: absolute;
+    top: 8em;
+    width: 25em;
+}
+
+.elf-onderdeel5 {
+    background-color: black;
+    clip-path: polygon(0 69.5%, 67% 17%, 100% 46%, 32.5% 100%);
+    height: 25em;
+    left: 2.4em;
+    opacity: 100%;
+    position: absolute;
+    top: -2.5em;
+    width: 35.1em;
+}
+
+.elf-onderdeel6 {
+    background-color: white;
+    clip-path: polygon(2% 70%, 67% 19%, 98% 47%, 32.5% 98.5%);
+    height: 25em;
+    left: 2.4em;
+    opacity: 100%;
+    position: absolute;
+    top: -2.5em;
+    width: 35.1em;
+}
+
+.elf-onderdeel7 {
+    height: 25em;
+    left: -4em;
+    opacity: 100%;
+    position: absolute;
+    top: 10.5em;
+    width: 25em;
+}
+
+.elf-onderdeel8 {
+    height: 25em;
+    left: 1.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 7.5em;
+    width: 25em;
+}
+
+.elf-onderdeel9 {
+    height: 25em;
+    left: 7.5em;
+    opacity: 100%;
+    position: absolute;
+    top: 4.25em;
+    width: 25em;
+}
+
+.elf-onderdeel10 {
+    height: 25em;
+    left: 12.75em;
+    opacity: 100%;
+    position: absolute;
+    top: 1em;
+    width: 25em;
 }
 
 /*----------------------*/
@@ -2503,13 +2757,98 @@ img {
 
 .steentje-twaalf {
     background-color: transparent;
-    height: 30em;
+    clip-path: polygon(65% 9%, 71% 6%, 74% 2%, 82% 2%, 92% 8%, 98% 13%, 99% 18%, 92% 32%, 79% 40%, 68% 33%, 64% 31%, 59% 27%, 59% 14%);
+    height: 60em;
     left: 0em;
     opacity: 100%;
     position: absolute;
-    top: 30em;
-    width: 30em;
+    top: 10.1em;
+    width: 60em;
     z-index: 6;
+}
+
+.twaalf-onderdeel1 {
+    background-color: black;
+    clip-path: polygon(0% 0%, 87.5% 52%, 88% 98.5%, 0% 49%);
+    height: 15em;
+    left: 35.9em;
+    opacity: 100%;
+    position: absolute;
+    top: 8.5em;
+    width: 13em;
+}
+
+.twaalf-onderdeel2 {
+    background-color: white;
+    clip-path: polygon(2% 4%, 85% 54%, 85% 95%, 2% 48%);
+    height: 14.8em;
+    left: 35.9em;
+    opacity: 100%;
+    position: absolute;
+    top: 8.5em;
+    width: 13em;
+}
+
+.twaalf-onderdeel3 {
+    background-color: black;
+    clip-path: polygon(50.1% 61.1%, 4% 28.3%, 52% 0, 100% 31.5%);
+    height: 23.95em;
+    left: 35em;
+    opacity: 100%;
+    position: absolute;
+    top: 1.8em;
+    width: 23.75em;
+}
+
+.twaalf-onderdeel4 {
+    background-color: white;
+    clip-path: polygon(51.3% 58.75%, 6% 29%, 52% 2%, 96.5% 31.5%);
+    height: 23.95em;
+    left: 35em;
+    opacity: 100%;
+    position: absolute;
+    top: 1.8em;
+    width: 23.75em;
+}
+
+.twaalf-onderdeel5 {
+    background-color: black;
+    clip-path: polygon(100% 0, 100% 12%, 66% 67%, 0 100%, 0 50%);
+    height: 14.1em;
+    left: 47.2em;
+    opacity: 100%;
+    position: absolute;
+    top: 9.2em;
+    width: 11.5em;
+}
+
+.twaalf-onderdeel6 {
+    background-color: white;
+    clip-path: polygon(95% 5%, 95% 12%, 62% 65%, 3% 95%, 4% 51%);
+    height: 14.1em;
+    left: 47.2em;
+    opacity: 100%;
+    position: absolute;
+    top: 9.2em;
+    width: 11.5em;
+}
+
+.twaalf-onderdeel7 {
+    height: 25em;
+    left: 29.2em;
+    opacity: 100%;
+    position: absolute;
+    top: 4.5em;
+    width: 25em;
+}
+
+.twaalf-onderdeel8 {
+    height: 25em;
+    left: 34.7em;
+    opacity: 100%;
+    position: absolute;
+    top: 1em;
+    width: 25em;
 }
 
 /*----------------------*/
@@ -2518,11 +2857,12 @@ img {
 
 .steentje-dertien {
     background-color: transparent;
+    clip-path: polygon(13% 28%, 14% 21%, 21% 17%, 28% 18%, 32% 16%, 37% 12%, 38% 7%, 43% 4%, 51% 4%, 57% 6%, 63% 11%, 71% 16%, 80% 20%, 83% 27%, 100% 37%, 100% 46%, 100% 51%, 100% 68%, 69% 86%, 0 46%, 0 36%);
     height: 24em;
     left: 5.6em;
     opacity: 100%;
     position: absolute;
-    top: 34.1em;
+    top: 34em;
     width: 24em;
     z-index: 5;
 }
@@ -2533,11 +2873,12 @@ img {
 
 .steentje-veertien {
     background-color: transparent;
+    clip-path: polygon(32% 25%, 36% 19%, 44% 18%, 52% 13%, 60% 7%, 69% 10%, 74% 16%, 83% 19%, 90% 25%, 100% 35%, 100% 57%, 61% 81%, 19% 57%, 19% 33%);
     height: 30em;
-    left: 0em;
+    left: 11.3em;
     opacity: 100%;
     position: absolute;
-    top: 30em;
+    top: 26.3em;
     width: 30em;
     z-index: 4;
 }
@@ -2548,12 +2889,13 @@ img {
 
 .steentje-vijftien {
     background-color: transparent;
-    height: 30em;
-    left: 0em;
+    clip-path: polygon(65% 9%, 71% 6%, 74% 2%, 82% 2%, 92% 8%, 98% 13%, 99% 18%, 92% 32%, 79% 40%, 68% 33%, 64% 31%, 59% 27%, 59% 14%);
+    height: 60em;
+    left: -6.2em;
     opacity: 100%;
     position: absolute;
-    top: 30em;
-    width: 30em;
+    top: 20.4em;
+    width: 60em;
     z-index: 3;
 }
 
@@ -2563,12 +2905,13 @@ img {
 
 .steentje-zestien {
     background-color: transparent;
-    height: 30em;
-    left: 0em;
+      clip-path: polygon(13% 28%, 14% 21%, 21% 17%, 28% 18%, 32% 16%, 37% 12%, 38% 7%, 43% 4%, 51% 4%, 57% 6%, 63% 11%, 71% 16%, 80% 20%, 83% 27%, 100% 37%, 100% 46%, 100% 51%, 100% 68%, 69% 86%, 0 46%, 0 36%);
+    height: 24em;
+    left: 11.1em;
     opacity: 100%;
     position: absolute;
-    top: 30em;
-    width: 30em;
+    top: 38em;
+    width: 24em;
     z-index: 2;
 }
 
@@ -2578,31 +2921,12 @@ img {
 
 .steentje-zeventien {
     background-color: transparent;
-    height: 30em;
-    left: 0em;
+    clip-path: polygon(65% 9%, 71% 6%, 74% 2%, 82% 2%, 92% 8%, 98% 13%, 99% 18%, 92% 32%, 79% 40%, 68% 33%, 64% 31%, 59% 27%, 59% 14%);
+    height: 60em;
+    left: -12.4em;
     opacity: 100%;
     position: absolute;
-    top: 30em;
-    width: 30em;
+    top: 31em;
+    width: 60em;
     z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
