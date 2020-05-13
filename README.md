@@ -10,7 +10,7 @@ Hallo, welkom bij mijn Github-Repository van Web-Animation. Ik volg een opleidin
 *   [Code](#code)
 *   [Bronnen](#bronnen)
 *   [Socials](#socials)
-*   [iets](https://robinansems.github.io/index.html)
+*   [iets](#niets)
 *   [iets](#iets)
 *   [iets](#iets)
 *   [iets](#iets)
