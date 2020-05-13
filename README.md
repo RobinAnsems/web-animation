@@ -1,11 +1,6 @@
-_schuingedrukt_
-**dikgedrukt**
-
 # Web Animation Robin Ansems VID2 
 
-Hallo, welkom bij mijn Github-Repository van Web-Animation. Ik volg een opleiding genaamd: Communication @ Multimedia Design aan de Hogeschool van Amsterdam en volg een Minor genaamd Visual Interface Design. Bij het vak Web-Animation leren we hoe je verschillende CSS-transities en CSS-animaties mmaakt die interactie toevoegen. Hier onder is te zien wat ik heb gemaakt voor het vak. Veel lees plezier!
-
----
+Hallo, welkom bij mijn Github-Repository van Web-Animation. Ik volg een opleiding genaamd: Communication and Multimedia Design aan de Hogeschool van Amsterdam en volg een Minor genaamd Visual Interface Design. Bij het vak Web-Animation leren we hoe je verschillende CSS-transities en CSS-animaties mmaakt die interactie toevoegen. Hier onder is te zien wat ik heb gemaakt voor het vak. Veel lees plezier!
 
 ## Inhoudsopgave
 
@@ -20,28 +15,24 @@ Hallo, welkom bij mijn Github-Repository van Web-Animation. Ik volg een opleidin
 *   [iets](#iets)
 *   [iets](#iets)
 
----
-
 ## Opdracht
 De opdracht is:
 _Kies een kunstwerk uit het Letterform-archief of het AIGA-archief en vertaal dat naar het web. Wat gebeurt er als mensen met hun muis over bepaalde elementen zweven? Wat als ze op toetsen op hun toetsenbord drukken? Hoe moet het 'statische kunstwerk' zich gedragen op verschillende schermformaten? Probeer het eerst opnieuw te maken met webtechnologie (html-elementen, svg), voeg vervolgens interactiviteit en animatie toe._
 
----
-
 ## Kunstwerk
 Het kunstwerk dat ik heb gekozen is, heet: "_How To Fix A Broken Heart and Make A Spare_".
 ![gekozenkunstwerk](https://github.com/RobinAnsems/web-animation/blob/master/images/1.jpg)
+
 Het kunstwerk is gemaakt door Tré Seals. Deze Afro-Amerikaan uit Accoceek heeft het kunstwerk in 2017 gemaakt.
 
 #### Achtergrondverhaal
-Een klein achtergrondverhaaltje over het kunstwerk: "_Het begon allemaal op de middelbare school toen hij kleine Lego ™ -stukken begon te maken (harten, klavertje vier, Pac Man, enz.), Spelden op de rug legde en er een modeaccessoire van maakte.
+Een klein achtergrondverhaaltje over het kunstwerk: 
+"_Het begon allemaal op de middelbare school toen hij kleine Lego ™ -stukken begon te maken (harten, klavertje vier, Pac Man, enz.), Spelden op de rug legde en er een modeaccessoire van maakte._"
 
-Tijdens zijn eerste jaar op de universiteit was hij behoorlijk verlegen en onzeker over hoe hij mensen moest ontmoeten. Dus besloot hij deze Lego ™ -spelden te dragen om mensen naar binnen te trekken en een gesprek te beginnen. En het werkte. Hij werd bekend als "The Guy with the Lego Heart" voor degenen die zijn echte naam niet kenden, en zijn vrienden zouden boos worden als hij besloot er geen te dragen. Nadat hij ze tijdens zijn studententijd als bijzaak had verkocht, besloot Tré een boek en een doe-het-zelf-pakket te maken, zodat mensen er zelf een konden maken._"
+"_Tijdens zijn eerste jaar op de universiteit was hij behoorlijk verlegen en onzeker over hoe hij mensen moest ontmoeten. Dus besloot hij deze Lego ™ -spelden te dragen om mensen naar binnen te trekken en een gesprek te beginnen. En het werkte. Hij werd bekend als "The Guy with the Lego Heart" voor degenen die zijn echte naam niet kenden, en zijn vrienden zouden boos worden als hij besloot er geen te dragen. Nadat hij ze tijdens zijn studententijd als bijzaak had verkocht, besloot Tré een boek en een doe-het-zelf-pakket te maken, zodat mensen er zelf een konden maken._"
 
 #### Waarom ik het kunstwerk heb gekozen
 Ik heb het kunstwerk gevonden op [designarchives.aiga.org](https://designarchives.aiga.org/#/home) onder "_50 Books | 50 Covers of 2017_". Toen ik het kunstwerk tegenkwam was ik gelijk geïnteresseerd in de Lego-steentjes. Ik dacht gelijk: "Wat nou als je het hartje uit elkaar kan halen en er iets nieuws van kan maken?". Ik was ook gelijk geïnteresseerd in de tekst van het kunstwerk. De tekst bestaat uit bolletjes (die ik in css allemaal individueel moet gaan positioneren), per regel staan er 1 of 2 woorden, maar wat nou als ik het kunstwerk responsive wil maken? Ik dacht gelijk: "Dan kunnen de woorden anders achter elkaar komen te staan waardoor je bij elk ander schermformaat een unieke poster creëert.
-
----
 
 ## Interactie
 De interacties die ik heb toegepast zijn de volgende:
@@ -110,12 +101,8 @@ Ik heb elk woord, elke letter en elk bolletje doormiddel van de volgende paar re
 }
 ```
 
----
-
 ## Code
 De code die ik heb geschreven is...
-
----
 
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:
@@ -123,8 +110,6 @@ De bronnen die ik heb gebruikt zijn:
 * []()
 * []()
 * []()
-
----
 
 #### Socials
 dit is waar je mij kan vinden:
