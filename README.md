@@ -101,6 +101,8 @@ Ik heb elk woord, elke letter en elk bolletje doormiddel van de volgende paar re
 }
 ```
 
+Daarna heb ik...
+
 ## Code
 De code die ik heb geschreven is...
 
@@ -110,6 +112,9 @@ De bronnen die ik heb gebruikt zijn:
 * []()
 * []()
 * []()
+
+
+
 
 #### Socials
 dit is waar je mij kan vinden:
