@@ -11,304 +11,90 @@
 </head>
 
 <body>
-    <div class="divparent">
-        <img src="images/1.jpg" alt="">
+
+    <div class="colorpickerbody">
+        <fieldset>
+            <label>body</label>
+        </fieldset>
+        
+        <fieldset>
+            <label for="r">R</label>
+            <input type="range" min="0" max="255" id="r" step="1" value="0">
+            <output for="r" id="r_out">0</output>
+        </fieldset>
+
+        <fieldset>
+            <label for="g">G</label>
+            <input type="range" min="0" max="255" id="g" step="1" value="0">
+            <output for="g" id="g_out">0</output>
+        </fieldset>
+
+        <fieldset>
+            <label for="b">B</label>
+            <input type="range" min="0" max="255" id="b" step="1" value="0">
+            <output for="b" id="b_out">0</output>
+        </fieldset>
+
+        <output id="hex">#000000</output>
+    </div>
+
+    
 
 
-        <div class="hartje">
 
-            <div class="steentje-een" id="steentje1verplaatsen">
-                <div id="steentje1verplaatsen-drag">
-                    <div class="een-onderdeel1"></div>
-                    <div class="een-onderdeel2"></div>
-                    <div class="een-onderdeel3"></div>
-                    <div class="een-onderdeel4"></div>
-                    <div class="een-onderdeel5"></div>
-                    <div class="een-onderdeel6"></div>
-                    <div class="een-onderdeel7"></div>
-                    <div class="een-onderdeel8"></div>
-                    <div class="een-onderdeel9"></div>
-                    <div class="een-onderdeel10"></div>
-                    <div class="een-onderdeel12"></div>
-                    <div class="een-onderdeel13"></div>
-                    <div class="een-onderdeel11"></div>
-                    <div class="een-onderdeel14"></div>
-                    <div class="een-onderdeel15"></div>
-                    <div class="een-onderdeel16"></div>
-                    <div class="een-onderdeel18"></div>
-                    <div class="een-onderdeel19"></div>
-                    <div class="een-onderdeel17"></div>
-                    <div class="een-onderdeel20"></div>
-                </div>
-            </div>
 
-            <div class="steentje-twee" id="steentje2verplaatsen">
-                <div id="steentje2verplaatsen-drag">
-                    <div class="twee-onderdeel1"></div>
-                    <div class="twee-onderdeel2"></div>
-                    <div class="twee-onderdeel3"></div>
-                    <div class="twee-onderdeel4"></div>
-                    <div class="twee-onderdeel5"></div>
-                    <div class="twee-onderdeel6"></div>
-                    <div class="twee-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                </div>
-            </div>
+<!--
+    <div class="colorpickerteksteen">
+        <fieldset>
+            <label>tekst 1</label>
+        </fieldset>
+        
+        <fieldset>
+            <label for="r">R</label>
+            <input type="range" min="0" max="255" id="r" step="1" value="0">
+            <output for="r" id="r_out">0</output>
+        </fieldset>
 
-            <div class="steentje-drie" id="steentje3verplaatsen">
-                <div id="steentje3verplaatsen-drag">
-                    <div class="een-onderdeel1"></div>
-                    <div class="een-onderdeel2"></div>
-                    <div class="een-onderdeel3"></div>
-                    <div class="een-onderdeel4"></div>
-                    <div class="een-onderdeel5"></div>
-                    <div class="een-onderdeel6"></div>
-                    <div class="een-onderdeel7"></div>
-                    <div class="een-onderdeel8"></div>
-                    <div class="een-onderdeel9"></div>
-                    <div class="een-onderdeel10"></div>
-                    <div class="een-onderdeel12"></div>
-                    <div class="een-onderdeel13"></div>
-                    <div class="een-onderdeel11"></div>
-                    <div class="een-onderdeel14"></div>
-                    <div class="een-onderdeel15"></div>
-                    <div class="een-onderdeel16"></div>
-                    <div class="een-onderdeel18"></div>
-                    <div class="een-onderdeel19"></div>
-                    <div class="een-onderdeel17"></div>
-                    <div class="een-onderdeel20"></div>
-                </div>
-            </div>
+        <fieldset>
+            <label for="g">G</label>
+            <input type="range" min="0" max="255" id="g" step="1" value="0">
+            <output for="g" id="g_out">0</output>
+        </fieldset>
 
-            <div class="steentje-vier" id="steentje4verplaatsen">
-                <div id="steentje4verplaatsen-drag">
-                    <div class="twee-onderdeel1"></div>
-                    <div class="twee-onderdeel2"></div>
-                    <div class="twee-onderdeel3"></div>
-                    <div class="twee-onderdeel4"></div>
-                    <div class="twee-onderdeel5"></div>
-                    <div class="twee-onderdeel6"></div>
-                    <div class="twee-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                </div>
-            </div>
+        <fieldset>
+            <label for="b">B</label>
+            <input type="range" min="0" max="255" id="b" step="1" value="0">
+            <output for="b" id="b_out">0</output>
+        </fieldset>
 
-            <div class="steentje-vijf" id="steentje5verplaatsen">
-                <div id="steentje5verplaatsen-drag">
-                    <div class="vijf-onderdeel1"></div>
-                    <div class="vijf-onderdeel2"></div>
-                    <div class="vijf-onderdeel3"></div>
-                    <div class="vijf-onderdeel4"></div>
-                    <div class="vijf-onderdeel5"></div>
-                    <div class="vijf-onderdeel6"></div>
-                    <div class="vijf-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                </div>
-            </div>
+        <output id="hex">#000000</output>
+    </div>
+-->
 
-            <div class="steentje-zes" id="steentje6verplaatsen">
-                <div id="steentje6verplaatsen-drag">
-                    <div class="zes-onderdeel1"></div>
-                    <div class="zes-onderdeel2"></div>
-                    <div class="zes-onderdeel3"></div>
-                    <div class="zes-onderdeel4"></div>
-                    <div class="zes-onderdeel5"></div>
-                    <div class="zes-onderdeel6"></div>
-                    <div class="zes-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="zes-onderdeel8">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="steentje-zeven" id="steentje7verplaatsen">
-                <div id="steentje7verplaatsen-drag">
-                    <div class="zes-onderdeel1"></div>
-                    <div class="zes-onderdeel2"></div>
-                    <div class="zes-onderdeel3"></div>
-                    <div class="zes-onderdeel4"></div>
-                    <div class="zes-onderdeel5"></div>
-                    <div class="zes-onderdeel6"></div>
-                    <div class="zes-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="zes-onderdeel8">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="steentje-acht" id="steentje8verplaatsen">
-                <div id="steentje8verplaatsen-drag">
-                    <div class="zes-onderdeel1"></div>
-                    <div class="zes-onderdeel2"></div>
-                    <div class="zes-onderdeel3"></div>
-                    <div class="zes-onderdeel4"></div>
-                    <div class="zes-onderdeel5"></div>
-                    <div class="zes-onderdeel6"></div>
-                    <div class="zes-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="zes-onderdeel8">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="steentje-negen" id="steentje9verplaatsen">
-                <div id="steentje9verplaatsen-drag">
-                    <div class="vijf-onderdeel1"></div>
-                    <div class="vijf-onderdeel2"></div>
-                    <div class="vijf-onderdeel3"></div>
-                    <div class="vijf-onderdeel4"></div>
-                    <div class="vijf-onderdeel5"></div>
-                    <div class="vijf-onderdeel6"></div>
-                    <div class="vijf-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="steentje-tien" id="steentje10verplaatsen">
-                <div id="steentje10verplaatsen-drag">
-                    <div class="tien-onderdeel1">
+
+
+
+
+
+
+    <div class="schalen">
+        <div class="divparent">
+            <div class="hartje">
+
+                <div class="steentje-een" id="steentje1verplaatsen">
+                    <div id="steentje1verplaatsen-drag">
                         <div class="een-onderdeel1"></div>
                         <div class="een-onderdeel2"></div>
-                    </div>
-                    <div class="tien-onderdeel2"></div>
-                    <div class="tien-onderdeel3"></div>
-                    <div class="tien-onderdeel4"></div>
-                    <div class="tien-onderdeel5"></div>
-                    <div class="tien-onderdeel6">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="tien-onderdeel7">
+                        <div class="een-onderdeel3"></div>
+                        <div class="een-onderdeel4"></div>
+                        <div class="een-onderdeel5"></div>
+                        <div class="een-onderdeel6"></div>
+                        <div class="een-onderdeel7"></div>
+                        <div class="een-onderdeel8"></div>
                         <div class="een-onderdeel9"></div>
                         <div class="een-onderdeel10"></div>
                         <div class="een-onderdeel12"></div>
@@ -323,139 +109,42 @@
                         <div class="een-onderdeel20"></div>
                     </div>
                 </div>
-            </div>
 
-            <div class="steentje-elf" id="steentje11verplaatsen">
-                <div id="steentje11verplaatsen-drag">
-                    <div class="elf-onderdeel1"></div>
-                    <div class="elf-onderdeel2"></div>
-                    <div class="elf-onderdeel3"></div>
-                    <div class="elf-onderdeel4"></div>
-                    <div class="elf-onderdeel5"></div>
-                    <div class="elf-onderdeel6"></div>
-                    <div class="elf-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="elf-onderdeel8">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="elf-onderdeel9">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="elf-onderdeel10">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
+                <div class="steentje-twee" id="steentje2verplaatsen">
+                    <div id="steentje2verplaatsen-drag">
+                        <div class="twee-onderdeel1"></div>
+                        <div class="twee-onderdeel2"></div>
+                        <div class="twee-onderdeel3"></div>
+                        <div class="twee-onderdeel4"></div>
+                        <div class="twee-onderdeel5"></div>
+                        <div class="twee-onderdeel6"></div>
+                        <div class="twee-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="steentje-twaalf" id="steentje12verplaatsen">
-                <div id="steentje12verplaatsen-drag">
-                    <div class="twaalf-onderdeel1"></div>
-                    <div class="twaalf-onderdeel2"></div>
-                    <div class="twaalf-onderdeel3"></div>
-                    <div class="twaalf-onderdeel4"></div>
-                    <div class="twaalf-onderdeel5"></div>
-                    <div class="twaalf-onderdeel6"></div>
-                    <div class="twaalf-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="twaalf-onderdeel8">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="steentje-dertien" id="steentje13verplaatsen">
-                <div id="steentje13verplaatsen-drag">
-                    <div class="tien-onderdeel1">
+                <div class="steentje-drie" id="steentje3verplaatsen">
+                    <div id="steentje3verplaatsen-drag">
                         <div class="een-onderdeel1"></div>
                         <div class="een-onderdeel2"></div>
-                    </div>
-                    <div class="tien-onderdeel2"></div>
-                    <div class="tien-onderdeel3"></div>
-                    <div class="tien-onderdeel4"></div>
-                    <div class="tien-onderdeel5"></div>
-                    <div class="tien-onderdeel6">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="tien-onderdeel7">
+                        <div class="een-onderdeel3"></div>
+                        <div class="een-onderdeel4"></div>
+                        <div class="een-onderdeel5"></div>
+                        <div class="een-onderdeel6"></div>
+                        <div class="een-onderdeel7"></div>
+                        <div class="een-onderdeel8"></div>
                         <div class="een-onderdeel9"></div>
                         <div class="een-onderdeel10"></div>
                         <div class="een-onderdeel12"></div>
@@ -470,786 +159,1155 @@
                         <div class="een-onderdeel20"></div>
                     </div>
                 </div>
-            </div>
 
-            <div class="steentje-veertien" id="steentje14verplaatsen">
-                <div id="steentje14verplaatsen-drag">
-                    <div class="zes-onderdeel1"></div>
-                    <div class="zes-onderdeel2"></div>
-                    <div class="zes-onderdeel3"></div>
-                    <div class="zes-onderdeel4"></div>
-                    <div class="zes-onderdeel5"></div>
-                    <div class="zes-onderdeel6"></div>
-                    <div class="zes-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
+                <div class="steentje-vier" id="steentje4verplaatsen">
+                    <div id="steentje4verplaatsen-drag">
+                        <div class="twee-onderdeel1"></div>
+                        <div class="twee-onderdeel2"></div>
+                        <div class="twee-onderdeel3"></div>
+                        <div class="twee-onderdeel4"></div>
+                        <div class="twee-onderdeel5"></div>
+                        <div class="twee-onderdeel6"></div>
+                        <div class="twee-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
                     </div>
-                    <div class="zes-onderdeel8">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
+                </div>
+
+                <div class="steentje-vijf" id="steentje5verplaatsen">
+                    <div id="steentje5verplaatsen-drag">
+                        <div class="vijf-onderdeel1"></div>
+                        <div class="vijf-onderdeel2"></div>
+                        <div class="vijf-onderdeel3"></div>
+                        <div class="vijf-onderdeel4"></div>
+                        <div class="vijf-onderdeel5"></div>
+                        <div class="vijf-onderdeel6"></div>
+                        <div class="vijf-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-zes" id="steentje6verplaatsen">
+                    <div id="steentje6verplaatsen-drag">
+                        <div class="zes-onderdeel1"></div>
+                        <div class="zes-onderdeel2"></div>
+                        <div class="zes-onderdeel3"></div>
+                        <div class="zes-onderdeel4"></div>
+                        <div class="zes-onderdeel5"></div>
+                        <div class="zes-onderdeel6"></div>
+                        <div class="zes-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="zes-onderdeel8">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-zeven" id="steentje7verplaatsen">
+                    <div id="steentje7verplaatsen-drag">
+                        <div class="zes-onderdeel1"></div>
+                        <div class="zes-onderdeel2"></div>
+                        <div class="zes-onderdeel3"></div>
+                        <div class="zes-onderdeel4"></div>
+                        <div class="zes-onderdeel5"></div>
+                        <div class="zes-onderdeel6"></div>
+                        <div class="zes-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="zes-onderdeel8">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-acht" id="steentje8verplaatsen">
+                    <div id="steentje8verplaatsen-drag">
+                        <div class="zes-onderdeel1"></div>
+                        <div class="zes-onderdeel2"></div>
+                        <div class="zes-onderdeel3"></div>
+                        <div class="zes-onderdeel4"></div>
+                        <div class="zes-onderdeel5"></div>
+                        <div class="zes-onderdeel6"></div>
+                        <div class="zes-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="zes-onderdeel8">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-negen" id="steentje9verplaatsen">
+                    <div id="steentje9verplaatsen-drag">
+                        <div class="vijf-onderdeel1"></div>
+                        <div class="vijf-onderdeel2"></div>
+                        <div class="vijf-onderdeel3"></div>
+                        <div class="vijf-onderdeel4"></div>
+                        <div class="vijf-onderdeel5"></div>
+                        <div class="vijf-onderdeel6"></div>
+                        <div class="vijf-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-tien" id="steentje10verplaatsen">
+                    <div id="steentje10verplaatsen-drag">
+                        <div class="tien-onderdeel1">
+                            <div class="een-onderdeel1"></div>
+                            <div class="een-onderdeel2"></div>
+                        </div>
+                        <div class="tien-onderdeel2"></div>
+                        <div class="tien-onderdeel3"></div>
+                        <div class="tien-onderdeel4"></div>
+                        <div class="tien-onderdeel5"></div>
+                        <div class="tien-onderdeel6">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="tien-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-elf" id="steentje11verplaatsen">
+                    <div id="steentje11verplaatsen-drag">
+                        <div class="elf-onderdeel1"></div>
+                        <div class="elf-onderdeel2"></div>
+                        <div class="elf-onderdeel3"></div>
+                        <div class="elf-onderdeel4"></div>
+                        <div class="elf-onderdeel5"></div>
+                        <div class="elf-onderdeel6"></div>
+                        <div class="elf-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="elf-onderdeel8">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="elf-onderdeel9">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="elf-onderdeel10">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-twaalf" id="steentje12verplaatsen">
+                    <div id="steentje12verplaatsen-drag">
+                        <div class="twaalf-onderdeel1"></div>
+                        <div class="twaalf-onderdeel2"></div>
+                        <div class="twaalf-onderdeel3"></div>
+                        <div class="twaalf-onderdeel4"></div>
+                        <div class="twaalf-onderdeel5"></div>
+                        <div class="twaalf-onderdeel6"></div>
+                        <div class="twaalf-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="twaalf-onderdeel8">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-dertien" id="steentje13verplaatsen">
+                    <div id="steentje13verplaatsen-drag">
+                        <div class="tien-onderdeel1">
+                            <div class="een-onderdeel1"></div>
+                            <div class="een-onderdeel2"></div>
+                        </div>
+                        <div class="tien-onderdeel2"></div>
+                        <div class="tien-onderdeel3"></div>
+                        <div class="tien-onderdeel4"></div>
+                        <div class="tien-onderdeel5"></div>
+                        <div class="tien-onderdeel6">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="tien-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-veertien" id="steentje14verplaatsen">
+                    <div id="steentje14verplaatsen-drag">
+                        <div class="zes-onderdeel1"></div>
+                        <div class="zes-onderdeel2"></div>
+                        <div class="zes-onderdeel3"></div>
+                        <div class="zes-onderdeel4"></div>
+                        <div class="zes-onderdeel5"></div>
+                        <div class="zes-onderdeel6"></div>
+                        <div class="zes-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="zes-onderdeel8">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-vijftien" id="steentje15verplaatsen">
+                    <div id="steentje15verplaatsen-drag">
+                        <div class="twaalf-onderdeel1"></div>
+                        <div class="twaalf-onderdeel2"></div>
+                        <div class="twaalf-onderdeel3"></div>
+                        <div class="twaalf-onderdeel4"></div>
+                        <div class="twaalf-onderdeel5"></div>
+                        <div class="twaalf-onderdeel6"></div>
+                        <div class="twaalf-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="twaalf-onderdeel8">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-zestien" id="steentje16verplaatsen">
+                    <div id="steentje16verplaatsen-drag">
+                        <div class="tien-onderdeel1">
+                            <div class="een-onderdeel1"></div>
+                            <div class="een-onderdeel2"></div>
+                        </div>
+                        <div class="tien-onderdeel2"></div>
+                        <div class="tien-onderdeel3"></div>
+                        <div class="tien-onderdeel4"></div>
+                        <div class="tien-onderdeel5"></div>
+                        <div class="tien-onderdeel6">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="tien-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steentje-zeventien" id="steentje17verplaatsen">
+                    <div id="steentje17verplaatsen-drag">
+                        <div class="twaalf-onderdeel1"></div>
+                        <div class="twaalf-onderdeel2"></div>
+                        <div class="twaalf-onderdeel3"></div>
+                        <div class="twaalf-onderdeel4"></div>
+                        <div class="twaalf-onderdeel5"></div>
+                        <div class="twaalf-onderdeel6"></div>
+                        <div class="twaalf-onderdeel7">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
+                        <div class="twaalf-onderdeel8">
+                            <div class="een-onderdeel9"></div>
+                            <div class="een-onderdeel10"></div>
+                            <div class="een-onderdeel12"></div>
+                            <div class="een-onderdeel13"></div>
+                            <div class="een-onderdeel11"></div>
+                            <div class="een-onderdeel14"></div>
+                            <div class="een-onderdeel15"></div>
+                            <div class="een-onderdeel16"></div>
+                            <div class="een-onderdeel18"></div>
+                            <div class="een-onderdeel19"></div>
+                            <div class="een-onderdeel17"></div>
+                            <div class="een-onderdeel20"></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="steentje-vijftien" id="steentje15verplaatsen">
-                <div id="steentje15verplaatsen-drag">
-                    <div class="twaalf-onderdeel1"></div>
-                    <div class="twaalf-onderdeel2"></div>
-                    <div class="twaalf-onderdeel3"></div>
-                    <div class="twaalf-onderdeel4"></div>
-                    <div class="twaalf-onderdeel5"></div>
-                    <div class="twaalf-onderdeel6"></div>
-                    <div class="twaalf-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
+            <div class="tekst">
+                <div class="how">
+                    <div class="how-h">
+                        <div class="h1" id="style1"></div>
+                        <div class="h2" id="style1"></div>
+                        <div class="h3" id="style1"></div>
+                        <div class="h4" id="style1"></div>
+                        <div class="h5" id="style1"></div>
+                        <div class="h6" id="style1"></div>
+                        <div class="h7" id="style1"></div>
+                        <div class="h8" id="style1"></div>
+                        <div class="h9" id="style1"></div>
+                        <div class="h10" id="style1"></div>
+                        <div class="h11" id="style1"></div>
+                        <div class="h12" id="style1"></div>
                     </div>
-                    <div class="twaalf-onderdeel8">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
+                    <div class="how-o">
+                        <div class="o1" id="style1"></div>
+                        <div class="o2" id="style1"></div>
+                        <div class="o3" id="style1"></div>
+                        <div class="o4" id="style1"></div>
+                        <div class="o5" id="style1"></div>
+                        <div class="o6" id="style1"></div>
+                        <div class="o7" id="style1"></div>
+                        <div class="o8" id="style1"></div>
+                        <div class="o9" id="style1"></div>
+                        <div class="o10" id="style1"></div>
+                        <div class="o11" id="style1"></div>
+                        <div class="o12" id="style1"></div>
                     </div>
-                </div>
-            </div>
-
-            <div class="steentje-zestien" id="steentje16verplaatsen">
-                <div id="steentje16verplaatsen-drag">
-                    <div class="tien-onderdeel1">
-                        <div class="een-onderdeel1"></div>
-                        <div class="een-onderdeel2"></div>
-                    </div>
-                    <div class="tien-onderdeel2"></div>
-                    <div class="tien-onderdeel3"></div>
-                    <div class="tien-onderdeel4"></div>
-                    <div class="tien-onderdeel5"></div>
-                    <div class="tien-onderdeel6">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
-                    </div>
-                    <div class="tien-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
+                    <div class="how-w">
+                        <div class="w1" id="style1"></div>
+                        <div class="w2" id="style1"></div>
+                        <div class="w3" id="style1"></div>
+                        <div class="w4" id="style1"></div>
+                        <div class="w5" id="style1"></div>
+                        <div class="w6" id="style1"></div>
+                        <div class="w7" id="style1"></div>
+                        <div class="w8" id="style1"></div>
+                        <div class="w9" id="style1"></div>
+                        <div class="w10" id="style1"></div>
+                        <div class="w11" id="style1"></div>
+                        <div class="w12" id="style1"></div>
+                        <div class="w13" id="style1"></div>
                     </div>
                 </div>
-            </div>
-
-            <div class="steentje-zeventien" id="steentje17verplaatsen">
-                <div id="steentje17verplaatsen-drag">
-                    <div class="twaalf-onderdeel1"></div>
-                    <div class="twaalf-onderdeel2"></div>
-                    <div class="twaalf-onderdeel3"></div>
-                    <div class="twaalf-onderdeel4"></div>
-                    <div class="twaalf-onderdeel5"></div>
-                    <div class="twaalf-onderdeel6"></div>
-                    <div class="twaalf-onderdeel7">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
+                <div class="to">
+                    <div class="to-t">
+                        <div class="t1" id="style1"></div>
+                        <div class="t2" id="style1"></div>
+                        <div class="t3" id="style1"></div>
+                        <div class="t4" id="style1"></div>
+                        <div class="t5" id="style1"></div>
+                        <div class="t6" id="style1"></div>
+                        <div class="t7" id="style1"></div>
+                        <div class="t8" id="style1"></div>
                     </div>
-                    <div class="twaalf-onderdeel8">
-                        <div class="een-onderdeel9"></div>
-                        <div class="een-onderdeel10"></div>
-                        <div class="een-onderdeel12"></div>
-                        <div class="een-onderdeel13"></div>
-                        <div class="een-onderdeel11"></div>
-                        <div class="een-onderdeel14"></div>
-                        <div class="een-onderdeel15"></div>
-                        <div class="een-onderdeel16"></div>
-                        <div class="een-onderdeel18"></div>
-                        <div class="een-onderdeel19"></div>
-                        <div class="een-onderdeel17"></div>
-                        <div class="een-onderdeel20"></div>
+                    <div class="to-o">
+                        <div class="o1" id="style1"></div>
+                        <div class="o2" id="style1"></div>
+                        <div class="o3" id="style1"></div>
+                        <div class="o4" id="style1"></div>
+                        <div class="o5" id="style1"></div>
+                        <div class="o6" id="style1"></div>
+                        <div class="o7" id="style1"></div>
+                        <div class="o8" id="style1"></div>
+                        <div class="o9" id="style1"></div>
+                        <div class="o10" id="style1"></div>
+                        <div class="o11" id="style1"></div>
+                        <div class="o12" id="style1"></div>
+                    </div>
+                </div>
+                <div class="fix">
+                    <div class="fix-f">
+                        <div class="f1" id="style1"></div>
+                        <div class="f2" id="style1"></div>
+                        <div class="f3" id="style1"></div>
+                        <div class="f4" id="style1"></div>
+                        <div class="f5" id="style1"></div>
+                        <div class="f6" id="style1"></div>
+                        <div class="f7" id="style1"></div>
+                        <div class="f8" id="style1"></div>
+                        <div class="f9" id="style1"></div>
+                        <div class="f10" id="style1"></div>
+                    </div>
+                    <div class="fix-i">
+                        <div class="i1" id="style1"></div>
+                        <div class="i2" id="style1"></div>
+                        <div class="i3" id="style1"></div>
+                        <div class="i4" id="style1"></div>
+                        <div class="i5" id="style1"></div>
+                        <div class="i6" id="style1"></div>
+                        <div class="i7" id="style1"></div>
+                        <div class="i8" id="style1"></div>
+                        <div class="i9" id="style1"></div>
+                    </div>
+                    <div class="fix-x">
+                        <div class="x1" id="style1"></div>
+                        <div class="x2" id="style1"></div>
+                        <div class="x3" id="style1"></div>
+                        <div class="x4" id="style1"></div>
+                        <div class="x5" id="style1"></div>
+                        <div class="x6" id="style1"></div>
+                        <div class="x7" id="style1"></div>
+                        <div class="x8" id="style1"></div>
+                        <div class="x9" id="style1"></div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="a1" id="style1"></div>
+                    <div class="a2" id="style1"></div>
+                    <div class="a3" id="style1"></div>
+                    <div class="a4" id="style1"></div>
+                    <div class="a5" id="style1"></div>
+                    <div class="a6" id="style1"></div>
+                    <div class="a7" id="style1"></div>
+                    <div class="a8" id="style1"></div>
+                    <div class="a9" id="style1"></div>
+                    <div class="a10" id="style1"></div>
+                    <div class="a11" id="style1"></div>
+                    <div class="a12" id="style1"></div>
+                </div>
+                <div class="broken">
+                    <div class="broken-b">
+                        <div class="b1" id="style1"></div>
+                        <div class="b2" id="style1"></div>
+                        <div class="b3" id="style1"></div>
+                        <div class="b4" id="style1"></div>
+                        <div class="b5" id="style1"></div>
+                        <div class="b6" id="style1"></div>
+                        <div class="b7" id="style1"></div>
+                        <div class="b8" id="style1"></div>
+                        <div class="b9" id="style1"></div>
+                        <div class="b10" id="style1"></div>
+                        <div class="b11" id="style1"></div>
+                        <div class="b12" id="style1"></div>
+                        <div class="b13" id="style1"></div>
+                    </div>
+                    <div class="broken-r">
+                        <div class="r1" id="style1"></div>
+                        <div class="r2" id="style1"></div>
+                        <div class="r3" id="style1"></div>
+                        <div class="r4" id="style1"></div>
+                        <div class="r5" id="style1"></div>
+                        <div class="r6" id="style1"></div>
+                        <div class="r7" id="style1"></div>
+                        <div class="r8" id="style1"></div>
+                        <div class="r9" id="style1"></div>
+                        <div class="r10" id="style1"></div>
+                        <div class="r11" id="style1"></div>
+                        <div class="r12" id="style1"></div>
+                    </div>
+                    <div class="broken-o">
+                        <div class="o1" id="style1"></div>
+                        <div class="o2" id="style1"></div>
+                        <div class="o3" id="style1"></div>
+                        <div class="o4" id="style1"></div>
+                        <div class="o5" id="style1"></div>
+                        <div class="o6" id="style1"></div>
+                        <div class="o7" id="style1"></div>
+                        <div class="o8" id="style1"></div>
+                        <div class="o9" id="style1"></div>
+                        <div class="o10" id="style1"></div>
+                        <div class="o11" id="style1"></div>
+                        <div class="o12" id="style1"></div>
+                    </div>
+                    <div class="broken-k">
+                        <div class="k1" id="style1"></div>
+                        <div class="k2" id="style1"></div>
+                        <div class="k3" id="style1"></div>
+                        <div class="k4" id="style1"></div>
+                        <div class="k5" id="style1"></div>
+                        <div class="k6" id="style1"></div>
+                        <div class="k7" id="style1"></div>
+                        <div class="k8" id="style1"></div>
+                        <div class="k9" id="style1"></div>
+                        <div class="k10" id="style1"></div>
+                    </div>
+                    <div class="broken-e">
+                        <div class="e1" id="style1"></div>
+                        <div class="e2" id="style1"></div>
+                        <div class="e3" id="style1"></div>
+                        <div class="e4" id="style1"></div>
+                        <div class="e5" id="style1"></div>
+                        <div class="e6" id="style1"></div>
+                        <div class="e7" id="style1"></div>
+                        <div class="e8" id="style1"></div>
+                        <div class="e9" id="style1"></div>
+                        <div class="e10" id="style1"></div>
+                        <div class="e11" id="style1"></div>
+                        <div class="e12" id="style1"></div>
+                        <div class="e13" id="style1"></div>
+                        <div class="e14" id="style1"></div>
+                    </div>
+                    <div class="broken-n">
+                        <div class="n1" id="style1"></div>
+                        <div class="n2" id="style1"></div>
+                        <div class="n3" id="style1"></div>
+                        <div class="n4" id="style1"></div>
+                        <div class="n5" id="style1"></div>
+                        <div class="n6" id="style1"></div>
+                        <div class="n7" id="style1"></div>
+                        <div class="n8" id="style1"></div>
+                        <div class="n9" id="style1"></div>
+                        <div class="n10" id="style1"></div>
+                        <div class="n11" id="style1"></div>
+                        <div class="n12" id="style1"></div>
+                        <div class="n13" id="style1"></div>
+                    </div>
+                </div>
+                <div class="heart">
+                    <div class="heart-h">
+                        <div class="h1" id="style1"></div>
+                        <div class="h2" id="style1"></div>
+                        <div class="h3" id="style1"></div>
+                        <div class="h4" id="style1"></div>
+                        <div class="h5" id="style1"></div>
+                        <div class="h6" id="style1"></div>
+                        <div class="h7" id="style1"></div>
+                        <div class="h8" id="style1"></div>
+                        <div class="h9" id="style1"></div>
+                        <div class="h10" id="style1"></div>
+                        <div class="h11" id="style1"></div>
+                        <div class="h12" id="style1"></div>
+                    </div>
+                    <div class="heart-e">
+                        <div class="e1" id="style1"></div>
+                        <div class="e2" id="style1"></div>
+                        <div class="e3" id="style1"></div>
+                        <div class="e4" id="style1"></div>
+                        <div class="e5" id="style1"></div>
+                        <div class="e6" id="style1"></div>
+                        <div class="e7" id="style1"></div>
+                        <div class="e8" id="style1"></div>
+                        <div class="e9" id="style1"></div>
+                        <div class="e10" id="style1"></div>
+                        <div class="e11" id="style1"></div>
+                        <div class="e12" id="style1"></div>
+                        <div class="e13" id="style1"></div>
+                        <div class="e14" id="style1"></div>
+                    </div>
+                    <div class="heart-a">
+                        <div class="a1" id="style1"></div>
+                        <div class="a2" id="style1"></div>
+                        <div class="a3" id="style1"></div>
+                        <div class="a4" id="style1"></div>
+                        <div class="a5" id="style1"></div>
+                        <div class="a6" id="style1"></div>
+                        <div class="a7" id="style1"></div>
+                        <div class="a8" id="style1"></div>
+                        <div class="a9" id="style1"></div>
+                        <div class="a10" id="style1"></div>
+                        <div class="a11" id="style1"></div>
+                        <div class="a12" id="style1"></div>
+                    </div>
+                    <div class="heart-r">
+                        <div class="r1" id="style1"></div>
+                        <div class="r2" id="style1"></div>
+                        <div class="r3" id="style1"></div>
+                        <div class="r4" id="style1"></div>
+                        <div class="r5" id="style1"></div>
+                        <div class="r6" id="style1"></div>
+                        <div class="r7" id="style1"></div>
+                        <div class="r8" id="style1"></div>
+                        <div class="r9" id="style1"></div>
+                        <div class="r10" id="style1"></div>
+                        <div class="r11" id="style1"></div>
+                        <div class="r12" id="style1"></div>
+                    </div>
+                    <div class="heart-t">
+                        <div class="t1" id="style1"></div>
+                        <div class="t2" id="style1"></div>
+                        <div class="t3" id="style1"></div>
+                        <div class="t4" id="style1"></div>
+                        <div class="t5" id="style1"></div>
+                        <div class="t6" id="style1"></div>
+                        <div class="t7" id="style1"></div>
+                        <div class="t8" id="style1"></div>
+                    </div>
+                </div>
+                <div class="and">
+                    <div class="and-a">
+                        <div class="a1" id="style1"></div>
+                        <div class="a2" id="style1"></div>
+                        <div class="a3" id="style1"></div>
+                        <div class="a4" id="style1"></div>
+                        <div class="a5" id="style1"></div>
+                        <div class="a6" id="style1"></div>
+                        <div class="a7" id="style1"></div>
+                        <div class="a8" id="style1"></div>
+                        <div class="a9" id="style1"></div>
+                        <div class="a10" id="style1"></div>
+                        <div class="a11" id="style1"></div>
+                        <div class="a12" id="style1"></div>
+                    </div>
+                    <div class="and-n">
+                        <div class="n1" id="style1"></div>
+                        <div class="n2" id="style1"></div>
+                        <div class="n3" id="style1"></div>
+                        <div class="n4" id="style1"></div>
+                        <div class="n5" id="style1"></div>
+                        <div class="n6" id="style1"></div>
+                        <div class="n7" id="style1"></div>
+                        <div class="n8" id="style1"></div>
+                        <div class="n9" id="style1"></div>
+                        <div class="n10" id="style1"></div>
+                        <div class="n11" id="style1"></div>
+                        <div class="n12" id="style1"></div>
+                        <div class="n13" id="style1"></div>
+                    </div>
+                    <div class="and-d">
+                        <div class="d1" id="style1"></div>
+                        <div class="d2" id="style1"></div>
+                        <div class="d3" id="style1"></div>
+                        <div class="d4" id="style1"></div>
+                        <div class="d5" id="style1"></div>
+                        <div class="d6" id="style1"></div>
+                        <div class="d7" id="style1"></div>
+                        <div class="d8" id="style1"></div>
+                        <div class="d9" id="style1"></div>
+                        <div class="d10" id="style1"></div>
+                        <div class="d11" id="style1"></div>
+                        <div class="d12" id="style1"></div>
+                    </div>
+                </div>
+                <div class="make">
+                    <div class="make-m">
+                        <div class="m1" id="style1"></div>
+                        <div class="m2" id="style1"></div>
+                        <div class="m3" id="style1"></div>
+                        <div class="m4" id="style1"></div>
+                        <div class="m5" id="style1"></div>
+                        <div class="m6" id="style1"></div>
+                        <div class="m7" id="style1"></div>
+                        <div class="m8" id="style1"></div>
+                        <div class="m9" id="style1"></div>
+                        <div class="m10" id="style1"></div>
+                        <div class="m11" id="style1"></div>
+                        <div class="m12" id="style1"></div>
+                        <div class="m13" id="style1"></div>
+                    </div>
+                    <div class="make-a">
+                        <div class="a1" id="style1"></div>
+                        <div class="a2" id="style1"></div>
+                        <div class="a3" id="style1"></div>
+                        <div class="a4" id="style1"></div>
+                        <div class="a5" id="style1"></div>
+                        <div class="a6" id="style1"></div>
+                        <div class="a7" id="style1"></div>
+                        <div class="a8" id="style1"></div>
+                        <div class="a9" id="style1"></div>
+                        <div class="a10" id="style1"></div>
+                        <div class="a11" id="style1"></div>
+                        <div class="a12" id="style1"></div>
+                    </div>
+                    <div class="make-k">
+                        <div class="k1" id="style1"></div>
+                        <div class="k2" id="style1"></div>
+                        <div class="k3" id="style1"></div>
+                        <div class="k4" id="style1"></div>
+                        <div class="k5" id="style1"></div>
+                        <div class="k6" id="style1"></div>
+                        <div class="k7" id="style1"></div>
+                        <div class="k8" id="style1"></div>
+                        <div class="k9" id="style1"></div>
+                        <div class="k10" id="style1"></div>
+                    </div>
+                    <div class="make-e">
+                        <div class="e1" id="style1"></div>
+                        <div class="e2" id="style1"></div>
+                        <div class="e3" id="style1"></div>
+                        <div class="e4" id="style1"></div>
+                        <div class="e5" id="style1"></div>
+                        <div class="e6" id="style1"></div>
+                        <div class="e7" id="style1"></div>
+                        <div class="e8" id="style1"></div>
+                        <div class="e9" id="style1"></div>
+                        <div class="e10" id="style1"></div>
+                        <div class="e11" id="style1"></div>
+                        <div class="e12" id="style1"></div>
+                        <div class="e13" id="style1"></div>
+                        <div class="e14" id="style1"></div>
+                    </div>
+                </div>
+                <div class="atwee">
+                    <div class="a1" id="style1"></div>
+                    <div class="a2" id="style1"></div>
+                    <div class="a3" id="style1"></div>
+                    <div class="a4" id="style1"></div>
+                    <div class="a5" id="style1"></div>
+                    <div class="a6" id="style1"></div>
+                    <div class="a7" id="style1"></div>
+                    <div class="a8" id="style1"></div>
+                    <div class="a9" id="style1"></div>
+                    <div class="a10" id="style1"></div>
+                    <div class="a11" id="style1"></div>
+                    <div class="a12" id="style1"></div>
+                </div>
+                <div class="spare">
+                    <div class="spare-s">
+                        <div class="s1" id="style1"></div>
+                        <div class="s2" id="style1"></div>
+                        <div class="s3" id="style1"></div>
+                        <div class="s4" id="style1"></div>
+                        <div class="s5" id="style1"></div>
+                        <div class="s6" id="style1"></div>
+                        <div class="s7" id="style1"></div>
+                        <div class="s8" id="style1"></div>
+                        <div class="s9" id="style1"></div>
+                        <div class="s10" id="style1"></div>
+                        <div class="s11" id="style1"></div>
+                    </div>
+                    <div class="spare-p">
+                        <div class="p1" id="style1"></div>
+                        <div class="p2" id="style1"></div>
+                        <div class="p3" id="style1"></div>
+                        <div class="p4" id="style1"></div>
+                        <div class="p5" id="style1"></div>
+                        <div class="p6" id="style1"></div>
+                        <div class="p7" id="style1"></div>
+                        <div class="p8" id="style1"></div>
+                        <div class="p9" id="style1"></div>
+                        <div class="p10" id="style1"></div>
+                        <div class="p11" id="style1"></div>
+                    </div>
+                    <div class="spare-a">
+                        <div class="a1" id="style1"></div>
+                        <div class="a2" id="style1"></div>
+                        <div class="a3" id="style1"></div>
+                        <div class="a4" id="style1"></div>
+                        <div class="a5" id="style1"></div>
+                        <div class="a6" id="style1"></div>
+                        <div class="a7" id="style1"></div>
+                        <div class="a8" id="style1"></div>
+                        <div class="a9" id="style1"></div>
+                        <div class="a10" id="style1"></div>
+                        <div class="a11" id="style1"></div>
+                        <div class="a12" id="style1"></div>
+                    </div>
+                    <div class="spare-r">
+                        <div class="r1" id="style1"></div>
+                        <div class="r2" id="style1"></div>
+                        <div class="r3" id="style1"></div>
+                        <div class="r4" id="style1"></div>
+                        <div class="r5" id="style1"></div>
+                        <div class="r6" id="style1"></div>
+                        <div class="r7" id="style1"></div>
+                        <div class="r8" id="style1"></div>
+                        <div class="r9" id="style1"></div>
+                        <div class="r10" id="style1"></div>
+                        <div class="r11" id="style1"></div>
+                        <div class="r12" id="style1"></div>
+                    </div>
+                    <div class="spare-e">
+                        <div class="e1" id="style1"></div>
+                        <div class="e2" id="style1"></div>
+                        <div class="e3" id="style1"></div>
+                        <div class="e4" id="style1"></div>
+                        <div class="e5" id="style1"></div>
+                        <div class="e6" id="style1"></div>
+                        <div class="e7" id="style1"></div>
+                        <div class="e8" id="style1"></div>
+                        <div class="e9" id="style1"></div>
+                        <div class="e10" id="style1"></div>
+                        <div class="e11" id="style1"></div>
+                        <div class="e12" id="style1"></div>
+                        <div class="e13" id="style1"></div>
+                        <div class="e14" id="style1"></div>
+                    </div>
+                </div>
+                <div class="by">
+                    <div class="by-b">
+                        <div class="b1" id="style1"></div>
+                        <div class="b2" id="style1"></div>
+                        <div class="b3" id="style1"></div>
+                        <div class="b4" id="style1"></div>
+                        <div class="b5" id="style1"></div>
+                        <div class="b6" id="style1"></div>
+                        <div class="b7" id="style1"></div>
+                        <div class="b8" id="style1"></div>
+                        <div class="b9" id="style1"></div>
+                        <div class="b10" id="style1"></div>
+                        <div class="b11" id="style1"></div>
+                        <div class="b12" id="style1"></div>
+                        <div class="b13" id="style1"></div>
+                    </div>
+                    <div class="by-y">
+                        <div class="y1" id="style1"></div>
+                        <div class="y2" id="style1"></div>
+                        <div class="y3" id="style1"></div>
+                        <div class="y4" id="style1"></div>
+                        <div class="y5" id="style1"></div>
+                        <div class="y6" id="style1"></div>
+                        <div class="y7" id="style1"></div>
+                        <div class="y8" id="style1"></div>
+                    </div>
+                </div>
+                <div class="tre">
+                    <div class="tre-t">
+                        <div class="t1" id="style1"></div>
+                        <div class="t2" id="style1"></div>
+                        <div class="t3" id="style1"></div>
+                        <div class="t4" id="style1"></div>
+                        <div class="t5" id="style1"></div>
+                        <div class="t6" id="style1"></div>
+                        <div class="t7" id="style1"></div>
+                        <div class="t8" id="style1"></div>
+                    </div>
+                    <div class="tre-r">
+                        <div class="r1" id="style1"></div>
+                        <div class="r2" id="style1"></div>
+                        <div class="r3" id="style1"></div>
+                        <div class="r4" id="style1"></div>
+                        <div class="r5" id="style1"></div>
+                        <div class="r6" id="style1"></div>
+                        <div class="r7" id="style1"></div>
+                        <div class="r8" id="style1"></div>
+                        <div class="r9" id="style1"></div>
+                        <div class="r10" id="style1"></div>
+                        <div class="r11" id="style1"></div>
+                        <div class="r12" id="style1"></div>
+                    </div>
+                    <div class="tre-z">
+                        <div class="z1" id="style1"></div>
+                        <div class="z2" id="style1"></div>
+                        <div class="z3" id="style1"></div>
+                        <div class="z4" id="style1"></div>
+                        <div class="z5" id="style1"></div>
+                        <div class="z6" id="style1"></div>
+                        <div class="z7" id="style1"></div>
+                        <div class="z8" id="style1"></div>
+                        <div class="z9" id="style1"></div>
+                        <div class="z10" id="style1"></div>
+                        <div class="z11" id="style1"></div>
+                        <div class="z12" id="style1"></div>
+                        <div class="z13" id="style1"></div>
+                        <div class="z14" id="style1"></div>
+                    </div>
+                </div>
+
+                <div class="seals">
+                    <div class="seals-s1">
+                        <div class="s1" id="style1"></div>
+                        <div class="s2" id="style1"></div>
+                        <div class="s3" id="style1"></div>
+                        <div class="s4" id="style1"></div>
+                        <div class="s5" id="style1"></div>
+                        <div class="s6" id="style1"></div>
+                        <div class="s7" id="style1"></div>
+                        <div class="s8" id="style1"></div>
+                        <div class="s9" id="style1"></div>
+                        <div class="s10" id="style1"></div>
+                        <div class="s11" id="style1"></div>
+                    </div>
+                    <div class="seals-e">
+                        <div class="e1" id="style1"></div>
+                        <div class="e2" id="style1"></div>
+                        <div class="e3" id="style1"></div>
+                        <div class="e4" id="style1"></div>
+                        <div class="e5" id="style1"></div>
+                        <div class="e6" id="style1"></div>
+                        <div class="e7" id="style1"></div>
+                        <div class="e8" id="style1"></div>
+                        <div class="e9" id="style1"></div>
+                        <div class="e10" id="style1"></div>
+                        <div class="e11" id="style1"></div>
+                        <div class="e12" id="style1"></div>
+                        <div class="e13" id="style1"></div>
+                        <div class="e14" id="style1"></div>
+                    </div>
+                    <div class="seals-a">
+                        <div class="a1" id="style1"></div>
+                        <div class="a2" id="style1"></div>
+                        <div class="a3" id="style1"></div>
+                        <div class="a4" id="style1"></div>
+                        <div class="a5" id="style1"></div>
+                        <div class="a6" id="style1"></div>
+                        <div class="a7" id="style1"></div>
+                        <div class="a8" id="style1"></div>
+                        <div class="a9" id="style1"></div>
+                        <div class="a10" id="style1"></div>
+                        <div class="a11" id="style1"></div>
+                        <div class="a12" id="style1"></div>
+                    </div>
+                    <div class="seals-l">
+                        <div class="l1" id="style1"></div>
+                        <div class="l2" id="style1"></div>
+                        <div class="l3" id="style1"></div>
+                        <div class="l4" id="style1"></div>
+                        <div class="l5" id="style1"></div>
+                        <div class="l6" id="style1"></div>
+                        <div class="l7" id="style1"></div>
+                    </div>
+                    <div class="seals-s2">
+                        <div class="s1" id="style1"></div>
+                        <div class="s2" id="style1"></div>
+                        <div class="s3" id="style1"></div>
+                        <div class="s4" id="style1"></div>
+                        <div class="s5" id="style1"></div>
+                        <div class="s6" id="style1"></div>
+                        <div class="s7" id="style1"></div>
+                        <div class="s8" id="style1"></div>
+                        <div class="s9" id="style1"></div>
+                        <div class="s10" id="style1"></div>
+                        <div class="s11" id="style1"></div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-        <div class="tekst">
-            <div class="how">
-                <div class="how-h">
-                    <div class="h1" id="style1"></div>
-                    <div class="h2" id="style1"></div>
-                    <div class="h3" id="style1"></div>
-                    <div class="h4" id="style1"></div>
-                    <div class="h5" id="style1"></div>
-                    <div class="h6" id="style1"></div>
-                    <div class="h7" id="style1"></div>
-                    <div class="h8" id="style1"></div>
-                    <div class="h9" id="style1"></div>
-                    <div class="h10" id="style1"></div>
-                    <div class="h11" id="style1"></div>
-                    <div class="h12" id="style1"></div>
-                </div>
-                <div class="how-o">
-                    <div class="o1" id="style1"></div>
-                    <div class="o2" id="style1"></div>
-                    <div class="o3" id="style1"></div>
-                    <div class="o4" id="style1"></div>
-                    <div class="o5" id="style1"></div>
-                    <div class="o6" id="style1"></div>
-                    <div class="o7" id="style1"></div>
-                    <div class="o8" id="style1"></div>
-                    <div class="o9" id="style1"></div>
-                    <div class="o10" id="style1"></div>
-                    <div class="o11" id="style1"></div>
-                    <div class="o12" id="style1"></div>
-                </div>
-                <div class="how-w">
-                    <div class="w1" id="style1"></div>
-                    <div class="w2" id="style1"></div>
-                    <div class="w3" id="style1"></div>
-                    <div class="w4" id="style1"></div>
-                    <div class="w5" id="style1"></div>
-                    <div class="w6" id="style1"></div>
-                    <div class="w7" id="style1"></div>
-                    <div class="w8" id="style1"></div>
-                    <div class="w9" id="style1"></div>
-                    <div class="w10" id="style1"></div>
-                    <div class="w11" id="style1"></div>
-                    <div class="w12" id="style1"></div>
-                    <div class="w13" id="style1"></div>
-                </div>
-            </div>
-            <div class="to">
-                <div class="to-t">
-                    <div class="t1" id="style1"></div>
-                    <div class="t2" id="style1"></div>
-                    <div class="t3" id="style1"></div>
-                    <div class="t4" id="style1"></div>
-                    <div class="t5" id="style1"></div>
-                    <div class="t6" id="style1"></div>
-                    <div class="t7" id="style1"></div>
-                    <div class="t8" id="style1"></div>
-                </div>
-                <div class="to-o">
-                    <div class="o1" id="style1"></div>
-                    <div class="o2" id="style1"></div>
-                    <div class="o3" id="style1"></div>
-                    <div class="o4" id="style1"></div>
-                    <div class="o5" id="style1"></div>
-                    <div class="o6" id="style1"></div>
-                    <div class="o7" id="style1"></div>
-                    <div class="o8" id="style1"></div>
-                    <div class="o9" id="style1"></div>
-                    <div class="o10" id="style1"></div>
-                    <div class="o11" id="style1"></div>
-                    <div class="o12" id="style1"></div>
-                </div>
-            </div>
-            <div class="fix">
-                <div class="fix-f">
-                    <div class="f1" id="style1"></div>
-                    <div class="f2" id="style1"></div>
-                    <div class="f3" id="style1"></div>
-                    <div class="f4" id="style1"></div>
-                    <div class="f5" id="style1"></div>
-                    <div class="f6" id="style1"></div>
-                    <div class="f7" id="style1"></div>
-                    <div class="f8" id="style1"></div>
-                    <div class="f9" id="style1"></div>
-                    <div class="f10" id="style1"></div>
-                </div>
-                <div class="fix-i">
-                    <div class="i1" id="style1"></div>
-                    <div class="i2" id="style1"></div>
-                    <div class="i3" id="style1"></div>
-                    <div class="i4" id="style1"></div>
-                    <div class="i5" id="style1"></div>
-                    <div class="i6" id="style1"></div>
-                    <div class="i7" id="style1"></div>
-                    <div class="i8" id="style1"></div>
-                    <div class="i9" id="style1"></div>
-                </div>
-                <div class="fix-x">
-                    <div class="x1" id="style1"></div>
-                    <div class="x2" id="style1"></div>
-                    <div class="x3" id="style1"></div>
-                    <div class="x4" id="style1"></div>
-                    <div class="x5" id="style1"></div>
-                    <div class="x6" id="style1"></div>
-                    <div class="x7" id="style1"></div>
-                    <div class="x8" id="style1"></div>
-                    <div class="x9" id="style1"></div>
-                </div>
-            </div>
-            <div class="a">
-                <div class="a1" id="style1"></div>
-                <div class="a2" id="style1"></div>
-                <div class="a3" id="style1"></div>
-                <div class="a4" id="style1"></div>
-                <div class="a5" id="style1"></div>
-                <div class="a6" id="style1"></div>
-                <div class="a7" id="style1"></div>
-                <div class="a8" id="style1"></div>
-                <div class="a9" id="style1"></div>
-                <div class="a10" id="style1"></div>
-                <div class="a11" id="style1"></div>
-                <div class="a12" id="style1"></div>
-            </div>
-            <div class="broken">
-                <div class="broken-b">
-                    <div class="b1" id="style1"></div>
-                    <div class="b2" id="style1"></div>
-                    <div class="b3" id="style1"></div>
-                    <div class="b4" id="style1"></div>
-                    <div class="b5" id="style1"></div>
-                    <div class="b6" id="style1"></div>
-                    <div class="b7" id="style1"></div>
-                    <div class="b8" id="style1"></div>
-                    <div class="b9" id="style1"></div>
-                    <div class="b10" id="style1"></div>
-                    <div class="b11" id="style1"></div>
-                    <div class="b12" id="style1"></div>
-                    <div class="b13" id="style1"></div>
-                </div>
-                <div class="broken-r">
-                    <div class="r1" id="style1"></div>
-                    <div class="r2" id="style1"></div>
-                    <div class="r3" id="style1"></div>
-                    <div class="r4" id="style1"></div>
-                    <div class="r5" id="style1"></div>
-                    <div class="r6" id="style1"></div>
-                    <div class="r7" id="style1"></div>
-                    <div class="r8" id="style1"></div>
-                    <div class="r9" id="style1"></div>
-                    <div class="r10" id="style1"></div>
-                    <div class="r11" id="style1"></div>
-                    <div class="r12" id="style1"></div>
-                </div>
-                <div class="broken-o">
-                    <div class="o1" id="style1"></div>
-                    <div class="o2" id="style1"></div>
-                    <div class="o3" id="style1"></div>
-                    <div class="o4" id="style1"></div>
-                    <div class="o5" id="style1"></div>
-                    <div class="o6" id="style1"></div>
-                    <div class="o7" id="style1"></div>
-                    <div class="o8" id="style1"></div>
-                    <div class="o9" id="style1"></div>
-                    <div class="o10" id="style1"></div>
-                    <div class="o11" id="style1"></div>
-                    <div class="o12" id="style1"></div>
-                </div>
-                <div class="broken-k">
-                    <div class="k1" id="style1"></div>
-                    <div class="k2" id="style1"></div>
-                    <div class="k3" id="style1"></div>
-                    <div class="k4" id="style1"></div>
-                    <div class="k5" id="style1"></div>
-                    <div class="k6" id="style1"></div>
-                    <div class="k7" id="style1"></div>
-                    <div class="k8" id="style1"></div>
-                    <div class="k9" id="style1"></div>
-                    <div class="k10" id="style1"></div>
-                </div>
-                <div class="broken-e">
-                    <div class="e1" id="style1"></div>
-                    <div class="e2" id="style1"></div>
-                    <div class="e3" id="style1"></div>
-                    <div class="e4" id="style1"></div>
-                    <div class="e5" id="style1"></div>
-                    <div class="e6" id="style1"></div>
-                    <div class="e7" id="style1"></div>
-                    <div class="e8" id="style1"></div>
-                    <div class="e9" id="style1"></div>
-                    <div class="e10" id="style1"></div>
-                    <div class="e11" id="style1"></div>
-                    <div class="e12" id="style1"></div>
-                    <div class="e13" id="style1"></div>
-                    <div class="e14" id="style1"></div>
-                </div>
-                <div class="broken-n">
-                    <div class="n1" id="style1"></div>
-                    <div class="n2" id="style1"></div>
-                    <div class="n3" id="style1"></div>
-                    <div class="n4" id="style1"></div>
-                    <div class="n5" id="style1"></div>
-                    <div class="n6" id="style1"></div>
-                    <div class="n7" id="style1"></div>
-                    <div class="n8" id="style1"></div>
-                    <div class="n9" id="style1"></div>
-                    <div class="n10" id="style1"></div>
-                    <div class="n11" id="style1"></div>
-                    <div class="n12" id="style1"></div>
-                    <div class="n13" id="style1"></div>
-                </div>
-            </div>
-            <div class="heart">
-                <div class="heart-h">
-                    <div class="h1" id="style1"></div>
-                    <div class="h2" id="style1"></div>
-                    <div class="h3" id="style1"></div>
-                    <div class="h4" id="style1"></div>
-                    <div class="h5" id="style1"></div>
-                    <div class="h6" id="style1"></div>
-                    <div class="h7" id="style1"></div>
-                    <div class="h8" id="style1"></div>
-                    <div class="h9" id="style1"></div>
-                    <div class="h10" id="style1"></div>
-                    <div class="h11" id="style1"></div>
-                    <div class="h12" id="style1"></div>
-                </div>
-                <div class="heart-e">
-                    <div class="e1" id="style1"></div>
-                    <div class="e2" id="style1"></div>
-                    <div class="e3" id="style1"></div>
-                    <div class="e4" id="style1"></div>
-                    <div class="e5" id="style1"></div>
-                    <div class="e6" id="style1"></div>
-                    <div class="e7" id="style1"></div>
-                    <div class="e8" id="style1"></div>
-                    <div class="e9" id="style1"></div>
-                    <div class="e10" id="style1"></div>
-                    <div class="e11" id="style1"></div>
-                    <div class="e12" id="style1"></div>
-                    <div class="e13" id="style1"></div>
-                    <div class="e14" id="style1"></div>
-                </div>
-                <div class="heart-a">
-                    <div class="a1" id="style1"></div>
-                    <div class="a2" id="style1"></div>
-                    <div class="a3" id="style1"></div>
-                    <div class="a4" id="style1"></div>
-                    <div class="a5" id="style1"></div>
-                    <div class="a6" id="style1"></div>
-                    <div class="a7" id="style1"></div>
-                    <div class="a8" id="style1"></div>
-                    <div class="a9" id="style1"></div>
-                    <div class="a10" id="style1"></div>
-                    <div class="a11" id="style1"></div>
-                    <div class="a12" id="style1"></div>
-                </div>
-                <div class="heart-r">
-                    <div class="r1" id="style1"></div>
-                    <div class="r2" id="style1"></div>
-                    <div class="r3" id="style1"></div>
-                    <div class="r4" id="style1"></div>
-                    <div class="r5" id="style1"></div>
-                    <div class="r6" id="style1"></div>
-                    <div class="r7" id="style1"></div>
-                    <div class="r8" id="style1"></div>
-                    <div class="r9" id="style1"></div>
-                    <div class="r10" id="style1"></div>
-                    <div class="r11" id="style1"></div>
-                    <div class="r12" id="style1"></div>
-                </div>
-                <div class="heart-t">
-                    <div class="t1" id="style1"></div>
-                    <div class="t2" id="style1"></div>
-                    <div class="t3" id="style1"></div>
-                    <div class="t4" id="style1"></div>
-                    <div class="t5" id="style1"></div>
-                    <div class="t6" id="style1"></div>
-                    <div class="t7" id="style1"></div>
-                    <div class="t8" id="style1"></div>
-                </div>
-            </div>
-            <div class="and">
-                <div class="and-a">
-                    <div class="a1" id="style1"></div>
-                    <div class="a2" id="style1"></div>
-                    <div class="a3" id="style1"></div>
-                    <div class="a4" id="style1"></div>
-                    <div class="a5" id="style1"></div>
-                    <div class="a6" id="style1"></div>
-                    <div class="a7" id="style1"></div>
-                    <div class="a8" id="style1"></div>
-                    <div class="a9" id="style1"></div>
-                    <div class="a10" id="style1"></div>
-                    <div class="a11" id="style1"></div>
-                    <div class="a12" id="style1"></div>
-                </div>
-                <div class="and-n">
-                    <div class="n1" id="style1"></div>
-                    <div class="n2" id="style1"></div>
-                    <div class="n3" id="style1"></div>
-                    <div class="n4" id="style1"></div>
-                    <div class="n5" id="style1"></div>
-                    <div class="n6" id="style1"></div>
-                    <div class="n7" id="style1"></div>
-                    <div class="n8" id="style1"></div>
-                    <div class="n9" id="style1"></div>
-                    <div class="n10" id="style1"></div>
-                    <div class="n11" id="style1"></div>
-                    <div class="n12" id="style1"></div>
-                    <div class="n13" id="style1"></div>
-                </div>
-                <div class="and-d">
-                    <div class="d1" id="style1"></div>
-                    <div class="d2" id="style1"></div>
-                    <div class="d3" id="style1"></div>
-                    <div class="d4" id="style1"></div>
-                    <div class="d5" id="style1"></div>
-                    <div class="d6" id="style1"></div>
-                    <div class="d7" id="style1"></div>
-                    <div class="d8" id="style1"></div>
-                    <div class="d9" id="style1"></div>
-                    <div class="d10" id="style1"></div>
-                    <div class="d11" id="style1"></div>
-                    <div class="d12" id="style1"></div>
-                </div>
-            </div>
-            <div class="make">
-                <div class="make-m">
-                    <div class="m1" id="style1"></div>
-                    <div class="m2" id="style1"></div>
-                    <div class="m3" id="style1"></div>
-                    <div class="m4" id="style1"></div>
-                    <div class="m5" id="style1"></div>
-                    <div class="m6" id="style1"></div>
-                    <div class="m7" id="style1"></div>
-                    <div class="m8" id="style1"></div>
-                    <div class="m9" id="style1"></div>
-                    <div class="m10" id="style1"></div>
-                    <div class="m11" id="style1"></div>
-                    <div class="m12" id="style1"></div>
-                    <div class="m13" id="style1"></div>
-                </div>
-                <div class="make-a">
-                    <div class="a1" id="style1"></div>
-                    <div class="a2" id="style1"></div>
-                    <div class="a3" id="style1"></div>
-                    <div class="a4" id="style1"></div>
-                    <div class="a5" id="style1"></div>
-                    <div class="a6" id="style1"></div>
-                    <div class="a7" id="style1"></div>
-                    <div class="a8" id="style1"></div>
-                    <div class="a9" id="style1"></div>
-                    <div class="a10" id="style1"></div>
-                    <div class="a11" id="style1"></div>
-                    <div class="a12" id="style1"></div>
-                </div>
-                <div class="make-k">
-                    <div class="k1" id="style1"></div>
-                    <div class="k2" id="style1"></div>
-                    <div class="k3" id="style1"></div>
-                    <div class="k4" id="style1"></div>
-                    <div class="k5" id="style1"></div>
-                    <div class="k6" id="style1"></div>
-                    <div class="k7" id="style1"></div>
-                    <div class="k8" id="style1"></div>
-                    <div class="k9" id="style1"></div>
-                    <div class="k10" id="style1"></div>
-                </div>
-                <div class="make-e">
-                    <div class="e1" id="style1"></div>
-                    <div class="e2" id="style1"></div>
-                    <div class="e3" id="style1"></div>
-                    <div class="e4" id="style1"></div>
-                    <div class="e5" id="style1"></div>
-                    <div class="e6" id="style1"></div>
-                    <div class="e7" id="style1"></div>
-                    <div class="e8" id="style1"></div>
-                    <div class="e9" id="style1"></div>
-                    <div class="e10" id="style1"></div>
-                    <div class="e11" id="style1"></div>
-                    <div class="e12" id="style1"></div>
-                    <div class="e13" id="style1"></div>
-                    <div class="e14" id="style1"></div>
-                </div>
-            </div>
-            <div class="atwee">
-                <div class="a1" id="style1"></div>
-                <div class="a2" id="style1"></div>
-                <div class="a3" id="style1"></div>
-                <div class="a4" id="style1"></div>
-                <div class="a5" id="style1"></div>
-                <div class="a6" id="style1"></div>
-                <div class="a7" id="style1"></div>
-                <div class="a8" id="style1"></div>
-                <div class="a9" id="style1"></div>
-                <div class="a10" id="style1"></div>
-                <div class="a11" id="style1"></div>
-                <div class="a12" id="style1"></div>
-            </div>
-            <div class="spare">
-                <div class="spare-s">
-                    <div class="s1" id="style1"></div>
-                    <div class="s2" id="style1"></div>
-                    <div class="s3" id="style1"></div>
-                    <div class="s4" id="style1"></div>
-                    <div class="s5" id="style1"></div>
-                    <div class="s6" id="style1"></div>
-                    <div class="s7" id="style1"></div>
-                    <div class="s8" id="style1"></div>
-                    <div class="s9" id="style1"></div>
-                    <div class="s10" id="style1"></div>
-                    <div class="s11" id="style1"></div>
-                </div>
-                <div class="spare-p">
-                    <div class="p1" id="style1"></div>
-                    <div class="p2" id="style1"></div>
-                    <div class="p3" id="style1"></div>
-                    <div class="p4" id="style1"></div>
-                    <div class="p5" id="style1"></div>
-                    <div class="p6" id="style1"></div>
-                    <div class="p7" id="style1"></div>
-                    <div class="p8" id="style1"></div>
-                    <div class="p9" id="style1"></div>
-                    <div class="p10" id="style1"></div>
-                    <div class="p11" id="style1"></div>
-                </div>
-                <div class="spare-a">
-                    <div class="a1" id="style1"></div>
-                    <div class="a2" id="style1"></div>
-                    <div class="a3" id="style1"></div>
-                    <div class="a4" id="style1"></div>
-                    <div class="a5" id="style1"></div>
-                    <div class="a6" id="style1"></div>
-                    <div class="a7" id="style1"></div>
-                    <div class="a8" id="style1"></div>
-                    <div class="a9" id="style1"></div>
-                    <div class="a10" id="style1"></div>
-                    <div class="a11" id="style1"></div>
-                    <div class="a12" id="style1"></div>
-                </div>
-                <div class="spare-r">
-                    <div class="r1" id="style1"></div>
-                    <div class="r2" id="style1"></div>
-                    <div class="r3" id="style1"></div>
-                    <div class="r4" id="style1"></div>
-                    <div class="r5" id="style1"></div>
-                    <div class="r6" id="style1"></div>
-                    <div class="r7" id="style1"></div>
-                    <div class="r8" id="style1"></div>
-                    <div class="r9" id="style1"></div>
-                    <div class="r10" id="style1"></div>
-                    <div class="r11" id="style1"></div>
-                    <div class="r12" id="style1"></div>
-                </div>
-                <div class="spare-e">
-                    <div class="e1" id="style1"></div>
-                    <div class="e2" id="style1"></div>
-                    <div class="e3" id="style1"></div>
-                    <div class="e4" id="style1"></div>
-                    <div class="e5" id="style1"></div>
-                    <div class="e6" id="style1"></div>
-                    <div class="e7" id="style1"></div>
-                    <div class="e8" id="style1"></div>
-                    <div class="e9" id="style1"></div>
-                    <div class="e10" id="style1"></div>
-                    <div class="e11" id="style1"></div>
-                    <div class="e12" id="style1"></div>
-                    <div class="e13" id="style1"></div>
-                    <div class="e14" id="style1"></div>
-                </div>
-            </div>
-            <div class="by">
-                <div class="by-b">
-                    <div class="b1" id="style1"></div>
-                    <div class="b2" id="style1"></div>
-                    <div class="b3" id="style1"></div>
-                    <div class="b4" id="style1"></div>
-                    <div class="b5" id="style1"></div>
-                    <div class="b6" id="style1"></div>
-                    <div class="b7" id="style1"></div>
-                    <div class="b8" id="style1"></div>
-                    <div class="b9" id="style1"></div>
-                    <div class="b10" id="style1"></div>
-                    <div class="b11" id="style1"></div>
-                    <div class="b12" id="style1"></div>
-                    <div class="b13" id="style1"></div>
-                </div>
-                <div class="by-y">
-                    <div class="y1" id="style1"></div>
-                    <div class="y2" id="style1"></div>
-                    <div class="y3" id="style1"></div>
-                    <div class="y4" id="style1"></div>
-                    <div class="y5" id="style1"></div>
-                    <div class="y6" id="style1"></div>
-                    <div class="y7" id="style1"></div>
-                    <div class="y8" id="style1"></div>
-                </div>
-            </div>
-            <div class="tre">
-                <div class="tre-t">
-                    <div class="t1" id="style1"></div>
-                    <div class="t2" id="style1"></div>
-                    <div class="t3" id="style1"></div>
-                    <div class="t4" id="style1"></div>
-                    <div class="t5" id="style1"></div>
-                    <div class="t6" id="style1"></div>
-                    <div class="t7" id="style1"></div>
-                    <div class="t8" id="style1"></div>
-                </div>
-                <div class="tre-r">
-                    <div class="r1" id="style1"></div>
-                    <div class="r2" id="style1"></div>
-                    <div class="r3" id="style1"></div>
-                    <div class="r4" id="style1"></div>
-                    <div class="r5" id="style1"></div>
-                    <div class="r6" id="style1"></div>
-                    <div class="r7" id="style1"></div>
-                    <div class="r8" id="style1"></div>
-                    <div class="r9" id="style1"></div>
-                    <div class="r10" id="style1"></div>
-                    <div class="r11" id="style1"></div>
-                    <div class="r12" id="style1"></div>
-                </div>
-                <div class="tre-z">
-                    <div class="z1" id="style1"></div>
-                    <div class="z2" id="style1"></div>
-                    <div class="z3" id="style1"></div>
-                    <div class="z4" id="style1"></div>
-                    <div class="z5" id="style1"></div>
-                    <div class="z6" id="style1"></div>
-                    <div class="z7" id="style1"></div>
-                    <div class="z8" id="style1"></div>
-                    <div class="z9" id="style1"></div>
-                    <div class="z10" id="style1"></div>
-                    <div class="z11" id="style1"></div>
-                    <div class="z12" id="style1"></div>
-                    <div class="z13" id="style1"></div>
-                    <div class="z14" id="style1"></div>
-                </div>
-            </div>
-
-            <div class="seals">
-                <div class="seals-s1">
-                    <div class="s1" id="style1"></div>
-                    <div class="s2" id="style1"></div>
-                    <div class="s3" id="style1"></div>
-                    <div class="s4" id="style1"></div>
-                    <div class="s5" id="style1"></div>
-                    <div class="s6" id="style1"></div>
-                    <div class="s7" id="style1"></div>
-                    <div class="s8" id="style1"></div>
-                    <div class="s9" id="style1"></div>
-                    <div class="s10" id="style1"></div>
-                    <div class="s11" id="style1"></div>
-                </div>
-                <div class="seals-e">
-                    <div class="e1" id="style1"></div>
-                    <div class="e2" id="style1"></div>
-                    <div class="e3" id="style1"></div>
-                    <div class="e4" id="style1"></div>
-                    <div class="e5" id="style1"></div>
-                    <div class="e6" id="style1"></div>
-                    <div class="e7" id="style1"></div>
-                    <div class="e8" id="style1"></div>
-                    <div class="e9" id="style1"></div>
-                    <div class="e10" id="style1"></div>
-                    <div class="e11" id="style1"></div>
-                    <div class="e12" id="style1"></div>
-                    <div class="e13" id="style1"></div>
-                    <div class="e14" id="style1"></div>
-                </div>
-                <div class="seals-a">
-                    <div class="a1" id="style1"></div>
-                    <div class="a2" id="style1"></div>
-                    <div class="a3" id="style1"></div>
-                    <div class="a4" id="style1"></div>
-                    <div class="a5" id="style1"></div>
-                    <div class="a6" id="style1"></div>
-                    <div class="a7" id="style1"></div>
-                    <div class="a8" id="style1"></div>
-                    <div class="a9" id="style1"></div>
-                    <div class="a10" id="style1"></div>
-                    <div class="a11" id="style1"></div>
-                    <div class="a12" id="style1"></div>
-                </div>
-                <div class="seals-l">
-                    <div class="l1" id="style1"></div>
-                    <div class="l2" id="style1"></div>
-                    <div class="l3" id="style1"></div>
-                    <div class="l4" id="style1"></div>
-                    <div class="l5" id="style1"></div>
-                    <div class="l6" id="style1"></div>
-                    <div class="l7" id="style1"></div>
-                </div>
-                <div class="seals-s2">
-                    <div class="s1" id="style1"></div>
-                    <div class="s2" id="style1"></div>
-                    <div class="s3" id="style1"></div>
-                    <div class="s4" id="style1"></div>
-                    <div class="s5" id="style1"></div>
-                    <div class="s6" id="style1"></div>
-                    <div class="s7" id="style1"></div>
-                    <div class="s8" id="style1"></div>
-                    <div class="s9" id="style1"></div>
-                    <div class="s10" id="style1"></div>
-                    <div class="s11" id="style1"></div>
-                </div>
-            </div>
-
-        </div>
-
     </div>
 
     <script src="scripts.js"></script>

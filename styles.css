@@ -9,36 +9,91 @@ html {
 body {
     background-color: red;
     margin: 0;
+    height: 100%;
     overflow: hidden;
     padding: 0;
 }
 
-/*-----------------*/
-/*------image------*/
-/*-----------------*/
-
-img {
-    height: 100%;
-/*
-    text-align: center;
-    display: block;
-    margin: 0 20vw 0 20vw
-*/
-}
-
-/*-------------------------------*/
-/*------div om de foto heen------*/
-/*-------------------------------*/
+/*-------------------------------------*/
+/*------div om het kunstwerk heen------*/
+/*-------------------------------------*/
 
 .divparent {
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    margin: auto;
     position: absolute;
-    right: 0;
+    background-color: transparent;
+    width: 115em;
+    height: 178em;
     top: 0;
-/*    width: 115em;*/
+    left: 2.5em;
+}
+
+/*-------------------------------------*/
+/*------schalen van het kunstwerk------*/
+/*-------------------------------------*/
+
+.schalen {
+    transform: scale(0.34, 0.34);
+}
+
+/*-----------------------*/
+/*------colorpicker------*/
+/*-----------------------*/
+
+.colorpickerbody {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+}
+
+/*
+.colorpickerteksteen {
+    position: absolute;
+    top: 20em;
+    left: 0;
+    padding: 1em;
+}
+*/
+
+fieldset {
+    border: none;
+}
+
+output {
+    display: inline-block;
+    min-width: 2.5em;
+}
+
+label,
+output {
+    padding: 2px 9px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1.1em;
+}
+
+label[for=r],
+output[for=r] {
+    background-color: #f00;
+}
+
+label[for=g],
+output[for=g] {
+    background-color: #0f0;
+}
+
+label[for=b],
+output[for=b] {
+    background-color: #00f;
+}
+
+#hex {
+    min-width: 4.5em;
+    font-size: 2em;
+    background: rgba(255, 255, 255, .3);
+    margin-left: 0.4em;
 }
 
 /*-------------------------------------------------*/
@@ -47,7 +102,8 @@ img {
 
 #style1 {
     background-color: red;
-    border: 0.5em solid black;
+    border: 0.5em solid;
+    border-color: black;
     border-radius: 50%;
     height: 1.5em;
     opacity: 100%;
@@ -55,7 +111,7 @@ img {
     width: 1.5em;
 }
 
-#style2 {
+.style2 {
     background-color: blue;
     border: 0.5em solid #000;
     border-radius: 50%;
@@ -2907,7 +2963,7 @@ img {
 
 .steentje-zestien {
     background-color: transparent;
-      clip-path: polygon(13% 28%, 14% 21%, 21% 17%, 28% 18%, 32% 16%, 37% 12%, 38% 7%, 43% 4%, 51% 4%, 57% 6%, 63% 11%, 71% 16%, 80% 20%, 83% 27%, 100% 37%, 100% 46%, 100% 51%, 100% 68%, 69% 86%, 0 46%, 0 36%);
+    clip-path: polygon(13% 28%, 14% 21%, 21% 17%, 28% 18%, 32% 16%, 37% 12%, 38% 7%, 43% 4%, 51% 4%, 57% 6%, 63% 11%, 71% 16%, 80% 20%, 83% 27%, 100% 37%, 100% 46%, 100% 51%, 100% 68%, 69% 86%, 0 46%, 0 36%);
     height: 24em;
     left: 11.1em;
     opacity: 100%;

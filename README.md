@@ -10,10 +10,6 @@ Hallo, welkom bij mijn Github-Repository van Web-Animation. Ik volg een opleidin
 *   [Code](#code)
 *   [Bronnen](#bronnen)
 *   [Socials](#socials)
-*   [iets](#niets)
-*   [iets](#iets)
-*   [iets](#iets)
-*   [iets](#iets)
 
 ## Opdracht
 De opdracht is:
@@ -108,21 +104,18 @@ De code die ik heb geschreven is...
 
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:
-* [kunstwerk](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)
+* [Het kunstwerk](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)
 * []()
 * []()
 * []()
-
-
-
 
 #### Socials
 dit is waar je mij kan vinden:
-*   🌐[Portfolio website](https://robinansems.github.io/index.html)
-*   📷[Instagram](https://www.instagram.com/robinansems/)
-*   🐦[Twitter](https://twitter.com/robinansems)
-*   📹[Youtube](https://www.youtube.com/user/robinansems00)
-*   📚[Facebook](https://www.facebook.com/profile.php?id=100005222555664)
+*   🌐[ Portfolio website](https://robinansems.github.io/index.html)
+*   📷[ Instagram](https://www.instagram.com/robinansems/)
+*   🐦[ Twitter](https://twitter.com/robinansems)
+*   📹[ Youtube](https://www.youtube.com/user/robinansems00)
+*   📚[ Facebook](https://www.facebook.com/profile.php?id=100005222555664)
 
 
 
