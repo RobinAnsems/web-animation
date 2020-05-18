@@ -844,3 +844,23 @@ function laatsliderzien() {
         imgElement.src = img1;
     }
 }
+
+//----------------------------
+//------toets-interactie------
+//----------------------------
+
+/* 1. Element selecteren */
+var square = document.querySelector('.square');
+
+/* 2. Luisteren naar een event */
+window.addEventListener('keydown', toggle)
+
+/* 3. CSS aanpassen, class toevoegen */
+function toggle(event) {
+ if(event.keyCode === 40) {
+  square.classList.add('down');    
+ }
+  if(event.keyCode === 38) {
+  square.classList.remove('down');    
+ }  
+}
