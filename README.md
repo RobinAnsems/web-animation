@@ -97,7 +97,66 @@ Ik heb elk woord, elke letter en elk bolletje doormiddel van de volgende paar re
 }
 ```
 
-Daarna heb ik...
+Daarna heb ik de tekst responsive gemaakt:
+
+#### De kleur van de achtergrond
+Ik heb doormiddel van colorsliders er voor kunnen zorgen dat je de kleur van de achtergrond kan veranderen.
+Dat heb ik gedaan doormiddel van de volgende code:
+
+```javascript
+//bron: https://codepen.io/leemark/pen/lpEHr
+var body = document.body,
+    rood = document.querySelector('#rood'),
+    groen = document.querySelector('#groen'),
+    blauw = document.querySelector('#blauw'),
+    rood_out = document.querySelector('#rood_out'),
+    groen_out = document.querySelector('#groen_out'),
+    blauw_out = document.querySelector('#blauw_out'),
+    hex_out = document.querySelector('#hex');
+
+function setColorbody() {
+    var rood_hex = parseInt(rood.value, 10).toString(16),
+        groen_hex = parseInt(groen.value, 10).toString(16),
+        blauw_hex = parseInt(blauw.value, 10).toString(16),
+        hex = "#" + pad(rood_hex) + pad(groen_hex) + pad(blauw_hex);
+    body.style.backgroundColor = hex;
+    hex_out.value = hex;
+}
+
+function pad(n) {
+    return (n.length < 2) ? "0" + n : n;
+}
+
+rood.addEventListener('change', function () {
+    setColorbody();
+    rood_out.value = rood.value;
+}, false);
+
+rood.addEventListener('input', function () {
+    setColorbody();
+    rood_out.value = rood.value;
+}, false);
+
+groen.addEventListener('change', function () {
+    setColorbody();
+    groen_out.value = groen.value;
+}, false);
+
+groen.addEventListener('input', function () {
+    setColorbody();
+    groen_out.value = groen.value;
+}, false);
+
+blauw.addEventListener('change', function () {
+    setColorbody();
+    blauw_out.value = blauw.value;
+}, false);
+
+blauw.addEventListener('input', function () {
+    setColorbody();
+    blauw_out.value = blauw.value;
+}, false);
+```
 
 ## Code
 De code die ik heb geschreven is...

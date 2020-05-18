@@ -1,3 +1,7 @@
+//-------------------------------------------------------------------------------
+//------code voor het verschuiven van de steentjes (regel 5 tot en met 771)------
+//-------------------------------------------------------------------------------
+
 //bron: https://www.w3schools.com/howto/howto_js_draggable.asp
 dragElement1(document.getElementById("steentje1verplaatsen"));
 dragElement2(document.getElementById("steentje2verplaatsen"));
@@ -765,29 +769,25 @@ function dragElement17(elmnt) {
     }
 }
 
-
-
-
-
-
-
+//---------------------------------------------------------------
+//------code voor de colorpicker (regel 776 tot en met 828)------
+//---------------------------------------------------------------
 
 //bron: https://codepen.io/leemark/pen/lpEHr
-
 var body = document.body,
-    r = document.querySelector('#r'),
-    g = document.querySelector('#g'),
-    b = document.querySelector('#b'),
-    r_out = document.querySelector('#r_out'),
-    g_out = document.querySelector('#g_out'),
-    b_out = document.querySelector('#b_out'),
+    rood = document.querySelector('#rood'),
+    groen = document.querySelector('#groen'),
+    blauw = document.querySelector('#blauw'),
+    rood_out = document.querySelector('#rood_out'),
+    groen_out = document.querySelector('#groen_out'),
+    blauw_out = document.querySelector('#blauw_out'),
     hex_out = document.querySelector('#hex');
 
 function setColorbody() {
-    var r_hex = parseInt(r.value, 10).toString(16),
-        g_hex = parseInt(g.value, 10).toString(16),
-        b_hex = parseInt(b.value, 10).toString(16),
-        hex = "#" + pad(r_hex) + pad(g_hex) + pad(b_hex);
+    var rood_hex = parseInt(rood.value, 10).toString(16),
+        groen_hex = parseInt(groen.value, 10).toString(16),
+        blauw_hex = parseInt(blauw.value, 10).toString(16),
+        hex = "#" + pad(rood_hex) + pad(groen_hex) + pad(blauw_hex);
     body.style.backgroundColor = hex;
     hex_out.value = hex;
 }
@@ -796,105 +796,51 @@ function pad(n) {
     return (n.length < 2) ? "0" + n : n;
 }
 
-r.addEventListener('change', function () {
+rood.addEventListener('change', function () {
     setColorbody();
-    r_out.value = r.value;
+    rood_out.value = rood.value;
 }, false);
 
-r.addEventListener('input', function () {
+rood.addEventListener('input', function () {
     setColorbody();
-    r_out.value = r.value;
+    rood_out.value = rood.value;
 }, false);
 
-g.addEventListener('change', function () {
+groen.addEventListener('change', function () {
     setColorbody();
-    g_out.value = g.value;
+    groen_out.value = groen.value;
 }, false);
 
-g.addEventListener('input', function () {
+groen.addEventListener('input', function () {
     setColorbody();
-    g_out.value = g.value;
+    groen_out.value = groen.value;
 }, false);
 
-b.addEventListener('change', function () {
+blauw.addEventListener('change', function () {
     setColorbody();
-    b_out.value = b.value;
+    blauw_out.value = blauw.value;
 }, false);
 
-b.addEventListener('input', function () {
+blauw.addEventListener('input', function () {
     setColorbody();
-    b_out.value = b.value;
+    blauw_out.value = blauw.value;
 }, false);
 
+//-----------------------------------------------------------------------------
+//------code voor de button van de colorpicker (regel 833 tot en met 847)------
+//-----------------------------------------------------------------------------
 
+var img1 = "images/omlaag.png";
+var img2 = "images/omhoog.png";
+var imgElement = document.getElementById('image');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var tekst1 = document.getElementsByClassName("style1"),
-    r = document.querySelector('#r'),
-    g = document.querySelector('#g'),
-    b = document.querySelector('#b'),
-    r_out = document.querySelector('#r_out'),
-    g_out = document.querySelector('#g_out'),
-    b_out = document.querySelector('#b_out'),
-    hex_out = document.querySelector('#hex');
-
-function setColorteksteen() {
-    var r_hex = parseInt(r.value, 10).toString(16),
-        g_hex = parseInt(g.value, 10).toString(16),
-        b_hex = parseInt(b.value, 10).toString(16),
-        hex = "#" + pad(r_hex) + pad(g_hex) + pad(b_hex);
-    tekst1.style.backgroundColor = hex;
-    hex_out.value = hex;
+function laatsliderzien() {
+    var x = document.getElementById("showdiv");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        imgElement.src = img2;
+    } else {
+        x.style.display = "none";
+        imgElement.src = img1;
+    }
 }
-
-function pad(n) {
-    return (n.length < 2) ? "0" + n : n;
-}
-
-r.addEventListener('change', function () {
-    setColorteksteen();
-    r_out.value = r.value;
-}, false);
-
-r.addEventListener('input', function () {
-    setColorteksteen();
-    r_out.value = r.value;
-}, false);
-
-g.addEventListener('change', function () {
-    setColorteksteen();
-    g_out.value = g.value;
-}, false);
-
-g.addEventListener('input', function () {
-    setColorteksteen();
-    g_out.value = g.value;
-}, false);
-
-b.addEventListener('change', function () {
-    setColorteksteen();
-    b_out.value = b.value;
-}, false);
-
-b.addEventListener('input', function () {
-    setColorteksteen();
-    b_out.value = b.value;
-}, false);
-
-

@@ -39,21 +39,12 @@ body {
 /*------colorpicker------*/
 /*-----------------------*/
 
-.colorpickerbody {
+.colorpicker {
     position: absolute;
     top: 0;
     left: 0;
     padding: 1em;
 }
-
-/*
-.colorpickerteksteen {
-    position: absolute;
-    top: 20em;
-    left: 0;
-    padding: 1em;
-}
-*/
 
 fieldset {
     border: none;
@@ -91,29 +82,32 @@ output[for=b] {
 
 #hex {
     min-width: 4.5em;
-    font-size: 2em;
+    position: absolute;
+    left: 11em;
+    top: 4.7em;
+    font-size: 1.37em;
     background: rgba(255, 255, 255, .3);
-    margin-left: 0.4em;
+    margin: 0;
+    transform: rotate(90deg);
 }
 
-/*-------------------------------------------------*/
-/*------verschillende kleurtjes voor de tekst------*/
-/*-------------------------------------------------*/
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/*---------------------------------------*/
+/*------vormgeving van de bolletjes------*/
+/*---------------------------------------*/
 
 #style1 {
     background-color: red;
-    border: 0.5em solid;
-    border-color: black;
-    border-radius: 50%;
-    height: 1.5em;
-    opacity: 100%;
-    position: absolute;
-    width: 1.5em;
-}
-
-.style2 {
-    background-color: blue;
-    border: 0.5em solid #000;
+    border: 0.5em solid black;
     border-radius: 50%;
     height: 1.5em;
     opacity: 100%;

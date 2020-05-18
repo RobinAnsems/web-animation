@@ -11,80 +11,38 @@
 </head>
 
 <body>
+    <div class="colorpicker">
+        <button onclick="laatsliderzien()">
+            <fieldset>
+                <label>Verander de kleur van de achtergrond <img src="images/omhoog.png" alt="arrow" id="image">‎</label>
+            </fieldset>
+        </button>
+        <div id="showdiv">
+            <fieldset>
+                <label for="r">R</label>
+                <input type="range" min="0" max="255" id="rood" step="1" value="0">
+                <output for="r" id="rood_out">0</output>
+            </fieldset>
 
-    <div class="colorpickerbody">
-        <fieldset>
-            <label>body</label>
-        </fieldset>
-        
-        <fieldset>
-            <label for="r">R</label>
-            <input type="range" min="0" max="255" id="r" step="1" value="0">
-            <output for="r" id="r_out">0</output>
-        </fieldset>
+            <fieldset>
+                <label for="g">G</label>
+                <input type="range" min="0" max="255" id="groen" step="1" value="0">
+                <output for="g" id="groen_out">0</output>
+            </fieldset>
 
-        <fieldset>
-            <label for="g">G</label>
-            <input type="range" min="0" max="255" id="g" step="1" value="0">
-            <output for="g" id="g_out">0</output>
-        </fieldset>
+            <fieldset>
+                <label for="b">B</label>
+                <input type="range" min="0" max="255" id="blauw" step="1" value="0">
+                <output for="b" id="blauw_out">0</output>
+            </fieldset>
 
-        <fieldset>
-            <label for="b">B</label>
-            <input type="range" min="0" max="255" id="b" step="1" value="0">
-            <output for="b" id="b_out">0</output>
-        </fieldset>
-
-        <output id="hex">#000000</output>
+            <output id="hex">#000000</output>
+        </div>
     </div>
-
-    
-
-
-
-
-<!--
-    <div class="colorpickerteksteen">
-        <fieldset>
-            <label>tekst 1</label>
-        </fieldset>
-        
-        <fieldset>
-            <label for="r">R</label>
-            <input type="range" min="0" max="255" id="r" step="1" value="0">
-            <output for="r" id="r_out">0</output>
-        </fieldset>
-
-        <fieldset>
-            <label for="g">G</label>
-            <input type="range" min="0" max="255" id="g" step="1" value="0">
-            <output for="g" id="g_out">0</output>
-        </fieldset>
-
-        <fieldset>
-            <label for="b">B</label>
-            <input type="range" min="0" max="255" id="b" step="1" value="0">
-            <output for="b" id="b_out">0</output>
-        </fieldset>
-
-        <output id="hex">#000000</output>
-    </div>
--->
-
-
-
-
-
-
-
-
-
-
 
     <div class="schalen">
         <div class="divparent">
             <div class="hartje">
-
                 <div class="steentje-een" id="steentje1verplaatsen">
                     <div id="steentje1verplaatsen-drag">
                         <div class="een-onderdeel1"></div>
@@ -698,8 +656,9 @@
                     </div>
                 </div>
             </div>
-
+            
             <div class="tekst">
+               
                 <div class="how">
                     <div class="how-h">
                         <div class="h1" id="style1"></div>
