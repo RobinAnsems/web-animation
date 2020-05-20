@@ -26,40 +26,36 @@ function dragElement1(elmnt) {
         pos2 = 0,
         pos3 = 0,
         pos4 = 0;
-    if (document.getElementById(elmnt.id + "-drag")) {
-        /* if present, the header is where you move the DIV from:*/
-        document.getElementById(elmnt.id + "-drag").onmousedown = dragMouseDown;
-    } else {
-        /* otherwise, move the DIV from anywhere inside the DIV:*/
-        elmnt.onmousedown = dragMouseDown;
-    }
+    // deze regel zorgt er voor dat wanneer jij je muis ingegedrukt houdt op een steentje, het steentje kunt verplaatsen door met je muis te slepen:
+    elmnt.onmousedown = dragMouseDown;
+
 
     function dragMouseDown(e) {
         e = e || window.event;
         e.preventDefault();
-        // get the mouse cursor position at startup:
+        // deze regel kijkt naar de positie van je muiscursor als je de pagina laadt: 
         pos3 = e.clientX;
         pos4 = e.clientY;
         document.onmouseup = closeDragElement;
-        // call a function whenever the cursor moves:
+        // deze regel start de functie genaamd: 'elementDrag' wanneer jij je muis beweegt:
         document.onmousemove = elementDrag;
     }
 
     function elementDrag(e) {
         e = e || window.event;
         e.preventDefault();
-        // calculate the new cursor position:
+        // deze regel berekend de nieuwe positie van je muiscursor: 
         pos1 = pos3 - e.clientX;
         pos2 = pos4 - e.clientY;
         pos3 = e.clientX;
         pos4 = e.clientY;
-        // set the element's new position:
+        // deze regel plaats het element op de nieuwe positie: 
         elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
         elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
     }
 
     function closeDragElement() {
-        /* stop moving when mouse button is released:*/
+        // deze regel zorgt er voor dat het element niet meer verplaatst als jij je muisknop loslaat:
         document.onmouseup = null;
         document.onmousemove = null;
     }
@@ -835,12 +831,12 @@ var img2 = "images/omhoog.png";
 var imgElement = document.getElementById('image');
 
 function laatsliderzien() {
-    var x = document.getElementById("showdiv");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+    var knopje = document.getElementById("showdiv");
+    if (knopje.style.display === "none") {
+        knopje.style.display = "block";
         imgElement.src = img2;
     } else {
-        x.style.display = "none";
+        knopje.style.display = "none";
         imgElement.src = img1;
     }
 }
@@ -857,10 +853,10 @@ window.addEventListener('keydown', toggle)
 
 /* 3. CSS aanpassen, class toevoegen */
 function toggle(event) {
- if(event.keyCode === 40) {
-  square.classList.add('down');    
- }
-  if(event.keyCode === 38) {
-  square.classList.remove('down');    
- }  
+    if (event.keyCode === 40) {
+        square.classList.add('down');
+    }
+    if (event.keyCode === 38) {
+        square.classList.remove('down');
+    }
 }

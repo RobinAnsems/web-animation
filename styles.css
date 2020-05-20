@@ -8,8 +8,8 @@ html {
 
 body {
     background-color: red;
-    margin: 0;
     height: 100%;
+    margin: 0;
     overflow: hidden;
     padding: 0;
 }
@@ -19,24 +19,23 @@ body {
 /*-------------------------------------------------*/
 
 .schalen {
-    transform: scale(0.34, 0.34);
-    transform-origin: top left;
+    bottom: 0;
+    left: 0;
     margin: 0;
     position: absolute;
-    left: 0;
     right: 0;
-    right: 0;
-    bottom: 0;
+    transform: scale(0.34, 0.34);
+    transform-origin: top left;
 }
 
 .centreren {
-    width: 600px;
-    height: 30px;
     background-color: transparent;
-    position: absolute;
+    height: 30px;
     left: 0;
-    right: 0;
     margin: auto;
+    position: absolute;
+    right: 0;
+    width: 600px;
 }
 
 /*-----------------------*/
@@ -44,10 +43,10 @@ body {
 /*-----------------------*/
 
 .colorpicker {
-    position: absolute;
-    top: 0;
     left: 0;
     padding: 1em;
+    position: absolute;
+    top: 0;
 }
 
 fieldset {
@@ -61,12 +60,12 @@ output {
 
 label,
 output {
-    padding: 2px 9px;
-    border-radius: 3px;
     border: 1px solid black;
-    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
     color: #000;
+    font-family: Roboto, sans-serif;
     font-size: 1.1em;
+    padding: 2px 9px;
 }
 
 label[for=r],
@@ -85,24 +84,24 @@ output[for=b] {
 }
 
 #hex {
+    background-color: white;
+    font-size: 1.37em;
+    left: 11em;
+    margin: 0;
     min-width: 4.5em;
     position: absolute;
-    left: 11em;
     top: 4.7em;
-    font-size: 1.37em;
-    background: rgba(255, 255, 255, .3);
-    margin: 0;
     transform: rotate(90deg);
 }
 
 button {
     background: none;
-    color: inherit;
     border: none;
-    padding: 0;
-    font: inherit;
+    color: inherit;
     cursor: pointer;
+    font: inherit;
     outline: inherit;
+    padding: 0;
 }
 
 /*---------------------------------------*/
@@ -262,10 +261,10 @@ button {
 .how-h {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -275,7 +274,7 @@ button {
     left: 11.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -285,7 +284,7 @@ button {
     left: 23em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -294,10 +293,10 @@ button {
 .to-t {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -307,7 +306,7 @@ button {
     left: 10em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -316,10 +315,10 @@ button {
 .fix-f {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -329,7 +328,7 @@ button {
     left: 10.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 7em;
 }
 
@@ -339,7 +338,7 @@ button {
     left: 20em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -348,10 +347,10 @@ button {
 .broken-b {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -361,7 +360,7 @@ button {
     left: 11em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9.75em;
 }
 
@@ -371,7 +370,7 @@ button {
     left: 22em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -381,7 +380,7 @@ button {
     left: 33.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 8em;
 }
 
@@ -391,7 +390,7 @@ button {
     left: 44.25em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -401,7 +400,7 @@ button {
     left: 55.75em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -410,10 +409,10 @@ button {
 .heart-h {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -423,7 +422,7 @@ button {
     left: 11em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9.75em;
 }
 
@@ -433,7 +432,7 @@ button {
     left: 22.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -443,7 +442,7 @@ button {
     left: 34.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 8em;
 }
 
@@ -453,7 +452,7 @@ button {
     left: 45em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -462,10 +461,10 @@ button {
 .and-a {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -475,7 +474,7 @@ button {
     left: 11.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9.75em;
 }
 
@@ -485,20 +484,19 @@ button {
     left: 23em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
-
 
 /*------het woord make------*/
 
 .make-m {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -508,7 +506,7 @@ button {
     left: 11.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9.75em;
 }
 
@@ -518,7 +516,7 @@ button {
     left: 23em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -528,7 +526,7 @@ button {
     left: 33.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 8em;
 }
 
@@ -537,10 +535,10 @@ button {
 .spare-s {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -550,7 +548,7 @@ button {
     left: 11.25em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9.75em;
 }
 
@@ -560,7 +558,7 @@ button {
     left: 22.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -570,7 +568,7 @@ button {
     left: 34.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 8em;
 }
 
@@ -580,7 +578,7 @@ button {
     left: 45.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -589,10 +587,10 @@ button {
 .by-b {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -602,7 +600,7 @@ button {
     left: 10.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -611,10 +609,10 @@ button {
 .tre-t {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -624,7 +622,7 @@ button {
     left: 11em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9.75em;
 }
 
@@ -634,7 +632,7 @@ button {
     left: 22.25em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -643,10 +641,10 @@ button {
 .seals-s1 {
     background-color: transparent;
     height: 11.5em;
-    left: 0em;
+    left: 0;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -656,7 +654,7 @@ button {
     left: 11em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9.75em;
 }
 
@@ -666,7 +664,7 @@ button {
     left: 22.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -676,7 +674,7 @@ button {
     left: 34.5em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 8em;
 }
 
@@ -686,7 +684,7 @@ button {
     left: 44em;
     opacity: 100%;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 9em;
 }
 
@@ -2994,13 +2992,13 @@ button {
 /*------tablet------*/
 @media screen and (min-width: 750px) {
     .centreren {
-        width: 650px;
-        height: 30px;
         background-color: transparent;
-        position: absolute;
+        height: 30px;
         left: 0;
-        right: 0;
         margin: auto;
+        position: absolute;
+        right: 0;
+        width: 650px;
     }
 
     .fix {
@@ -3093,7 +3091,6 @@ button {
         width: 20em;
     }
 
-
     .tre {
         background-color: transparent;
         height: 11.5em;
@@ -3129,13 +3126,13 @@ button {
 /*------desktop------*/
 @media screen and (min-width: 1024px) {
     .centreren {
-        width: 1024px;
-        height: 30px;
         background-color: transparent;
-        position: absolute;
+        height: 30px;
         left: 0;
-        right: 0;
         margin: auto;
+        position: absolute;
+        right: 0;
+        width: 1024px;
     }
 
     .fix {
@@ -3228,7 +3225,6 @@ button {
         width: 20em;
     }
 
-
     .tre {
         background-color: transparent;
         height: 11.5em;
@@ -3250,13 +3246,13 @@ button {
     }
 
     .hartje {
-        transform: scale(1.3, 1.3);
         background-color: transparent;
         height: 58.5em;
         left: 63em;
         opacity: 100%;
         position: absolute;
         top: 90em;
+        transform: scale(1.3, 1.3);
         width: 59.5em;
     }
 }
