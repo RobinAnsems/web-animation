@@ -18,6 +18,7 @@ _Kies een kunstwerk uit het Letterform-archief of het AIGA-archief en vertaal da
 Het kunstwerk dat ik heb gekozen is, heet: "_How To Fix A Broken Heart and Make A Spare_".
 
 ![gekozenkunstwerk](https://github.com/RobinAnsems/web-animation/blob/master/images/1.jpg)
+
 [bron](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)
 
 Het kunstwerk is gemaakt door Tré Seals. Deze Afro-Amerikaan uit Accoceek heeft het kunstwerk in 2017 gemaakt.
@@ -173,11 +174,47 @@ blauw.addEventListener('input', function () {
 }, false);
 ```
 
+Zo ziet het er uit:
+
+![colorpicker](https://github.com/RobinAnsems/web-animation/blob/master/images/colorpicker.png)
+
+#### Hover
+Ik heb door middel van "_:hover_" er voor gezorgd dat de kleur van de bolletjes veranderd als je er met je muis overheen hovert. Dat heb ik gedaan door middel van de volgende code:
+
+```css
+#style1 {
+    background-color: red;
+    border: 0.5em solid black;
+    border-radius: 50%;
+    height: 1.5em;
+    opacity: 100%;
+    position: absolute;
+    width: 1.5em;
+}
+
+#style1:hover {
+    background-color: white;
+    border: 0.5em solid black;
+    border-radius: 50%;
+    height: 1.5em;
+    opacity: 100%;
+    position: absolute;
+    width: 1.5em;
+    transform: scale(1.5);
+    transition: 0.1s ease-in-out;
+    transform-origin: center;
+}
+```
+
+Zo ziet het er uit (en eerlijk gezegd is het best satisfying om te hoveren over de bolletjes):
+
+![hover](https://github.com/RobinAnsems/web-animation/blob/master/images/hover.png)
+
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:
 * [Het kunstwerk](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)
-* []()
-* []()
+* [Colorpicker](https://codepen.io/leemark/pen/lpEHr)
+* [Draggable Elements](https://www.w3schools.com/howto/howto_js_draggable.asp)
 * []()
 
 #### Socials

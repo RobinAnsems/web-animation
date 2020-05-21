@@ -828,16 +828,35 @@ blauw.addEventListener('input', function () {
 
 var img1 = "images/omlaag.png";
 var img2 = "images/omhoog.png";
-var imgElement = document.getElementById('image');
+var imgElement = document.getElementById('image1');
 
 function laatsliderzien() {
-    var knopje = document.getElementById("showdiv");
-    if (knopje.style.display === "none") {
-        knopje.style.display = "block";
+    var knopje1 = document.getElementById("showdiv1");
+    if (knopje1.style.display === "none") {
+        knopje1.style.display = "block";
         imgElement.src = img2;
     } else {
-        knopje.style.display = "none";
+        knopje1.style.display = "none";
         imgElement.src = img1;
+    }
+}
+
+//-----------------------------------------------------------------------------
+//------code voor de button van de metadata (regel 844 tot en met ??)------
+//-----------------------------------------------------------------------------
+
+var img12 = "images/omlaag.png";
+var img22 = "images/omhoog.png";
+var imgElement2 = document.getElementById('image2');
+
+function laatmetazien() {
+    var knopje2 = document.getElementById("showdiv2");
+    if (knopje2.style.display === "none") {
+        knopje2.style.display = "block";
+        imgElement2.src = img22;
+    } else {
+        knopje2.style.display = "none";
+        imgElement2.src = img12;
     }
 }
 
@@ -845,18 +864,20 @@ function laatsliderzien() {
 //------toets-interactie------
 //----------------------------
 
-/* 1. Element selecteren */
-var square = document.querySelector('.square');
+///* 1. Element selecteren */
+//var how = document.querySelector('.how');
+//
+///* 2. Luisteren naar een event */
+//window.addEventListener('keydown', toggle)
+//
+///* 3. CSS aanpassen, class toevoegen */
+//function toggle(event) {
+// if(event.keyCode === 72) {
+//  how.classList.add('down');    
+// }
+//  else {
+//  how.classList.remove('down');    
+// }  
+//}
 
-/* 2. Luisteren naar een event */
-window.addEventListener('keydown', toggle)
-
-/* 3. CSS aanpassen, class toevoegen */
-function toggle(event) {
-    if (event.keyCode === 40) {
-        square.classList.add('down');
-    }
-    if (event.keyCode === 38) {
-        square.classList.remove('down');
-    }
-}
+//79,87
