@@ -178,6 +178,10 @@ Zo ziet het er uit:
 
 ![colorpicker](https://github.com/RobinAnsems/web-animation/blob/master/images/colorpicker.png)
 
+Zo ziet het er uit als je de achtergrond hebt veranderd naar bijvoorbeeld paars:
+
+![achtergrond](https://github.com/RobinAnsems/web-animation/blob/master/images/achtergrond.png)
+
 #### Hover
 Ik heb door middel van "_:hover_" er voor gezorgd dat de kleur van de bolletjes veranderd als je er met je muis overheen hovert. Dat heb ik gedaan door middel van de volgende code:
 
