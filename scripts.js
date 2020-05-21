@@ -842,7 +842,7 @@ function laatsliderzien() {
 }
 
 //-----------------------------------------------------------------------------
-//------code voor de button van de metadata (regel 844 tot en met ??)------
+//------code voor de button van de metadata (regel 844 tot en met 862)------
 //-----------------------------------------------------------------------------
 
 var img12 = "images/omlaag.png";
@@ -860,24 +860,465 @@ function laatmetazien() {
     }
 }
 
-//----------------------------
-//------toets-interactie------
-//----------------------------
+//-----------------------------------------------------------------------------
+//------code voor de button van de checkboxes (regel 867 tot en met 880)------
+//-----------------------------------------------------------------------------
 
-///* 1. Element selecteren */
-//var how = document.querySelector('.how');
-//
-///* 2. Luisteren naar een event */
-//window.addEventListener('keydown', toggle)
-//
-///* 3. CSS aanpassen, class toevoegen */
-//function toggle(event) {
-// if(event.keyCode === 72) {
-//  how.classList.add('down');    
-// }
-//  else {
-//  how.classList.remove('down');    
-// }  
-//}
+var img13 = "images/omlaag.png";
+var img23 = "images/omhoog.png";
+var imgElement3 = document.getElementById('image3');
 
-//79,87
+function laatcheckboxzien() {
+    var knopje3 = document.getElementById("showdiv3");
+    if (knopje3.style.display === "none") {
+        knopje3.style.display = "block";
+        imgElement3.src = img23;
+    } else {
+        knopje3.style.display = "none";
+        imgElement3.src = img13;
+    }
+}
+
+//--------------------------------------------------------
+//------toets-interactie (regel 886 tot en met 1300)------
+//--------------------------------------------------------
+
+var howh = document.querySelector('.how-h');
+var hearth = document.querySelector('.heart-h');
+
+document.addEventListener('keydown', toggleh1)
+
+document.addEventListener('keyup', toggleh2)
+
+function toggleh1(event1) {
+    if (event1.key === 'h') {
+        howh.classList.add('toets');
+        hearth.classList.add('toets');
+    }
+}
+
+function toggleh2(event1) {
+    howh.classList.remove('toets');
+    hearth.classList.remove('toets');
+}
+
+
+
+var howo = document.querySelector('.how-o');
+var too = document.querySelector('.to-o');
+var brokeno = document.querySelector('.broken-o');
+
+document.addEventListener('keydown', toggleo1)
+
+document.addEventListener('keyup', toggleo2)
+
+function toggleo1(event2) {
+    if (event2.key === 'o') {
+        howo.classList.add('toets');
+        too.classList.add('toets');
+        brokeno.classList.add('toets');
+    }
+}
+
+function toggleo2(event2) {
+    howo.classList.remove('toets');
+    too.classList.remove('toets');
+    brokeno.classList.remove('toets');
+}
+
+
+
+var howw = document.querySelector('.how-w');
+
+document.addEventListener('keydown', togglew1)
+
+document.addEventListener('keyup', togglew2)
+
+function togglew1(event3) {
+    if (event3.key === 'w') {
+        howw.classList.add('toets');
+    }
+}
+
+function togglew2(event3) {
+    howw.classList.remove('toets');
+}
+
+
+
+var tot = document.querySelector('.to-t');
+var tret = document.querySelector('.tre-t');
+var heartt = document.querySelector('.heart-t');
+
+document.addEventListener('keydown', togglet1)
+
+document.addEventListener('keyup', togglet2)
+
+function togglet1(event4) {
+    if (event4.key === 't') {
+        tot.classList.add('toets');
+        tret.classList.add('toets');
+        heartt.classList.add('toets');
+    }
+}
+
+function togglet2(event4) {
+    tot.classList.remove('toets');
+    tret.classList.remove('toets');
+    heartt.classList.remove('toets');
+}
+
+
+
+var fixf = document.querySelector('.fix-f');
+
+document.addEventListener('keydown', togglef1)
+
+document.addEventListener('keyup', togglef2)
+
+function togglef1(event5) {
+    if (event5.key === 'f') {
+        fixf.classList.add('toets');
+    }
+}
+
+function togglef2(event5) {
+    fixf.classList.remove('toets');
+}
+
+
+
+var fixi = document.querySelector('.fix-i');
+
+document.addEventListener('keydown', togglei1)
+
+document.addEventListener('keyup', togglei2)
+
+function togglei1(event6) {
+    if (event6.key === 'i') {
+        fixi.classList.add('toets');
+    }
+}
+
+function togglei2(event6) {
+    fixi.classList.remove('toets');
+}
+
+
+
+var fixx = document.querySelector('.fix-x');
+
+document.addEventListener('keydown', togglex1)
+
+document.addEventListener('keyup', togglex2)
+
+function togglex1(event7) {
+    if (event7.key === 'x') {
+        fixx.classList.add('toets');
+    }
+}
+
+function togglex2(event7) {
+    fixx.classList.remove('toets');
+}
+
+
+
+var a = document.querySelector('.a');
+var hearta = document.querySelector('.heart-a');
+var anda = document.querySelector('.and-a');
+var makea = document.querySelector('.make-a');
+var atwee = document.querySelector('.atwee');
+var sparea = document.querySelector('.spare-a');
+var sealsa = document.querySelector('.seals-a');
+
+document.addEventListener('keydown', togglea1)
+
+document.addEventListener('keyup', togglea2)
+
+function togglea1(event8) {
+    if (event8.key === 'a') {
+        a.classList.add('toets');
+        hearta.classList.add('toets');
+        anda.classList.add('toets');
+        makea.classList.add('toets');
+        atwee.classList.add('toets');
+        sparea.classList.add('toets');
+        sealsa.classList.add('toets');
+    }
+}
+
+function togglea2(event8) {
+    a.classList.remove('toets');
+    hearta.classList.remove('toets');
+    anda.classList.remove('toets');
+    makea.classList.remove('toets');
+    atwee.classList.remove('toets');
+    sparea.classList.remove('toets');
+    sealsa.classList.remove('toets');
+}
+
+
+
+var brokenb = document.querySelector('.broken-b');
+var byb = document.querySelector('.by-b');
+
+document.addEventListener('keydown', toggleb1)
+
+document.addEventListener('keyup', toggleb2)
+
+function toggleb1(event9) {
+    if (event9.key === 'b') {
+        brokenb.classList.add('toets');
+        byb.classList.add('toets');
+    }
+}
+
+function toggleb2(event9) {
+    brokenb.classList.remove('toets');
+    byb.classList.remove('toets');
+}
+
+
+
+var brokenr = document.querySelector('.broken-r');
+var heartr = document.querySelector('.heart-r');
+var sparer = document.querySelector('.spare-r');
+var trer = document.querySelector('.tre-r');
+
+document.addEventListener('keydown', toggler1)
+
+document.addEventListener('keyup', toggler2)
+
+function toggler1(event10) {
+    if (event10.key === 'r') {
+        brokenr.classList.add('toets');
+        heartr.classList.add('toets');
+        sparer.classList.add('toets');
+        trer.classList.add('toets');
+    }
+}
+
+function toggler2(event10) {
+    brokenr.classList.remove('toets');
+    heartr.classList.remove('toets');
+    sparer.classList.remove('toets');
+    trer.classList.remove('toets');
+}
+
+
+
+var brokenk = document.querySelector('.broken-k');
+var makek = document.querySelector('.make-k');
+
+document.addEventListener('keydown', togglek1)
+
+document.addEventListener('keyup', togglek2)
+
+function togglek1(event11) {
+    if (event11.key === 'k') {
+        brokenk.classList.add('toets');
+        makek.classList.add('toets');
+    }
+}
+
+function togglek2(event11) {
+    brokenk.classList.remove('toets');
+    makek.classList.remove('toets');
+}
+
+
+
+var brokene = document.querySelector('.broken-e');
+var hearte = document.querySelector('.heart-e');
+var makee = document.querySelector('.make-e');
+var sparee = document.querySelector('.spare-e');
+var tree = document.querySelector('.tre-z');
+var sealse = document.querySelector('.seals-e');
+
+document.addEventListener('keydown', togglee1)
+
+document.addEventListener('keyup', togglee2)
+
+function togglee1(event12) {
+    if (event12.key === 'e') {
+        brokene.classList.add('toets');
+        hearte.classList.add('toets');
+        makee.classList.add('toets');
+        sparee.classList.add('toets');
+        tree.classList.add('toets');
+        sealse.classList.add('toets');
+    }
+}
+
+function togglee2(event12) {
+    brokene.classList.remove('toets');
+    hearte.classList.remove('toets');
+    makee.classList.remove('toets');
+    sparee.classList.remove('toets');
+    tree.classList.remove('toets');
+    sealse.classList.remove('toets');
+}
+
+
+
+var brokenn = document.querySelector('.broken-n');
+var andn = document.querySelector('.and-n');
+
+document.addEventListener('keydown', togglen1)
+
+document.addEventListener('keyup', togglen2)
+
+function togglen1(event13) {
+    if (event13.key === 'n') {
+        brokenn.classList.add('toets');
+        andn.classList.add('toets');
+    }
+}
+
+function togglen2(event13) {
+    brokenn.classList.remove('toets');
+    andn.classList.remove('toets');
+}
+
+
+
+var andd = document.querySelector('.and-d');
+
+document.addEventListener('keydown', toggled1)
+
+document.addEventListener('keyup', toggled2)
+
+function toggled1(event14) {
+    if (event14.key === 'd') {
+        andd.classList.add('toets');
+    }
+}
+
+function toggled2(event14) {
+    andd.classList.remove('toets');
+}
+
+
+
+var makem = document.querySelector('.make-m');
+
+document.addEventListener('keydown', togglem1)
+
+document.addEventListener('keyup', togglem2)
+
+function togglem1(event15) {
+    if (event15.key === 'm') {
+        makem.classList.add('toets');
+    }
+}
+
+function togglem2(event15) {
+    makem.classList.remove('toets');
+}
+
+
+
+var spares = document.querySelector('.spare-s');
+var sealss1 = document.querySelector('.seals-s1');
+var sealss2 = document.querySelector('.seals-s2');
+
+document.addEventListener('keydown', toggles1)
+
+document.addEventListener('keyup', toggles2)
+
+function toggles1(event17) {
+    if (event17.key === 's') {
+        spares.classList.add('toets');
+        sealss1.classList.add('toets');
+        sealss2.classList.add('toets');
+    }
+}
+
+function toggles2(event17) {
+    spares.classList.remove('toets');
+    sealss1.classList.remove('toets');
+    sealss2.classList.remove('toets');
+}
+
+
+
+var sparep = document.querySelector('.spare-p');
+
+document.addEventListener('keydown', togglep1)
+
+document.addEventListener('keyup', togglep2)
+
+function togglep1(event18) {
+    if (event18.key === 'p') {
+        sparep.classList.add('toets');
+    }
+}
+
+function togglep2(event18) {
+    sparep.classList.remove('toets');
+}
+
+
+
+var byy = document.querySelector('.by-y');
+
+document.addEventListener('keydown', toggley1)
+
+document.addEventListener('keyup', toggley2)
+
+function toggley1(event19) {
+    if (event19.key === 'y') {
+        byy.classList.add('toets');
+    }
+}
+
+function toggley2(event19) {
+    byy.classList.remove('toets');
+}
+
+
+
+var sealsl = document.querySelector('.seals-l');
+
+document.addEventListener('keydown', togglel1)
+
+document.addEventListener('keyup', togglel2)
+
+function togglel1(event20) {
+    if (event20.key === 'l') {
+        sealsl.classList.add('toets');
+    }
+}
+
+function togglel2(event20) {
+    sealsl.classList.remove('toets');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

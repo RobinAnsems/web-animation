@@ -43,20 +43,24 @@ body {
 /*-----------------------*/
 
 .colorpicker {
-    left: 0;
-    padding: 1em;
+    left: 1em;
+    padding: 0;
     position: absolute;
-    top: 0;
+    top: 1em;
 }
 
 #showdiv1 {
     display: none;
+    position: absolute;
+    top: 3em;
+    left: 1em;
 }
 
 .achtergrond1 {
     background-color: white;
     opacity: 50%;
     z-index: -10;
+    margin: 0;
 }
 
 fieldset {
@@ -96,11 +100,11 @@ output[for=b] {
 #hex {
     background-color: white;
     font-size: 1.37em;
-    left: 11em;
+    left: 10em;
     margin: 0;
     min-width: 4.5em;
     position: absolute;
-    top: 4.7em;
+    top: 2.35em;
     transform: rotate(90deg);
 }
 
@@ -145,12 +149,35 @@ button {
     margin: 0;
 }
 
+/*--------------------*/
+/*------checkboxes------*/
+/*--------------------*/
+
+.checkboxknop {
+    left: 36em;
+    padding: 0em;
+    position: absolute;
+    top: 1.35em;
+    width: 14em;
+}
+
+#showdiv3 {
+    display: none;
+}
+
+.fieldset3 {
+    padding: 0;
+    margin: 0;
+}
+
 /*----------------------------*/
 /*------toets-interactie------*/
 /*----------------------------*/
 
-.down {
-   background-color: pink;
+.toets {
+    transform: scale(1.1) rotateX(20deg) rotateY(-15deg) rotateZ(5deg);
+    box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, .4);
+    transition-duration: 0.3s;
 }
 
 /*---------------------------------------*/
@@ -320,30 +347,24 @@ button {
 /*------het woord how------*/
 
 .how-h {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .how-o {
-    background-color: transparent;
     height: 11.5em;
     left: 11.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .how-w {
-    background-color: transparent;
     height: 11.5em;
     left: 23em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -352,20 +373,16 @@ button {
 /*------het woord to------*/
 
 .to-t {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .to-o {
-    background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -374,30 +391,24 @@ button {
 /*------het woord fix------*/
 
 .fix-f {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .fix-i {
-    background-color: transparent;
     height: 11.5em;
     left: 10.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 7em;
 }
 
 .fix-x {
-    background-color: transparent;
     height: 11.5em;
     left: 20em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -406,60 +417,48 @@ button {
 /*------het woord broken------*/
 
 .broken-b {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .broken-r {
-    background-color: transparent;
     height: 11.5em;
     left: 11em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9.75em;
 }
 
 .broken-o {
-    background-color: transparent;
     height: 11.5em;
     left: 22em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .broken-k {
-    background-color: transparent;
     height: 11.5em;
     left: 33.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 8em;
 }
 
 .broken-e {
-    background-color: transparent;
     height: 11.5em;
     left: 44.25em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .broken-n {
-    background-color: transparent;
     height: 11.5em;
     left: 55.75em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -468,50 +467,40 @@ button {
 /*------het woord heart------*/
 
 .heart-h {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .heart-e {
-    background-color: transparent;
     height: 11.5em;
     left: 11em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9.75em;
 }
 
 .heart-a {
-    background-color: transparent;
     height: 11.5em;
     left: 22.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .heart-r {
-    background-color: transparent;
     height: 11.5em;
     left: 34.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 8em;
 }
 
 .heart-t {
-    background-color: transparent;
     height: 11.5em;
     left: 45em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -520,30 +509,24 @@ button {
 /*------het woord and------*/
 
 .and-a {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .and-n {
-    background-color: transparent;
     height: 11.5em;
     left: 11.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9.75em;
 }
 
 .and-d {
-    background-color: transparent;
     height: 11.5em;
     left: 23em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -552,40 +535,32 @@ button {
 /*------het woord make------*/
 
 .make-m {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .make-a {
-    background-color: transparent;
     height: 11.5em;
     left: 11.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9.75em;
 }
 
 .make-k {
-    background-color: transparent;
     height: 11.5em;
     left: 23em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .make-e {
-    background-color: transparent;
     height: 11.5em;
     left: 33.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 8em;
@@ -594,50 +569,40 @@ button {
 /*------het woord spare------*/
 
 .spare-s {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .spare-p {
-    background-color: transparent;
     height: 11.5em;
     left: 11.25em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9.75em;
 }
 
 .spare-a {
-    background-color: transparent;
     height: 11.5em;
     left: 22.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .spare-r {
-    background-color: transparent;
     height: 11.5em;
     left: 34.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 8em;
 }
 
 .spare-e {
-    background-color: transparent;
     height: 11.5em;
     left: 45.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -646,20 +611,16 @@ button {
 /*------het woord by------*/
 
 .by-b {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .by-y {
-    background-color: transparent;
     height: 11.5em;
     left: 10.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -668,30 +629,24 @@ button {
 /*------het woord tré------*/
 
 .tre-t {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .tre-r {
-    background-color: transparent;
     height: 11.5em;
     left: 11em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9.75em;
 }
 
 .tre-z {
-    background-color: transparent;
     height: 11.5em;
     left: 22.25em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
@@ -700,50 +655,40 @@ button {
 /*------het woord seals------*/
 
 .seals-s1 {
-    background-color: transparent;
     height: 11.5em;
     left: 0;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .seals-e {
-    background-color: transparent;
     height: 11.5em;
     left: 11em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9.75em;
 }
 
 .seals-a {
-    background-color: transparent;
     height: 11.5em;
     left: 22.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;
 }
 
 .seals-l {
-    background-color: transparent;
     height: 11.5em;
     left: 34.5em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 8em;
 }
 
 .seals-s2 {
-    background-color: transparent;
     height: 11.5em;
     left: 44em;
-    opacity: 100%;
     position: absolute;
     top: 0;
     width: 9em;

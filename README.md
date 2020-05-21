@@ -210,6 +210,45 @@ Zo ziet het er uit (en eerlijk gezegd is het best satisfying om te hoveren over 
 
 ![hover](https://github.com/RobinAnsems/web-animation/blob/master/images/hover.png)
 
+#### Toetsenbord-interactie
+Ik heb door middel van het volgende stukje code, er voor kunnen zorgen dat wanneer je een letter op je toetsenbord indrukt de letter op het kunstwerk 3D wordt weergegeven:
+
+```javascript
+// Het selecteren van een element
+var letter-h = document.querySelector('.how-h');
+// Luisteren naar het event genaamd 'keydown' oftwel toets ingedrukt
+document.addEventListener('keydown', toggle)
+// Luisteren naar het event genaamd 'keyup' oftwel toets losgelaten
+document.addEventListener('keyup', toggle)
+
+function toggle(event) {
+// De toets die moet worden ingedrukt
+    if (event.key === 'h') {
+// De CSS wordt aangepast door het toevoegen van een class
+        letter-h.classList.add('toets');
+    }
+}
+
+function toggle(event) {
+// De CSS wordt verwijderd door het verwijderen van de class
+    letter-h.classList.remove('toets');
+}
+```
+
+Dit is de css die wordt toegevoegd:
+
+```css
+.toets {
+    transform: scale(1.1) rotateX(20deg) rotateY(-15deg) rotateZ(5deg);
+    box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, .4);
+    transition-duration: 0.3s;
+}
+```
+
+Zo ziet het er uit als je bijvoorbeeld de letter 'a' indrukt (ik heb dit voor elke letter in het kunstwerk gemaakt): 
+
+![letter-a](https://github.com/RobinAnsems/web-animation/blob/master/images/letter-a.png)
+
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:
 * [Het kunstwerk](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)
