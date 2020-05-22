@@ -880,7 +880,7 @@ function laatcheckboxzien() {
 }
 
 //--------------------------------------------------------
-//------toets-interactie (regel 886 tot en met 1300)------
+//------toets-interactie (regel 886 tot en met 1296)------
 //--------------------------------------------------------
 
 var howh = document.querySelector('.how-h');
@@ -1227,15 +1227,15 @@ document.addEventListener('keydown', toggles1)
 
 document.addEventListener('keyup', toggles2)
 
-function toggles1(event17) {
-    if (event17.key === 's') {
+function toggles1(event16) {
+    if (event16.key === 's') {
         spares.classList.add('toets');
         sealss1.classList.add('toets');
         sealss2.classList.add('toets');
     }
 }
 
-function toggles2(event17) {
+function toggles2(event16) {
     spares.classList.remove('toets');
     sealss1.classList.remove('toets');
     sealss2.classList.remove('toets');
@@ -1249,13 +1249,13 @@ document.addEventListener('keydown', togglep1)
 
 document.addEventListener('keyup', togglep2)
 
-function togglep1(event18) {
-    if (event18.key === 'p') {
+function togglep1(event17) {
+    if (event17.key === 'p') {
         sparep.classList.add('toets');
     }
 }
 
-function togglep2(event18) {
+function togglep2(event17) {
     sparep.classList.remove('toets');
 }
 
@@ -1267,13 +1267,13 @@ document.addEventListener('keydown', toggley1)
 
 document.addEventListener('keyup', toggley2)
 
-function toggley1(event19) {
-    if (event19.key === 'y') {
+function toggley1(event18) {
+    if (event18.key === 'y') {
         byy.classList.add('toets');
     }
 }
 
-function toggley2(event19) {
+function toggley2(event18) {
     byy.classList.remove('toets');
 }
 
@@ -1285,40 +1285,254 @@ document.addEventListener('keydown', togglel1)
 
 document.addEventListener('keyup', togglel2)
 
-function togglel1(event20) {
-    if (event20.key === 'l') {
+function togglel1(event19) {
+    if (event19.key === 'l') {
         sealsl.classList.add('toets');
     }
 }
 
-function togglel2(event20) {
+function togglel2(event19) {
     sealsl.classList.remove('toets');
 }
 
+//--------------------------------------------------------
+//------checkboxes (regel 1302 tot en met ??)------
+//--------------------------------------------------------
 
+var checkbox1 = document.querySelector('.checkbox1');
 
+function checkboxeen() {
+    if (checkbox1.checked == true) {
+        howh.classList.add('toets');
+        hearth.classList.add('toets');
+    } else {
+        howh.classList.remove('toets');
+        hearth.classList.remove('toets');
+    }
+}
 
+var checkbox2 = document.querySelector('.checkbox2');
 
+function checkboxtwee() {
+    if (checkbox2.checked == true) {
+        howo.classList.add('toets');
+        too.classList.add('toets');
+        brokeno.classList.add('toets');
+    } else {
+        howo.classList.remove('toets');
+        too.classList.remove('toets');
+        brokeno.classList.remove('toets');
+    }
+}
 
+var checkbox3 = document.querySelector('.checkbox3');
 
+function checkboxdrie() {
+    if (checkbox3.checked == true) {
+        howw.classList.add('toets');
+    } else {
+        howw.classList.remove('toets');
+    }
+}
 
+var checkbox4 = document.querySelector('.checkbox4');
 
+function checkboxvier() {
+    if (checkbox4.checked == true) {
+        tot.classList.add('toets');
+        tret.classList.add('toets');
+        heartt.classList.add('toets');
+    } else {
+        tot.classList.remove('toets');
+        tret.classList.remove('toets');
+        heartt.classList.remove('toets');
+    }
+}
 
+var checkbox5 = document.querySelector('.checkbox5');
 
+function checkboxvijf() {
+    if (checkbox5.checked == true) {
+        fixf.classList.add('toets');
+    } else {
+        fixf.classList.remove('toets');
+    }
+}
 
+var checkbox6 = document.querySelector('.checkbox6');
 
+function checkboxzes() {
+    if (checkbox6.checked == true) {
+        fixi.classList.add('toets');
+    } else {
+        fixi.classList.remove('toets');
+    }
+}
 
+var checkbox7 = document.querySelector('.checkbox7');
 
+function checkboxzeven() {
+    if (checkbox7.checked == true) {
+        fixx.classList.add('toets');
+    } else {
+        fixx.classList.remove('toets');
+    }
+}
 
+var checkbox8 = document.querySelector('.checkbox8');
 
+function checkboxacht() {
+    if (checkbox8.checked == true) {
+        a.classList.add('toets');
+        hearta.classList.add('toets');
+        anda.classList.add('toets');
+        makea.classList.add('toets');
+        atwee.classList.add('toets');
+        sparea.classList.add('toets');
+        sealsa.classList.add('toets');
+    } else {
+        a.classList.remove('toets');
+        hearta.classList.remove('toets');
+        anda.classList.remove('toets');
+        makea.classList.remove('toets');
+        atwee.classList.remove('toets');
+        sparea.classList.remove('toets');
+        sealsa.classList.remove('toets');
+    }
+}
 
+var checkbox9 = document.querySelector('.checkbox9');
 
+function checkboxnegen() {
+    if (checkbox9.checked == true) {
+        brokenb.classList.add('toets');
+        byb.classList.add('toets');
+    } else {
+        brokenb.classList.remove('toets');
+        byb.classList.remove('toets');
+    }
+}
 
+var checkbox10 = document.querySelector('.checkbox10');
 
+function checkboxtien() {
+    if (checkbox10.checked == true) {
+        brokenr.classList.add('toets');
+        heartr.classList.add('toets');
+        sparer.classList.add('toets');
+        trer.classList.add('toets');
+    } else {
+        brokenr.classList.remove('toets');
+        heartr.classList.remove('toets');
+        sparer.classList.remove('toets');
+        trer.classList.remove('toets');
+    }
+}
 
+var checkbox11 = document.querySelector('.checkbox11');
 
+function checkboxelf() {
+    if (checkbox11.checked == true) {
+        brokenk.classList.add('toets');
+        makek.classList.add('toets');
+    } else {
+        brokenk.classList.remove('toets');
+        makek.classList.remove('toets');
+    }
+}
 
+var checkbox12 = document.querySelector('.checkbox12');
 
+function checkboxtwaalf() {
+    if (checkbox12.checked == true) {
+        brokene.classList.add('toets');
+        hearte.classList.add('toets');
+        makee.classList.add('toets');
+        sparee.classList.add('toets');
+        tree.classList.add('toets');
+        sealse.classList.add('toets');
+    } else {
+        brokene.classList.remove('toets');
+        hearte.classList.remove('toets');
+        makee.classList.remove('toets');
+        sparee.classList.remove('toets');
+        tree.classList.remove('toets');
+        sealse.classList.remove('toets');
+    }
+}
 
+var checkbox13 = document.querySelector('.checkbox13');
 
+function checkboxdertien() {
+    if (checkbox13.checked == true) {
+        brokenn.classList.add('toets');
+        andn.classList.add('toets');
+    } else {
+        brokenn.classList.remove('toets');
+        andn.classList.remove('toets');
+    }
+}
 
+var checkbox14 = document.querySelector('.checkbox14');
+
+function checkboxveertien() {
+    if (checkbox14.checked == true) {
+        andd.classList.add('toets');
+    } else {
+        andd.classList.remove('toets');
+    }
+}
+
+var checkbox15 = document.querySelector('.checkbox15');
+
+function checkboxvijftien() {
+    if (checkbox15.checked == true) {
+        makem.classList.add('toets');
+    } else {
+        makem.classList.remove('toets');
+    }
+}
+
+var checkbox16 = document.querySelector('.checkbox16');
+
+function checkboxzestien() {
+    if (checkbox16.checked == true) {
+        spares.classList.add('toets');
+        sealss1.classList.add('toets');
+        sealss2.classList.add('toets');
+    } else {
+        spares.classList.remove('toets');
+        sealss1.classList.remove('toets');
+        sealss2.classList.remove('toets');
+    }
+}
+
+var checkbox17 = document.querySelector('.checkbox17');
+
+function checkboxzeventien() {
+    if (checkbox17.checked == true) {
+        sparep.classList.add('toets');
+    } else {
+        sparep.classList.remove('toets');
+    }
+}
+
+var checkbox18 = document.querySelector('.checkbox18');
+
+function checkboxachtien() {
+    if (checkbox18.checked == true) {
+        byy.classList.add('toets');
+    } else {
+        byy.classList.remove('toets');
+    }
+}
+
+var checkbox19 = document.querySelector('.checkbox19');
+
+function checkboxnegentien() {
+    if (checkbox19.checked == true) {
+        sealsl.classList.add('toets');
+    } else {
+        sealsl.classList.remove('toets');
+    }
+}

@@ -194,6 +194,7 @@ Ik heb door middel van "_:hover_" er voor gezorgd dat de kleur van de bolletjes 
     opacity: 100%;
     position: absolute;
     width: 1.5em;
+    transition: 3s ease;
 }
 
 #style1:hover {
@@ -205,7 +206,7 @@ Ik heb door middel van "_:hover_" er voor gezorgd dat de kleur van de bolletjes 
     position: absolute;
     width: 1.5em;
     transform: scale(1.5);
-    transition: 0.1s ease-in-out;
+    transition: 0.2s ease;
     transform-origin: center;
 }
 ```
@@ -215,7 +216,7 @@ Zo ziet het er uit (en eerlijk gezegd is het best satisfying om te hoveren over 
 ![hover](https://github.com/RobinAnsems/web-animation/blob/master/images/hover.png)
 
 #### Toetsenbord-interactie
-Ik heb door middel van het volgende stukje code, er voor kunnen zorgen dat wanneer je een letter op je toetsenbord indrukt de letter op het kunstwerk 3D wordt weergegeven:
+Ik heb door middel van het volgende stukje code, er voor kunnen zorgen dat wanneer je een letter op je toetsenbord indrukt, de letter op het kunstwerk 3D wordt weergegeven:
 
 ```javascript
 // Het selecteren van een element
@@ -252,6 +253,10 @@ Dit is de css die wordt toegevoegd:
 Zo ziet het er uit als je bijvoorbeeld de letter 'a' indrukt (ik heb dit voor elke letter in het kunstwerk gemaakt): 
 
 ![letter-a](https://github.com/RobinAnsems/web-animation/blob/master/images/letter-a.png)
+
+Voor mensen die op mobiel of tablet het kunstwerk bekijken heb ik checkboxes gemaakt, omdat ze geen toetsen kunnen gebruiken:
+
+![checkboxes](https://github.com/RobinAnsems/web-animation/blob/master/images/checkboxes.png)
 
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:
