@@ -831,7 +831,7 @@ var img2 = "images/omhoog.png";
 var imgElement = document.getElementById('image1');
 
 function laatsliderzien() {
-    var knopje1 = document.getElementById("showdiv1");
+    var knopje1 = document.getElementById('showdiv1');
     if (knopje1.style.display === "none") {
         knopje1.style.display = "block";
         imgElement.src = img2;
@@ -1296,10 +1296,10 @@ function togglel2(event19) {
 }
 
 //--------------------------------------------------------
-//------checkboxes (regel 1302 tot en met ??)------
+//------checkboxes (regel 1302 tot en met 1539)------
 //--------------------------------------------------------
 
-var checkbox1 = document.querySelector('.checkbox1');
+var checkbox1 = document.querySelector('#checkbox1');
 
 function checkboxeen() {
     if (checkbox1.checked == true) {
@@ -1311,7 +1311,7 @@ function checkboxeen() {
     }
 }
 
-var checkbox2 = document.querySelector('.checkbox2');
+var checkbox2 = document.querySelector('#checkbox2');
 
 function checkboxtwee() {
     if (checkbox2.checked == true) {
@@ -1325,7 +1325,7 @@ function checkboxtwee() {
     }
 }
 
-var checkbox3 = document.querySelector('.checkbox3');
+var checkbox3 = document.querySelector('#checkbox3');
 
 function checkboxdrie() {
     if (checkbox3.checked == true) {
@@ -1335,7 +1335,7 @@ function checkboxdrie() {
     }
 }
 
-var checkbox4 = document.querySelector('.checkbox4');
+var checkbox4 = document.querySelector('#checkbox4');
 
 function checkboxvier() {
     if (checkbox4.checked == true) {
@@ -1349,7 +1349,7 @@ function checkboxvier() {
     }
 }
 
-var checkbox5 = document.querySelector('.checkbox5');
+var checkbox5 = document.querySelector('#checkbox5');
 
 function checkboxvijf() {
     if (checkbox5.checked == true) {
@@ -1359,7 +1359,7 @@ function checkboxvijf() {
     }
 }
 
-var checkbox6 = document.querySelector('.checkbox6');
+var checkbox6 = document.querySelector('#checkbox6');
 
 function checkboxzes() {
     if (checkbox6.checked == true) {
@@ -1369,7 +1369,7 @@ function checkboxzes() {
     }
 }
 
-var checkbox7 = document.querySelector('.checkbox7');
+var checkbox7 = document.querySelector('#checkbox7');
 
 function checkboxzeven() {
     if (checkbox7.checked == true) {
@@ -1379,7 +1379,7 @@ function checkboxzeven() {
     }
 }
 
-var checkbox8 = document.querySelector('.checkbox8');
+var checkbox8 = document.querySelector('#checkbox8');
 
 function checkboxacht() {
     if (checkbox8.checked == true) {
@@ -1401,7 +1401,7 @@ function checkboxacht() {
     }
 }
 
-var checkbox9 = document.querySelector('.checkbox9');
+var checkbox9 = document.querySelector('#checkbox9');
 
 function checkboxnegen() {
     if (checkbox9.checked == true) {
@@ -1413,7 +1413,7 @@ function checkboxnegen() {
     }
 }
 
-var checkbox10 = document.querySelector('.checkbox10');
+var checkbox10 = document.querySelector('#checkbox10');
 
 function checkboxtien() {
     if (checkbox10.checked == true) {
@@ -1429,7 +1429,7 @@ function checkboxtien() {
     }
 }
 
-var checkbox11 = document.querySelector('.checkbox11');
+var checkbox11 = document.querySelector('#checkbox11');
 
 function checkboxelf() {
     if (checkbox11.checked == true) {
@@ -1441,7 +1441,7 @@ function checkboxelf() {
     }
 }
 
-var checkbox12 = document.querySelector('.checkbox12');
+var checkbox12 = document.querySelector('#checkbox12');
 
 function checkboxtwaalf() {
     if (checkbox12.checked == true) {
@@ -1461,7 +1461,7 @@ function checkboxtwaalf() {
     }
 }
 
-var checkbox13 = document.querySelector('.checkbox13');
+var checkbox13 = document.querySelector('#checkbox13');
 
 function checkboxdertien() {
     if (checkbox13.checked == true) {
@@ -1473,7 +1473,7 @@ function checkboxdertien() {
     }
 }
 
-var checkbox14 = document.querySelector('.checkbox14');
+var checkbox14 = document.querySelector('#checkbox14');
 
 function checkboxveertien() {
     if (checkbox14.checked == true) {
@@ -1483,7 +1483,7 @@ function checkboxveertien() {
     }
 }
 
-var checkbox15 = document.querySelector('.checkbox15');
+var checkbox15 = document.querySelector('#checkbox15');
 
 function checkboxvijftien() {
     if (checkbox15.checked == true) {
@@ -1493,7 +1493,7 @@ function checkboxvijftien() {
     }
 }
 
-var checkbox16 = document.querySelector('.checkbox16');
+var checkbox16 = document.querySelector('#checkbox16');
 
 function checkboxzestien() {
     if (checkbox16.checked == true) {
@@ -1507,7 +1507,7 @@ function checkboxzestien() {
     }
 }
 
-var checkbox17 = document.querySelector('.checkbox17');
+var checkbox17 = document.querySelector('#checkbox17');
 
 function checkboxzeventien() {
     if (checkbox17.checked == true) {
@@ -1517,7 +1517,7 @@ function checkboxzeventien() {
     }
 }
 
-var checkbox18 = document.querySelector('.checkbox18');
+var checkbox18 = document.querySelector('#checkbox18');
 
 function checkboxachtien() {
     if (checkbox18.checked == true) {
@@ -1527,7 +1527,7 @@ function checkboxachtien() {
     }
 }
 
-var checkbox19 = document.querySelector('.checkbox19');
+var checkbox19 = document.querySelector('#checkbox19');
 
 function checkboxnegentien() {
     if (checkbox19.checked == true) {

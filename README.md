@@ -258,6 +258,10 @@ Voor mensen die op mobiel of tablet het kunstwerk bekijken heb ik checkboxes gem
 
 ![checkboxes](https://github.com/RobinAnsems/web-animation/blob/master/images/checkboxes.png)
 
+Zo ziet het er uit als je alle toetsen ingedrukt houdt (succes daarmee), of als je alle checkboxes hebt aangevinkt:
+
+![3d-weergave](https://github.com/RobinAnsems/web-animation/blob/master/images/3d-weergave.png)
+
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:
 * [Het kunstwerk](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)

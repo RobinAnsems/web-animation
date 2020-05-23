@@ -35,37 +35,33 @@ body {
     margin: auto;
     position: absolute;
     right: 0;
-    width: 600px;
     transition: all 1s ease;
+    width: 600px;
 }
 
 /*-----------------------*/
 /*------colorpicker------*/
 /*-----------------------*/
 
-.colorpicker {
+.fieldset1 {
     left: 1em;
     padding: 0;
     position: absolute;
     top: 1em;
 }
 
-.fieldset1 {
-    padding: 0;
-}
-
 #showdiv1 {
     display: none;
+    left: 0.3em;
     position: absolute;
     top: 3em;
-    left: 0.3em;
 }
 
 .achtergrond1 {
     background-color: white;
-    opacity: 50%;
-    z-index: -10;
     margin: 0;
+    opacity: 0.5;
+    z-index: -10;
 }
 
 fieldset {
@@ -87,18 +83,18 @@ output {
     padding: 2px 9px;
 }
 
-label[for=r],
-output[for=r] {
+label[for=rood],
+output[for=rood] {
     background-color: #f00;
 }
 
-label[for=g],
-output[for=g] {
+label[for=groen],
+output[for=groen] {
     background-color: #0f0;
 }
 
-label[for=b],
-output[for=b] {
+label[for=blauw],
+output[for=blauw] {
     background-color: #00f;
 }
 
@@ -127,42 +123,30 @@ button {
 /*------metadata------*/
 /*--------------------*/
 
-.metaknop {
-    left: 12.75em;
-    padding: 0em;
-    position: absolute;
-    top: 1em;
-}
-
 #showdiv2 {
     display: none;
 }
 
 .tekst {
+    bottom: 1em;
     color: black;
     font-family: sans-serif;
     font-size: 16px;
     left: 1em;
     margin: 0;
     position: absolute;
-    bottom: 1em;
 }
 
 .fieldset2 {
+    left: 21.7em;
     padding: 0;
-    margin: 0;
+    position: absolute;
+    top: 1em;
 }
 
 /*--------------------*/
 /*------checkboxes------*/
 /*--------------------*/
-
-.checkboxknop {
-    left: 20.6em;
-    padding: 0em;
-    position: absolute;
-    top: 1em;
-}
 
 .checkboxes {
     padding: 0 0 0 0.5em;
@@ -170,14 +154,16 @@ button {
 
 #showdiv3 {
     display: none;
+    left: 1em;
     position: absolute;
     top: 3em;
-    left: 1em;
 }
 
 .fieldset3 {
+    left: 12.75em;
     padding: 0;
-    margin: 0;
+    position: absolute;
+    top: 1em;
 }
 
 input {
@@ -189,36 +175,36 @@ input {
 /*----------------------------*/
 
 .toets {
-    transition-duration: 0.5s;
-    transform: scale(1.1) rotateX(380deg) rotateY(-15deg) rotateZ(5deg) skewX(-4deg);
     box-shadow: 0.25em 0.5em 0.25em 0.15em rgba(0, 0, 0, .5), 1.25em 1.5em 0.5em rgba(0, 0, 0, .6);
+    transform: scale(1.1) rotateX(380deg) rotateY(-15deg) rotateZ(5deg) skewX(-4deg);
+    transition-duration: 0.5s;
 }
 
 /*---------------------------------------*/
 /*------vormgeving van de bolletjes------*/
 /*---------------------------------------*/
 
-#style1 {
+.style1 {
     border: 0.45em solid black;
     border-radius: 50%;
     height: 1.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
-    width: 1.5em;
     transition: 3s ease;
+    width: 1.5em;
 }
 
-#style1:hover {
+.style1:hover {
     background-color: white;
     border: 0.5em solid black;
     border-radius: 50%;
     height: 1.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
-    width: 1.5em;
     transform: scale(1.5);
-    transition: 0.2s ease;
     transform-origin: center;
+    transition: 0.2s ease;
+    width: 1.5em;
 }
 
 /*------------------------------------*/
@@ -228,143 +214,143 @@ input {
 .how {
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 10em;
-    width: 32em;
     transition: all 1s ease;
+    width: 32em;
 }
 
 .to {
     background-color: transparent;
     height: 11.5em;
     left: 51.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 10em;
-    width: 19em;
     transition: all 1s ease;
+    width: 19em;
 }
 
 .fix {
     background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 27.75em;
-    width: 29em;
     transition: all 1s ease;
+    width: 29em;
 }
 
 .a {
     background-color: transparent;
     height: 11.5em;
     left: 48.25em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 27.75em;
-    width: 9em;
     transition: all 1s ease;
+    width: 9em;
 }
 
 .broken {
     background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 45.5em;
-    width: 64.75em;
     transition: all 1s ease;
+    width: 64.75em;
 }
 
 .heart {
     background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 63em;
-    width: 54em;
     transition: all 1s ease;
+    width: 54em;
 }
 
 .and {
     background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 81em;
-    width: 32em;
     transition: all 1s ease;
+    width: 32em;
 }
 
 .make {
     background-color: transparent;
     height: 11.5em;
     left: 51em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 81em;
-    width: 43em;
     transition: all 1s ease;
+    width: 43em;
 }
 
 .atwee {
     background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 98.5em;
-    width: 9em;
     transition: all 1s ease;
+    width: 9em;
 }
 
 .spare {
     background-color: transparent;
     height: 11.5em;
     left: 28.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 98.5em;
-    width: 54em;
     transition: all 1s ease;
+    width: 54em;
 }
 
 .by {
     background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 116.5em;
-    width: 20em;
     transition: all 1s ease;
+    width: 20em;
 }
 
 .tre {
     background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 134em;
-    width: 32em;
     transition: all 1s ease;
+    width: 32em;
 }
 
 .seals {
     background-color: transparent;
     height: 11.5em;
     left: 10em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 151.75em;
-    width: 53.25em;
     transition: all 1s ease;
+    width: 53.25em;
 }
 
 /*------------------------------------*/
@@ -728,27 +714,27 @@ input {
 /*------de letter h------*/
 
 .h1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .h2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .h3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .h4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .h5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
@@ -764,7 +750,7 @@ input {
 
 .h8 {
     left: 6.75em;
-    top: 0em;
+    top: 0;
 }
 
 .h9 {
@@ -791,32 +777,32 @@ input {
 
 .o1 {
     left: 1em;
-    top: 0em;
+    top: 0;
 }
 
 .o2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .o3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .o4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .o5 {
     left: 3.25em;
-    top: 0em;
+    top: 0;
 }
 
 .o6 {
     left: 5.5em;
-    top: 0em;
+    top: 0;
 }
 
 .o7 {
@@ -852,22 +838,22 @@ input {
 /*------de letter w------*/
 
 .w1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .w2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .w3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .w4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
@@ -878,7 +864,7 @@ input {
 
 .w6 {
     left: 6.75em;
-    top: 0em;
+    top: 0;
 }
 
 .w7 {
@@ -919,23 +905,23 @@ input {
 /*------de letter t------*/
 
 .t1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .t2 {
     left: 2em;
-    top: 0em;
+    top: 0;
 }
 
 .t3 {
     left: 4em;
-    top: 0em;
+    top: 0;
 }
 
 .t4 {
     left: 6.25em;
-    top: 0em;
+    top: 0;
 }
 
 .t5 {
@@ -961,43 +947,43 @@ input {
 /*------de letter f------*/
 
 .f1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .f2 {
-    left: 0em;
+    left: 0;
     top: 2.25em;
 }
 
 .f3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .f4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .f5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
 .f6 {
     left: 2.25em;
-    top: 0em;
+    top: 0;
 }
 
 .f7 {
     left: 4.5em;
-    top: 0em;
+    top: 0;
 }
 
 .f8 {
     left: 6.75em;
-    top: 0em;
+    top: 0;
 }
 
 .f9 {
@@ -1014,7 +1000,7 @@ input {
 
 .i1 {
     left: 2.25em;
-    top: 0em;
+    top: 0;
 }
 
 .i2 {
@@ -1038,30 +1024,30 @@ input {
 }
 
 .i6 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .i7 {
-    left: 04.5em;
-    top: 0em;
+    left: 4.5em;
+    top: 0;
 }
 
 .i8 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
 .i9 {
-    left: 04.5em;
+    left: 4.5em;
     top: 9em;
 }
 
 /*------de letter x------*/
 
 .x1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .x2 {
@@ -1086,11 +1072,11 @@ input {
 
 .x6 {
     left: 6.5em;
-    top: 0em;
+    top: 0;
 }
 
 .x7 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
@@ -1108,12 +1094,12 @@ input {
 
 .a1 {
     left: 2.25em;
-    top: 0em;
+    top: 0;
 }
 
 .a2 {
     left: 4.5em;
-    top: 0em;
+    top: 0;
 }
 
 .a3 {
@@ -1127,17 +1113,17 @@ input {
 }
 
 .a5 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .a6 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .a7 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
@@ -1169,38 +1155,38 @@ input {
 /*------de letter b------*/
 
 .b1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .b2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .b3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .b4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .b5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
 .b6 {
     left: 2.25em;
-    top: 0em;
+    top: 0;
 }
 
 .b7 {
     left: 4.5em;
-    top: 0em;
+    top: 0;
 }
 
 .b8 {
@@ -1236,38 +1222,38 @@ input {
 /*------de letter r------*/
 
 .r1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .r2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .r3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .r4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .r5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
 .r6 {
     left: 2.25em;
-    top: 0em;
+    top: 0;
 }
 
 .r7 {
     left: 4.5em;
-    top: 0em;
+    top: 0;
 }
 
 .r8 {
@@ -1298,27 +1284,27 @@ input {
 /*------de letter k------*/
 
 .k1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .k2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .k3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .k4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .k5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
@@ -1334,7 +1320,7 @@ input {
 
 .k8 {
     left: 6em;
-    top: 0em;
+    top: 0;
 }
 
 .k9 {
@@ -1350,43 +1336,43 @@ input {
 /*------de letter e------*/
 
 .e1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .e2 {
-    left: 0em;
+    left: 0;
     top: 2.25em;
 }
 
 .e3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .e4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .e5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
 .e6 {
     left: 2.25em;
-    top: 0em;
+    top: 0;
 }
 
 .e7 {
     left: 4.5em;
-    top: 0em;
+    top: 0;
 }
 
 .e8 {
     left: 6.75em;
-    top: 0em;
+    top: 0;
 }
 
 .e9 {
@@ -1417,33 +1403,33 @@ input {
 /*------de letter n------*/
 
 .n1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .n2 {
-    left: 0em;
+    left: 0;
     top: 2.25em;
 }
 
 .n3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .n4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .n5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
 .n6 {
     left: 6.5em;
-    top: 0em;
+    top: 0;
 }
 
 .n7 {
@@ -1484,38 +1470,38 @@ input {
 /*------de letter d------*/
 
 .d1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .d2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .d3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .d4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .d5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
 .d6 {
     left: 2.25em;
-    top: 0em;
+    top: 0;
 }
 
 .d7 {
     left: 4.5em;
-    top: 0em;
+    top: 0;
 }
 
 .d8 {
@@ -1546,27 +1532,27 @@ input {
 /*------de letter m------*/
 
 .m1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .m2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .m3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .m4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .m5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
@@ -1582,7 +1568,7 @@ input {
 
 .m8 {
     left: 6.75em;
-    top: 0em;
+    top: 0;
 }
 
 .m9 {
@@ -1614,21 +1600,21 @@ input {
 
 .s1 {
     left: 5.75em;
-    top: 0em;
+    top: 0;
 }
 
 .s2 {
     left: 3.75em;
-    top: 0em;
+    top: 0;
 }
 
 .s3 {
     left: 1.5em;
-    top: 0em;
+    top: 0;
 }
 
 .s4 {
-    left: 0em;
+    left: 0;
     top: 2.25em;
 }
 
@@ -1670,38 +1656,38 @@ input {
 /*------de letter p------*/
 
 .p1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .p2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .p3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .p4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .p5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
 .p6 {
     left: 2.25em;
-    top: 0em;
+    top: 0;
 }
 
 .p7 {
     left: 4.5em;
-    top: 0em;
+    top: 0;
 }
 
 .p8 {
@@ -1727,12 +1713,12 @@ input {
 /*------de letter y------*/
 
 .y1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .y2 {
-    left: 0em;
+    left: 0;
     top: 2.25em;
 }
 
@@ -1763,7 +1749,7 @@ input {
 
 .y8 {
     left: 7em;
-    top: 0em;
+    top: 0;
 }
 
 /*------de letter é------*/
@@ -1774,22 +1760,22 @@ input {
 }
 
 .z2 {
-    left: 0em;
+    left: 0;
     top: 2.25em;
 }
 
 .z3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .z4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
 .z5 {
-    left: 0em;
+    left: 0;
     top: 9em;
 }
 
@@ -1841,22 +1827,22 @@ input {
 /*------de letter l------*/
 
 .l1 {
-    left: 0em;
-    top: 0em;
+    left: 0;
+    top: 0;
 }
 
 .l2 {
-    left: 0em;
+    left: 0;
     top: 2em;
 }
 
 .l3 {
-    left: 0em;
+    left: 0;
     top: 4.5em;
 }
 
 .l4 {
-    left: 0em;
+    left: 0;
     top: 6.75em;
 }
 
@@ -1883,11 +1869,11 @@ input {
     background-color: transparent;
     height: 58.5em;
     left: 45.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 104em;
-    width: 59.5em;
     transition: all 1s ease;
+    width: 59.5em;
 }
 
 /*------------------------------------*/
@@ -2038,8 +2024,8 @@ input {
     background-color: transparent;
     clip-path: polygon(49% 99%, 0 71%, 0 58%, 25% 15%, 37% 8%, 41% 5%, 47% 1%, 55% 1%, 61% 4%, 63% 11%, 69% 15%, 76% 14%, 84% 18%, 85% 25%, 98% 33%, 99% 71%);
     height: 23.5em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 16.5em;
     width: 24.5em;
@@ -2052,7 +2038,7 @@ input {
     clip-path: polygon(0 35%, 0 20%, 100% 78%, 100% 93%);
     height: 12em;
     left: 0;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 12em;
     width: 12em;
@@ -2063,7 +2049,7 @@ input {
     clip-path: polygon(0 31%, 0 26%, 100% 80%, 100% 85%);
     height: 12em;
     left: 0.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 12.1em;
     width: 11em;
@@ -2074,7 +2060,7 @@ input {
     clip-path: polygon(45% 21%, 98% 4%, 100% 58%, 0 98%, 0 87%);
     height: 16.5em;
     left: 11.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 7em;
     width: 12em;
@@ -2085,7 +2071,7 @@ input {
     clip-path: polygon(57% 24%, 94% 7%, 95% 57%, 5% 94%, 5% 89%);
     height: 16.5em;
     left: 11.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 7em;
     width: 12em;
@@ -2095,8 +2081,8 @@ input {
     background-color: black;
     clip-path: polygon(36% 0, 100% 40%, 67% 100%, 0 61%);
     height: 18em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 3.5em;
     width: 18.25em;
@@ -2106,8 +2092,8 @@ input {
     background-color: white;
     clip-path: polygon(37% 5%, 98% 42%, 66% 98%, 4% 62%);
     height: 18em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 3.5em;
     width: 18em;
@@ -2118,7 +2104,7 @@ input {
     clip-path: polygon(30% 0, 97% 40%, 67% 57%, 0% 16%);
     height: 17.5em;
     left: 6.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 0.75em;
     width: 17.5em;
@@ -2129,7 +2115,7 @@ input {
     clip-path: polygon(32% 1%, 91% 38%, 66% 54%, 4% 16%);
     height: 17.5em;
     left: 6.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 17.5em;
@@ -2140,7 +2126,7 @@ input {
     clip-path: ellipse(40% 24% at 41% 75%);
     height: 5.75em;
     left: 10.20em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 0.5em;
     width: 5.75em;
@@ -2151,7 +2137,7 @@ input {
     clip-path: polygon(0 25%, 80% 25%, 80% 85%, 0 85%);
     height: 5.75em;
     left: 10.25em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 0.25em;
     width: 5.75em;
@@ -2162,7 +2148,7 @@ input {
     clip-path: ellipse(40% 24% at 41% 25%);
     height: 5.75em;
     left: 10.25em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 0.25em;
     width: 5.75em;
@@ -2173,7 +2159,7 @@ input {
     clip-path: ellipse(30% 15% at 40% 75%);
     height: 5.75em;
     left: 10.15em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 0.5em;
     width: 5.9em;
@@ -2184,7 +2170,7 @@ input {
     clip-path: polygon(8% 25%, 72% 25%, 70% 80%, 8% 80%);
     height: 5.75em;
     left: 10.25em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 0.25em;
     width: 5.75em;
@@ -2195,7 +2181,7 @@ input {
     clip-path: ellipse(30% 15% at 40% 25%);
     height: 5.75em;
     left: 10.25em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 0.25em;
     width: 5.75em;
@@ -2206,7 +2192,7 @@ input {
     clip-path: ellipse(40% 24% at 41% 75%);
     height: 5.75em;
     left: 15.7em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3.75em;
     width: 5.75em;
@@ -2217,7 +2203,7 @@ input {
     clip-path: polygon(0 25%, 80% 25%, 80% 85%, 0 85%);
     height: 5.75em;
     left: 15.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3.5em;
     width: 5.75em;
@@ -2228,7 +2214,7 @@ input {
     clip-path: ellipse(40% 24% at 41% 25%);
     height: 5.75em;
     left: 15.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3.5em;
     width: 5.75em;
@@ -2239,7 +2225,7 @@ input {
     clip-path: ellipse(30% 15% at 40% 75%);
     height: 5.75em;
     left: 15.65em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3.75em;
     width: 5.9em;
@@ -2250,7 +2236,7 @@ input {
     clip-path: polygon(8% 25%, 72% 25%, 70% 80%, 8% 80%);
     height: 5.75em;
     left: 15.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3.5em;
     width: 5.75em;
@@ -2261,7 +2247,7 @@ input {
     clip-path: ellipse(30% 15% at 40% 25%);
     height: 5.75em;
     left: 15.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3.5em;
     width: 5.75em;
@@ -2276,7 +2262,7 @@ input {
     clip-path: polygon(13% 8%, 18% 2%, 27% 0, 33% 3%, 37% 7%, 37% 11%, 44% 14%, 50% 14%, 56% 15%, 58% 20%, 58% 23%, 73% 31%, 100% 47%, 100% 53%, 49% 82%, 0 53%, 0 16%);
     height: 24em;
     left: 11.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 13.25em;
     width: 24em;
@@ -2288,7 +2274,7 @@ input {
     clip-path: polygon(0 15%, 73% 52%, 63% 98%, 0 61%);
     height: 19em;
     left: 0;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 19em;
@@ -2299,7 +2285,7 @@ input {
     clip-path: polygon(2% 18%, 60% 53%, 61% 95%, 2% 60%);
     height: 19em;
     left: 0;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 19em;
@@ -2310,7 +2296,7 @@ input {
     clip-path: polygon(33% 0, 100% 37%, 68% 56%, 0 16.5%);
     height: 17.5em;
     left: 0;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 17.5em;
@@ -2321,7 +2307,7 @@ input {
     clip-path: polygon(33% 4%, 95% 38%, 66% 55%, 5% 18%);
     height: 17.5em;
     left: 0;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 17.5em;
@@ -2332,7 +2318,7 @@ input {
     clip-path: polygon(46.4% 0%, 100% 33%, 100% 43%, 2% 98.5%, 0 27%);
     height: 12.25em;
     left: 11.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 7.5em;
     width: 12.25em;
@@ -2343,7 +2329,7 @@ input {
     clip-path: polygon(44% 5%, 96% 35%, 96% 42%, 3% 94%, 2% 30%);
     height: 12.25em;
     left: 11.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 7.5em;
     width: 12.25em;
@@ -2353,9 +2339,9 @@ input {
     background-color: transparent;
     height: 18.75em;
     left: -6.6em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
-    top: 0em;
+    top: 0;
     width: 10em;
 }
 
@@ -2368,7 +2354,7 @@ input {
     clip-path: polygon(0 68%, 0 60%, 27% 14%, 41% 7%, 47% 1%, 56% 1%, 62% 5%, 63% 11%, 71% 14%, 84% 16%, 87% 25%, 98% 32%, 99% 69%, 50% 97%);
     height: 24em;
     left: 23.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3em;
     width: 24em;
@@ -2384,7 +2370,7 @@ input {
     clip-path: polygon(0 53%, 0 16%, 14% 9%, 15% 2%, 21% 1%, 28% 1%, 31% 1%, 36% 5%, 37% 9%, 40% 12%, 47% 13%, 54% 15%, 59% 18%, 60% 23%, 67% 26%, 74% 30%, 89% 39%, 100% 47%, 100% 54%, 50% 82%, 21% 66%);
     height: 24em;
     left: 35.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: -0.25em;
     width: 24em;
@@ -2399,8 +2385,8 @@ input {
     background-color: transparent;
     clip-path: polygon(28% 1%, 43% 4%, 47% 12%, 54% 18%, 63% 18%, 73% 25%, 79% 31%, 91% 38%, 91% 73%, 60% 90%, 0 56%, 0 20%, 19% 9%);
     height: 20em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 28em;
     width: 20em;
@@ -2411,8 +2397,8 @@ input {
     background-color: black;
     clip-path: polygon(0 0, 87% 53%, 87% 99%, 0 49%);
     height: 14em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 4.25em;
     width: 14em;
@@ -2422,8 +2408,8 @@ input {
     background-color: white;
     clip-path: polygon(3% 6%, 85% 56%, 85% 95%, 3% 48%);
     height: 14em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 4.25em;
     width: 14em;
@@ -2434,7 +2420,7 @@ input {
     clip-path: polygon(0 36%, 59% 0%, 60% 68%, 0 100%);
     height: 10em;
     left: 12em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 8em;
     width: 10em;
@@ -2445,7 +2431,7 @@ input {
     clip-path: polygon(3% 40%, 56% 9%, 57% 64%, 3% 95%);
     height: 10em;
     left: 12em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 8em;
     width: 10em;
@@ -2455,8 +2441,8 @@ input {
     background-color: black;
     clip-path: polygon(0% 18.2%, 34% 1%, 99% 39.5%, 67% 59%);
     height: 18em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 18em;
@@ -2466,8 +2452,8 @@ input {
     background-color: white;
     clip-path: polygon(4% 19.5%, 35% 4%, 96% 41%, 67% 58%);
     height: 18em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 18em;
@@ -2477,7 +2463,7 @@ input {
     background-color: transparent;
     height: 18.75em;
     left: -6em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 0.5em;
     width: 10em;
@@ -2491,8 +2477,8 @@ input {
     background-color: transparent;
     clip-path: polygon(32% 25%, 36% 19%, 44% 18%, 52% 13%, 60% 7%, 69% 10%, 74% 16%, 83% 19%, 90% 25%, 100% 35%, 100% 57%, 61% 81%, 19% 57%, 19% 33%);
     height: 30em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 19em;
     width: 30em;
@@ -2504,7 +2490,7 @@ input {
     clip-path: polygon(0 0, 87% 53%, 87% 99%, 0 49%);
     height: 14em;
     left: 6em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 10em;
     width: 14em;
@@ -2515,7 +2501,7 @@ input {
     clip-path: polygon(3% 6%, 85% 55%, 85% 95%, 3% 48%);
     height: 14em;
     left: 6em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 10em;
     width: 14em;
@@ -2526,7 +2512,7 @@ input {
     clip-path: polygon(1% 99%, 1% 50%, 84% 3%, 84% 51%);
     height: 14em;
     left: 18em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 10em;
     width: 14em;
@@ -2537,7 +2523,7 @@ input {
     clip-path: polygon(3% 93%, 3% 54%, 81% 8%, 81% 48%);
     height: 14em;
     left: 18em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 10em;
     width: 14em;
@@ -2548,7 +2534,7 @@ input {
     clip-path: polygon(50.1% 61.1%, 0 30%, 52% 0, 100% 31.5%);
     height: 23.75em;
     left: 6em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3em;
     width: 23.75em;
@@ -2559,7 +2545,7 @@ input {
     clip-path: polygon(50.5% 58.3%, 4% 30.5%, 52% 3%, 96.5% 32%);
     height: 23.75em;
     left: 6em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 3em;
     width: 23.75em;
@@ -2568,8 +2554,8 @@ input {
 .zes-onderdeel7 {
     background-color: transparent;
     height: 18.75em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 5.5em;
     width: 10em;
@@ -2579,7 +2565,7 @@ input {
     background-color: transparent;
     height: 18.75em;
     left: 6em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 2.5em;
     width: 10em;
@@ -2594,7 +2580,7 @@ input {
     clip-path: polygon(32% 25%, 36% 19%, 44% 18%, 52% 13%, 60% 7%, 69% 10%, 74% 16%, 83% 19%, 90% 25%, 100% 35%, 100% 57%, 61% 81%, 19% 57%, 19% 33%);
     height: 30em;
     left: 11.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 12.25em;
     width: 30em;
@@ -2610,7 +2596,7 @@ input {
     clip-path: polygon(32% 25%, 36% 19%, 44% 18%, 52% 13%, 60% 7%, 69% 10%, 74% 16%, 83% 19%, 90% 25%, 100% 35%, 100% 57%, 61% 81%, 19% 57%, 19% 33%);
     height: 30em;
     left: 23.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 5.5em;
     width: 30em;
@@ -2626,7 +2612,7 @@ input {
     clip-path: polygon(28% 1%, 43% 4%, 47% 12%, 54% 18%, 63% 18%, 73% 25%, 79% 31%, 91% 38%, 91% 73%, 60% 90%, 0 56%, 0 20%, 19% 9%);
     height: 20em;
     left: 41.3em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 4.4em;
     width: 20em;
@@ -2641,8 +2627,8 @@ input {
     background-color: transparent;
     clip-path: polygon(13% 28%, 14% 21%, 21% 17%, 28% 18%, 32% 16%, 37% 12%, 38% 7%, 43% 4%, 51% 4%, 57% 6%, 63% 11%, 71% 16%, 80% 20%, 83% 27%, 100% 37%, 100% 46%, 100% 51%, 100% 68%, 69% 86%, 0 46%, 0 36%);
     height: 24em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 30em;
     width: 24em;
@@ -2651,8 +2637,8 @@ input {
 
 .tien-onderdeel1 {
     background-color: transparent;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: -5.5em;
 }
@@ -2661,8 +2647,8 @@ input {
     background-color: black;
     clip-path: polygon(50.1% 61.1%, 0 30%, 52% 0, 100% 31.5%);
     height: 23.75em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 1.8em;
     width: 23.75em;
@@ -2672,8 +2658,8 @@ input {
     background-color: white;
     clip-path: polygon(49.5% 58.5%, 3% 31%, 52% 2%, 96.5% 32.5%);
     height: 23.75em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 1.8em;
     width: 23.75em;
@@ -2684,7 +2670,7 @@ input {
     clip-path: polygon(100% 0, 100% 60%, 39% 94%, 0 72%, 0 56%);
     height: 11.75em;
     left: 11.95em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 9.20em;
     width: 11.75em;
@@ -2695,7 +2681,7 @@ input {
     clip-path: polygon(96% 7%, 96% 58%, 39% 89%, 2% 67%, 2% 59%);
     height: 11.75em;
     left: 12em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 9.25em;
     width: 11.75em;
@@ -2705,7 +2691,7 @@ input {
     background-color: transparent;
     height: 18.75em;
     left: -7em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 4.5em;
     width: 10em;
@@ -2715,7 +2701,7 @@ input {
     background-color: transparent;
     height: 18.75em;
     left: -1em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 10em;
@@ -2730,7 +2716,7 @@ input {
     clip-path: polygon(15% 33%, 20% 27%, 26% 27%, 30% 23%, 34% 19%, 39% 20%, 44% 16%, 48% 11%, 54% 11%, 58% 9%, 61% 5%, 67% 2%, 73% 5%, 80% 10%, 87% 13%, 99% 23%, 99% 43%, 37% 78%, 6% 59%, 5% 39%);
     height: 38em;
     left: 9.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 17.2em;
     width: 38em;
@@ -2742,7 +2728,7 @@ input {
     clip-path: polygon(0% 0%, 87.5% 52%, 88% 100%, 0 49%);
     height: 14.6em;
     left: 2.4em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 14.8em;
     width: 13em;
@@ -2753,7 +2739,7 @@ input {
     clip-path: polygon(2% 4%, 85% 54%, 85% 95%, 2% 48%);
     height: 14.6em;
     left: 2.4em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 14.8em;
     width: 13em;
@@ -2764,7 +2750,7 @@ input {
     clip-path: polygon(3% 58%, 98% 4%, 97% 32%, 3% 85.5%);
     height: 25em;
     left: 13em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 8em;
     width: 25em;
@@ -2775,7 +2761,7 @@ input {
     clip-path: polygon(5% 59%, 96% 7%, 95.5% 31%, 5% 82%);
     height: 25em;
     left: 13em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 8em;
     width: 25em;
@@ -2786,7 +2772,7 @@ input {
     clip-path: polygon(0 69.5%, 67% 17%, 100% 46%, 32.5% 100%);
     height: 25em;
     left: 2.4em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: -2.5em;
     width: 35.1em;
@@ -2797,7 +2783,7 @@ input {
     clip-path: polygon(2% 70%, 67% 19%, 98% 47%, 32.5% 98.5%);
     height: 25em;
     left: 2.4em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: -2.5em;
     width: 35.1em;
@@ -2806,7 +2792,7 @@ input {
 .elf-onderdeel7 {
     height: 25em;
     left: -4em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 10.5em;
     width: 25em;
@@ -2815,7 +2801,7 @@ input {
 .elf-onderdeel8 {
     height: 25em;
     left: 1.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 7.5em;
     width: 25em;
@@ -2824,7 +2810,7 @@ input {
 .elf-onderdeel9 {
     height: 25em;
     left: 7.5em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 4.25em;
     width: 25em;
@@ -2833,7 +2819,7 @@ input {
 .elf-onderdeel10 {
     height: 25em;
     left: 12.75em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 25em;
@@ -2847,8 +2833,8 @@ input {
     background-color: transparent;
     clip-path: polygon(65% 9%, 71% 6%, 74% 2%, 82% 2%, 92% 8%, 98% 13%, 99% 18%, 92% 32%, 79% 40%, 68% 33%, 64% 31%, 59% 27%, 59% 14%);
     height: 60em;
-    left: 0em;
-    opacity: 100%;
+    left: 0;
+    opacity: 1;
     position: absolute;
     top: 10.1em;
     width: 60em;
@@ -2860,7 +2846,7 @@ input {
     clip-path: polygon(0% 0%, 87.5% 52%, 88% 98.5%, 0% 49%);
     height: 15em;
     left: 35.9em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 8.5em;
     width: 13em;
@@ -2871,7 +2857,7 @@ input {
     clip-path: polygon(2% 4%, 85% 54%, 85% 95%, 2% 48%);
     height: 14.8em;
     left: 35.9em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 8.5em;
     width: 13em;
@@ -2882,7 +2868,7 @@ input {
     clip-path: polygon(50.1% 61.1%, 4% 28.3%, 52% 0, 100% 31.5%);
     height: 23.95em;
     left: 35em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1.8em;
     width: 23.75em;
@@ -2893,7 +2879,7 @@ input {
     clip-path: polygon(51.3% 58.75%, 6% 29%, 52% 2%, 96.5% 31.5%);
     height: 23.95em;
     left: 35em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1.8em;
     width: 23.75em;
@@ -2904,7 +2890,7 @@ input {
     clip-path: polygon(100% 0, 100% 12%, 66% 67%, 0 100%, 0 50%);
     height: 14.1em;
     left: 47.2em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 9.2em;
     width: 11.5em;
@@ -2915,7 +2901,7 @@ input {
     clip-path: polygon(95% 5%, 95% 12%, 62% 65%, 3% 95%, 4% 51%);
     height: 14.1em;
     left: 47.2em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 9.2em;
     width: 11.5em;
@@ -2924,7 +2910,7 @@ input {
 .twaalf-onderdeel7 {
     height: 25em;
     left: 29.2em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 4.5em;
     width: 25em;
@@ -2933,7 +2919,7 @@ input {
 .twaalf-onderdeel8 {
     height: 25em;
     left: 34.7em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 1em;
     width: 25em;
@@ -2948,7 +2934,7 @@ input {
     clip-path: polygon(13% 28%, 14% 21%, 21% 17%, 28% 18%, 32% 16%, 37% 12%, 38% 7%, 43% 4%, 51% 4%, 57% 6%, 63% 11%, 71% 16%, 80% 20%, 83% 27%, 100% 37%, 100% 46%, 100% 51%, 100% 68%, 69% 86%, 0 46%, 0 36%);
     height: 24em;
     left: 5.6em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 34em;
     width: 24em;
@@ -2964,7 +2950,7 @@ input {
     clip-path: polygon(32% 25%, 36% 19%, 44% 18%, 52% 13%, 60% 7%, 69% 10%, 74% 16%, 83% 19%, 90% 25%, 100% 35%, 100% 57%, 61% 81%, 19% 57%, 19% 33%);
     height: 30em;
     left: 11.3em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 26.3em;
     width: 30em;
@@ -2980,7 +2966,7 @@ input {
     clip-path: polygon(65% 9%, 71% 6%, 74% 2%, 82% 2%, 92% 8%, 98% 13%, 99% 18%, 92% 32%, 79% 40%, 68% 33%, 64% 31%, 59% 27%, 59% 14%);
     height: 60em;
     left: -6.2em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 20.4em;
     width: 60em;
@@ -2996,7 +2982,7 @@ input {
     clip-path: polygon(13% 28%, 14% 21%, 21% 17%, 28% 18%, 32% 16%, 37% 12%, 38% 7%, 43% 4%, 51% 4%, 57% 6%, 63% 11%, 71% 16%, 80% 20%, 83% 27%, 100% 37%, 100% 46%, 100% 51%, 100% 68%, 69% 86%, 0 46%, 0 36%);
     height: 24em;
     left: 11.1em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 38em;
     width: 24em;
@@ -3012,7 +2998,7 @@ input {
     clip-path: polygon(65% 9%, 71% 6%, 74% 2%, 82% 2%, 92% 8%, 98% 13%, 99% 18%, 92% 32%, 79% 40%, 68% 33%, 64% 31%, 59% 27%, 59% 14%);
     height: 60em;
     left: -12.4em;
-    opacity: 100%;
+    opacity: 1;
     position: absolute;
     top: 31em;
     width: 60em;
@@ -3032,140 +3018,140 @@ input {
         margin: auto;
         position: absolute;
         right: 0;
-        width: 650px;
         transition: all 1s ease;
+        width: 650px;
     }
 
     .fix {
         background-color: transparent;
         height: 11.5em;
         left: 80em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 10em;
-        width: 29em;
         transition: all 1s ease;
+        width: 29em;
     }
 
     .a {
         background-color: transparent;
         height: 11.5em;
         left: 10em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 27.75em;
-        width: 9em;
         transition: all 1s ease;
+        width: 9em;
     }
 
     .broken {
         background-color: transparent;
         height: 11.5em;
         left: 28.5em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 27.75em;
-        width: 64.75em;
         transition: all 1s ease;
+        width: 64.75em;
     }
 
     .heart {
         background-color: transparent;
         height: 11.5em;
         left: 10em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 45.5em;
-        width: 54em;
         transition: all 1s ease;
+        width: 54em;
     }
 
     .and {
         background-color: transparent;
         height: 11.5em;
         left: 73em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 45.5em;
-        width: 32em;
         transition: all 1s ease;
+        width: 32em;
     }
 
     .make {
         background-color: transparent;
         height: 11.5em;
         left: 10em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 63em;
-        width: 43em;
         transition: all 1s ease;
+        width: 43em;
     }
 
     .atwee {
         background-color: transparent;
         height: 11.5em;
         left: 63em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 63em;
-        width: 9em;
         transition: all 1s ease;
+        width: 9em;
     }
 
     .spare {
         background-color: transparent;
         height: 11.5em;
         left: 10em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 81em;
-        width: 54em;
         transition: all 1s ease;
+        width: 54em;
     }
 
     .by {
         background-color: transparent;
         height: 11.5em;
         left: 75em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 81em;
-        width: 20em;
         transition: all 1s ease;
+        width: 20em;
     }
 
     .tre {
         background-color: transparent;
         height: 11.5em;
         left: 10em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 98.5em;
-        width: 32em;
         transition: all 1s ease;
+        width: 32em;
     }
 
     .seals {
         background-color: transparent;
         height: 11.5em;
         left: 50em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 98.5em;
-        width: 53.25em;
         transition: all 1s ease;
+        width: 53.25em;
     }
 
     .hartje {
         background-color: transparent;
         height: 58.5em;
         left: 30em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 104em;
-        width: 59.5em;
         transition: all 1s ease;
+        width: 59.5em;
         z-index: 1;
     }
 
@@ -3180,141 +3166,141 @@ input {
         margin: auto;
         position: absolute;
         right: 0;
-        width: 1024px;
         transition: all 1s ease;
+        width: 1024px;
     }
 
     .fix {
         background-color: transparent;
         height: 11.5em;
         left: 80em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 10em;
-        width: 29em;
         transition: all 1s ease;
+        width: 29em;
     }
 
     .a {
         background-color: transparent;
         height: 11.5em;
         left: 120em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 10em;
-        width: 9em;
         transition: all 1s ease;
+        width: 9em;
     }
 
     .broken {
         background-color: transparent;
         height: 11.5em;
         left: 10em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 27.75em;
-        width: 64.75em;
         transition: all 1s ease;
+        width: 64.75em;
     }
 
     .heart {
         background-color: transparent;
         height: 11.5em;
         left: 85em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 27.75em;
-        width: 54em;
         transition: all 1s ease;
+        width: 54em;
     }
 
     .and {
         background-color: transparent;
         height: 11.5em;
         left: 10em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 45.5em;
-        width: 32em;
         transition: all 1s ease;
+        width: 32em;
     }
 
     .make {
         background-color: transparent;
         height: 11.5em;
         left: 53em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 45.5em;
-        width: 43em;
         transition: all 1s ease;
+        width: 43em;
     }
 
     .atwee {
         background-color: transparent;
         height: 11.5em;
         left: 106em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 45.5em;
-        width: 9em;
         transition: all 1s ease;
+        width: 9em;
     }
 
     .spare {
         background-color: transparent;
         height: 11.5em;
         left: 126em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 45.5em;
-        width: 54em;
         transition: all 1s ease;
+        width: 54em;
     }
 
     .by {
         background-color: transparent;
         height: 11.5em;
         left: 10em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 63em;
-        width: 20em;
         transition: all 1s ease;
+        width: 20em;
     }
 
     .tre {
         background-color: transparent;
         height: 11.5em;
         left: 40em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 63em;
-        width: 32em;
         transition: all 1s ease;
+        width: 32em;
     }
 
     .seals {
         background-color: transparent;
         height: 11.5em;
         left: 82em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 63em;
-        width: 53.25em;
         transition: all 1s ease;
+        width: 53.25em;
     }
 
     .hartje {
         background-color: transparent;
         height: 58.5em;
         left: 63em;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         top: 90em;
         transform: scale(1.3, 1.3);
-        width: 59.5em;
         transition: all 1s ease;
+        width: 59.5em;
         z-index: 1;
     }
 }
