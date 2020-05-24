@@ -2,7 +2,7 @@
 
 Hallo, welkom bij mijn Github-Repository van Web-Animation. Ik volg een opleiding genaamd: Communication and Multimedia Design aan de Hogeschool van Amsterdam en volg een Minor genaamd Visual Interface Design. Bij het vak Web-Animation leren we hoe je verschillende CSS-transities en CSS-animaties mmaakt die interactie toevoegen. Hier onder is te zien wat ik heb gemaakt voor het vak. Veel leesplezier!
 
-## Inhoudsopgave
+## Live preview
 De live preview is te vinden in de beschrijving van deze repository, of simpelweg [hier](https://robinansems.github.io/web-animation/).
 
 ## Inhoudsopgave
