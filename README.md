@@ -1,12 +1,13 @@
 # Web Animation Robin Ansems VID2 
 
-Hallo, welkom bij mijn Github-Repository van Web-Animation. Ik volg een opleiding genaamd: Communication and Multimedia Design aan de Hogeschool van Amsterdam en volg een Minor genaamd Visual Interface Design. Bij het vak Web-Animation leren we hoe je verschillende CSS-transities en CSS-animaties mmaakt die interactie toevoegen. Hier onder is te zien wat ik heb gemaakt voor het vak. Veel lees plezier!
+Hallo, welkom bij mijn Github-Repository van Web-Animation. Ik volg een opleiding genaamd: Communication and Multimedia Design aan de Hogeschool van Amsterdam en volg een Minor genaamd Visual Interface Design. Bij het vak Web-Animation leren we hoe je verschillende CSS-transities en CSS-animaties mmaakt die interactie toevoegen. Hier onder is te zien wat ik heb gemaakt voor het vak. Veel leesplezier!
 
 ## Inhoudsopgave
 
 *   [Opdracht](#opdracht)
 *   [Kunstwerk](#kunstwerk)
 *   [Interactie](#interactie)
+*   [Afsluiting](#afsluiting)
 *   [Bronnen](#bronnen)
 *   [Socials](#socials)
 
@@ -21,7 +22,7 @@ Het kunstwerk dat ik heb gekozen is, heet: "_How To Fix A Broken Heart and Make 
 
 [bron](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)
 
-Het kunstwerk is gemaakt door Tré Seals. Deze Afro-Amerikaan uit Accoceek heeft het kunstwerk in 2017 gemaakt.
+Het kunstwerk is gemaakt door Tré Seals. Deze Afro-Amerikaan uit Accoceek (Maryland) heeft het kunstwerk in 2017 gemaakt.
 
 #### Achtergrondverhaal
 Een klein achtergrondverhaaltje over het kunstwerk: 
@@ -31,13 +32,13 @@ Een klein achtergrondverhaaltje over het kunstwerk:
 "_Tijdens zijn eerste jaar op de universiteit was hij behoorlijk verlegen en onzeker over hoe hij mensen moest ontmoeten. Dus besloot hij deze Lego ™ -spelden te dragen om mensen naar binnen te trekken en een gesprek te beginnen. En het werkte. Hij werd bekend als "The Guy with the Lego Heart" voor degenen die zijn echte naam niet kenden, en zijn vrienden zouden boos worden als hij besloot er geen te dragen. Nadat hij ze tijdens zijn studententijd als bijzaak had verkocht, besloot Tré een boek en een doe-het-zelf-pakket te maken, zodat mensen er zelf een konden maken._" [bron](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)
 
 #### Waarom ik het kunstwerk heb gekozen
-Ik heb het kunstwerk gevonden op [designarchives.aiga.org](https://designarchives.aiga.org/#/home) onder "_50 Books | 50 Covers of 2017_". Toen ik het kunstwerk tegenkwam was ik gelijk geïnteresseerd in de Lego-steentjes. Ik dacht gelijk: "Wat nou als je het hartje uit elkaar kan halen en er iets nieuws van kan maken?". Ik was ook gelijk geïnteresseerd in de tekst van het kunstwerk. De tekst bestaat uit bolletjes (die ik in css allemaal individueel moet gaan positioneren), per regel staan er 1 of 2 woorden, maar wat nou als ik het kunstwerk responsive wil maken? Ik dacht gelijk: "Dan kunnen de woorden anders achter elkaar komen te staan waardoor je bij elk ander schermformaat een unieke poster creëert.
+Ik heb het kunstwerk gevonden op [designarchives.aiga.org](https://designarchives.aiga.org/#/home) onder "_50 Books | 50 Covers of 2017_". Toen ik het kunstwerk tegenkwam was ik gelijk geïnteresseerd in de Lego-steentjes. Ik dacht gelijk: "Wat nou als je het hartje uit elkaar kan halen en er iets nieuws van kan maken?". Ik was ook gelijk geïnteresseerd in de tekst van het kunstwerk. De tekst bestaat uit bolletjes (die ik in css allemaal individueel heb gepositioneerd), per regel staan er 1 of 2 woorden, maar wat nou als ik het kunstwerk responsive wil maken? Ik dacht gelijk: "Dan kunnen de woorden anders achter elkaar komen te staan waardoor je bij elk ander schermformaat een unieke poster creëert.
 
 ## Interactie
 De interacties die ik heb toegepast zijn de volgende:
 
 #### Het hartje
-Ik heb elk steentje van het hartje apart gedigitaliseerd zodat als je het hartje uit elkaar haalt, je ook kan zien dat elk steentje puntjes heeft aan de bovenkant, dit is realistischer en hardstikke logisch. 
+Ik heb elk steentje van het hartje apart gedigitaliseerd zodat als je het hartje uit elkaar haalt, je ook kan zien dat elk steentje puntjes heeft aan de bovenkant, dit is realistischer, hardstikke logisch en het ziet er best gaaf uit! 
 
 ![steentjes-weergave](https://github.com/RobinAnsems/web-animation/blob/master/images/steentjes-weergave.png)
 
@@ -116,7 +117,7 @@ De tekst van het kunstwerk is nog een keer anders weergegeven op het schermforma
 
 
 #### De kleur van de achtergrond
-Ik heb doormiddel van colorsliders er voor kunnen zorgen dat je de kleur van de achtergrond kan veranderen.
+Ik heb doormiddel van een colorpicker er voor kunnen zorgen dat je de kleur van de achtergrond kan veranderen.
 Dat heb ik gedaan doormiddel van de volgende code:
 
 ```javascript
@@ -174,7 +175,7 @@ blauw.addEventListener('input', function () {
 }, false);
 ```
 
-Zo ziet het er uit:
+Zo ziet de colorpicker er uit:
 
 ![colorpicker](https://github.com/RobinAnsems/web-animation/blob/master/images/colorpicker.png)
 
@@ -211,12 +212,12 @@ Ik heb door middel van "_:hover_" er voor gezorgd dat de kleur van de bolletjes 
 }
 ```
 
-Zo ziet het er uit (en eerlijk gezegd is het best satisfying om te hoveren over de bolletjes):
+Zo ziet de hover er uit (en eerlijk gezegd is het best satisfying om te hoveren over de bolletjes):
 
 ![hover](https://github.com/RobinAnsems/web-animation/blob/master/images/hover.png)
 
 #### Toetsenbord-interactie
-Ik heb door middel van het volgende stukje code, er voor kunnen zorgen dat wanneer je een letter op je toetsenbord indrukt, de letter op het kunstwerk 3D wordt weergegeven:
+Ik heb door middel van de volgende code, er voor kunnen zorgen dat wanneer je een letter op je toetsenbord indrukt, de letter op het kunstwerk 3D wordt weergegeven:
 
 ```javascript
 // Het selecteren van een element
@@ -262,15 +263,17 @@ Zo ziet het er uit als je alle toetsen ingedrukt houdt (succes daarmee), of als 
 
 ![3d-weergave](https://github.com/RobinAnsems/web-animation/blob/master/images/3d-weergave.png)
 
+## Afsluiting
+Bedankt voor lezen van mijn readme. Ik heb veel geleerd van het maken van deze opdracht. Ik ben niet zo'n ster in code schrijven, maar ik vond het zeker leuk om weer eens te doen!
+
 ## Bronnen
 De bronnen die ik heb gebruikt zijn:
 * [Het kunstwerk](https://designarchives.aiga.org/#/entries/How%20To%20Fix%20A%20Broken%20Heart%20and%20Make%20A%20Spare/_/detail/relevance/asc/0/7/21926/how-to-fix-a-broken-heart-and-make-a-spare/1)
 * [Colorpicker](https://codepen.io/leemark/pen/lpEHr)
 * [Draggable Elements](https://www.w3schools.com/howto/howto_js_draggable.asp)
-* []()
 
-#### Socials
-dit is waar je mij kan vinden:
+## Socials
+Dit is waar je mij kan vinden:
 *   🌐[ Portfolio website](https://robinansems.github.io/index.html)
 *   📷[ Instagram](https://www.instagram.com/robinansems/)
 *   🐦[ Twitter](https://twitter.com/robinansems)
