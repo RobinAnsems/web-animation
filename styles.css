@@ -416,7 +416,7 @@ input {
     left: 10.5em;
     position: absolute;
     top: 0;
-    width: 7em;
+    width: 6.85em;
 }
 
 .fix-x {
@@ -424,7 +424,7 @@ input {
     left: 20em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 8.9em;
 }
 
 /*------het woord broken------*/
@@ -434,7 +434,7 @@ input {
     left: 0;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 8.7em;
 }
 
 .broken-r {
@@ -442,7 +442,7 @@ input {
     left: 11em;
     position: absolute;
     top: 0;
-    width: 9.75em;
+    width: 8.7em;
 }
 
 .broken-o {
@@ -458,7 +458,7 @@ input {
     left: 33.5em;
     position: absolute;
     top: 0;
-    width: 8em;
+    width: 8.5em;
 }
 
 .broken-e {
@@ -466,7 +466,7 @@ input {
     left: 44.25em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.2em;
 }
 
 .broken-n {
@@ -474,7 +474,7 @@ input {
     left: 55.75em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 8.9em;
 }
 
 /*------het woord heart------*/
@@ -492,7 +492,7 @@ input {
     left: 11em;
     position: absolute;
     top: 0;
-    width: 9.75em;
+    width: 9.2em;
 }
 
 .heart-a {
@@ -500,7 +500,7 @@ input {
     left: 22.5em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.2em;
 }
 
 .heart-r {
@@ -508,7 +508,7 @@ input {
     left: 34.5em;
     position: absolute;
     top: 0;
-    width: 8em;
+    width: 8.7em;
 }
 
 .heart-t {
@@ -516,7 +516,7 @@ input {
     left: 45em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 8.6em;
 }
 
 /*------het woord and------*/
@@ -526,7 +526,7 @@ input {
     left: 0;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.2em;
 }
 
 .and-n {
@@ -534,7 +534,7 @@ input {
     left: 11.5em;
     position: absolute;
     top: 0;
-    width: 9.75em;
+    width: 8.9em;
 }
 
 .and-d {
@@ -542,7 +542,7 @@ input {
     left: 23em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 8.65em;
 }
 
 /*------het woord make------*/
@@ -560,7 +560,7 @@ input {
     left: 11.5em;
     position: absolute;
     top: 0;
-    width: 9.75em;
+    width: 9.2em;
 }
 
 .make-k {
@@ -568,7 +568,7 @@ input {
     left: 23em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 8.5em;
 }
 
 .make-e {
@@ -576,7 +576,7 @@ input {
     left: 33.5em;
     position: absolute;
     top: 0;
-    width: 8em;
+    width: 9.2em;
 }
 
 /*------het woord spare------*/
@@ -594,7 +594,7 @@ input {
     left: 11.25em;
     position: absolute;
     top: 0;
-    width: 9.75em;
+    width: 9.2em;
 }
 
 .spare-a {
@@ -602,7 +602,7 @@ input {
     left: 22.5em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.2em;
 }
 
 .spare-r {
@@ -610,7 +610,7 @@ input {
     left: 34.5em;
     position: absolute;
     top: 0;
-    width: 8em;
+    width: 8.7em;
 }
 
 .spare-e {
@@ -618,7 +618,7 @@ input {
     left: 45.5em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.2em;
 }
 
 /*------het woord by------*/
@@ -628,7 +628,7 @@ input {
     left: 0;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 8.7em;
 }
 
 .by-y {
@@ -636,7 +636,7 @@ input {
     left: 10.5em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.4em;
 }
 
 /*------het woord tré------*/
@@ -646,7 +646,7 @@ input {
     left: 0;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 8.6em;
 }
 
 .tre-r {
@@ -654,7 +654,7 @@ input {
     left: 11em;
     position: absolute;
     top: 0;
-    width: 9.75em;
+    width: 8.7em;
 }
 
 .tre-z {
@@ -672,7 +672,7 @@ input {
     left: 0;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.35em;
 }
 
 .seals-e {
@@ -680,7 +680,7 @@ input {
     left: 11em;
     position: absolute;
     top: 0;
-    width: 9.75em;
+    width: 9.2em;
 }
 
 .seals-a {
@@ -688,7 +688,7 @@ input {
     left: 22.5em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.2em;
 }
 
 .seals-l {
@@ -704,7 +704,7 @@ input {
     left: 44em;
     position: absolute;
     top: 0;
-    width: 9em;
+    width: 9.35em;
 }
 
 /*--------------------------------------*/
@@ -3041,7 +3041,7 @@ input {
         position: absolute;
         top: 27.75em;
         transition: all 1s ease;
-        width: 9em;
+        width: 9.2em;
     }
 
     .broken {
@@ -3096,7 +3096,7 @@ input {
         position: absolute;
         top: 63em;
         transition: all 1s ease;
-        width: 9em;
+        width: 9.2em;
     }
 
     .spare {
